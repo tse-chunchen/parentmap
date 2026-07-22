@@ -1,0 +1,32 @@
+name: Refresh calendar data
+
+on:
+  schedule:
+    - cron: '0 13 * * *'   # daily at 13:00 UTC = 6 a.m. Pacific (5 a.m. in winter)
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # venues-cache.json persists in the repo, so only NEW venues get
+      # geocoded each day (Nominatim-friendly: ~a handful of requests/run)
+      - name: Scrape ParentMap calendar (30-day window)
+        run: node scrape-calendar.cjs 30
+
+      - name: Commit if changed
+        run: |
+          git config user.name "calendar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add calendar-events.json venues-cache.json
+          git diff --cached --quiet || git commit -m "chore: refresh calendar data ($(date -u +%F))"
+          git push

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ParentMap Family Calendar Map</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  :root {
+    --teal: #0e7c86; --teal-dark: #0a5c64; --green: #2e8b57; --amber: #f4a942;
+    --bg: #f6f8f8; --card: #ffffff; --ink: #23333a; --muted: #6b7d85; --line: #e2e9ec;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         background: var(--bg); color: var(--ink); height: 100vh; display: flex; flex-direction: column; }
+
+  header { background: var(--teal); color: #fff; padding: 10px 16px; display: flex;
+           align-items: center; gap: 14px; flex-wrap: wrap; }
+  header h1 { font-size: 17px; font-weight: 700; white-space: nowrap; }
+  header .sub { font-size: 12px; opacity: .85; }
+
+  /* ---- date range slider ---- */
+  .datebar { background: var(--teal-dark); color: #fff; padding: 8px 16px 14px;
+             display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+  .datebar .lbl { font-size: 12px; font-weight: 600; letter-spacing: .4px; text-transform: uppercase; opacity: .8; }
+  .datebar .range-out { font-size: 13px; font-weight: 700; min-width: 150px; }
+  .slider-wrap { position: relative; flex: 1; min-width: 220px; height: 26px; }
+  .slider-track { position: absolute; top: 11px; left: 0; right: 0; height: 4px;
+                  background: rgba(255,255,255,.28); border-radius: 2px; }
+  .slider-fill { position: absolute; top: 11px; height: 4px; background: var(--amber); border-radius: 2px; }
+  .slider-wrap input[type=range] {
+    position: absolute; left: 0; right: 0; top: 0; width: 100%; height: 26px;
+    -webkit-appearance: none; appearance: none; background: none; pointer-events: none; }
+  .slider-wrap input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; appearance: none; pointer-events: auto;
+    width: 18px; height: 18px; border-radius: 50%; background: #fff;
+    border: 3px solid var(--amber); cursor: grab; box-shadow: 0 1px 3px rgba(0,0,0,.4); }
+  .slider-wrap input[type=range]::-moz-range-thumb {
+    pointer-events: auto; width: 12px; height: 12px; border-radius: 50%;
+    background: #fff; border: 3px solid var(--amber); cursor: grab; }
+  .slider-wrap input[type=range]::-moz-range-track { background: none; }
+  .tick-labels { display: flex; justify-content: space-between; font-size: 10px; opacity: .7;
+                 margin-top: 26px; }
+
+  /* ---- filters ---- */
+  .filters { background: var(--card); border-bottom: 1px solid var(--line); padding: 8px 16px;
+             display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .filters .group { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
+  .filters .glabel { font-size: 11px; font-weight: 700; color: var(--muted);
+                     text-transform: uppercase; letter-spacing: .4px; margin-right: 2px; }
+  .chip { border: 1px solid var(--line); background: #fff; color: var(--ink); border-radius: 14px;
+          padding: 3px 10px; font-size: 12px; cursor: pointer; user-select: none; white-space: nowrap; }
+  .chip:hover { border-color: var(--teal); }
+  .chip.on { background: var(--teal); border-color: var(--teal); color: #fff; }
+  .chip.free.on { background: var(--green); border-color: var(--green); }
+  #search { border: 1px solid var(--line); border-radius: 14px; padding: 4px 12px; font-size: 13px;
+            width: 170px; outline: none; }
+  #search:focus { border-color: var(--teal); }
+  #reset { background: none; border: none; color: var(--teal); font-size: 12px; cursor: pointer;
+           text-decoration: underline; }
+  .sep { width: 1px; height: 20px; background: var(--line); }
+  #count { font-size: 12px; color: var(--muted); margin-left: auto; white-space: nowrap; }
+
+  /* ---- layout ---- */
+  main { flex: 1; display: flex; min-height: 0; }
+  #sidebar { width: 340px; min-width: 260px; overflow-y: auto; background: var(--card);
+             border-right: 1px solid var(--line); }
+  #map { flex: 1; min-width: 0; }
+
+  .ev { display: flex; gap: 10px; padding: 10px 12px; border-bottom: 1px solid var(--line);
+        cursor: pointer; }
+  .ev:hover, .ev.active { background: #eef6f7; }
+  .ev .num { flex: 0 0 26px; height: 26px; border-radius: 50%; background: var(--teal); color: #fff;
+             font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center;
+             margin-top: 2px; }
+  .ev.is-free .num { background: var(--green); }
+  .ev.no-pin .num { background: #9ab0b8; }
+  .ev .body { flex: 1; min-width: 0; }
+  .ev .t { font-size: 13.5px; font-weight: 600; line-height: 1.25; }
+  .ev .meta { font-size: 12px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
+  .ev .badges { margin-top: 3px; display: flex; gap: 4px; flex-wrap: wrap; }
+  .badge { font-size: 10px; font-weight: 700; border-radius: 8px; padding: 1px 6px; }
+  .badge.free { background: #e2f3e8; color: var(--green); }
+  .badge.cost { background: #fdf1dc; color: #9a6a12; }
+  .badge.virtual { background: #e8e6f8; color: #5b4fb5; }
+  .badge.cat { background: #e5eff1; color: var(--teal-dark); font-weight: 600; }
+  a.badge.gcal { background: #e8f0fe; color: #1a63c9; text-decoration: none; }
+  a.badge.gcal:hover { background: #d4e4fc; }
+  .gcal-btn { display: block; margin-top: 7px; text-align: center; background: #1a63c9;
+              color: #fff !important; border-radius: 6px; padding: 6px 8px; font-size: 12px;
+              font-weight: 700; text-decoration: none; }
+  .gcal-btn:hover { background: #144e9f; }
+
+  .empty { padding: 30px 20px; text-align: center; color: var(--muted); font-size: 13px; }
+
+  /* ---- markers & popups ---- */
+  .pin { background: var(--teal); color: #fff; border-radius: 50%; border: 2px solid #fff;
+         width: 26px; height: 26px; display: flex; align-items: center; justify-content: center;
+         font-size: 11px; font-weight: 700; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
+  .pin.free { background: var(--green); }
+  .leaflet-popup-content { margin: 10px 12px; font-family: inherit; }
+  .pop { max-width: 230px; }
+  .pop img { width: 100%; border-radius: 6px; margin-bottom: 6px; }
+  .pop .t { font-weight: 700; font-size: 13.5px; margin-bottom: 4px; }
+  .pop .m { font-size: 12px; color: var(--muted); margin-bottom: 2px; }
+  .pop .desc { font-size: 12px; color: var(--ink); line-height: 1.45; margin: 5px 0 6px;
+               max-height: 88px; overflow-y: auto; }
+  .pop a { color: var(--teal); }
+
+  /* ---- loading overlay ---- */
+  #overlay { position: fixed; inset: 0; background: rgba(246,248,248,.94); z-index: 2000;
+             display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; }
+  #overlay.hide { display: none; }
+  .spinner { width: 34px; height: 34px; border: 4px solid var(--line); border-top-color: var(--teal);
+             border-radius: 50%; animation: spin 1s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  #ovmsg { font-size: 13px; color: var(--muted); }
+  #geostatus { position: absolute; bottom: 10px; left: 10px; z-index: 1000; background: rgba(255,255,255,.92);
+               border: 1px solid var(--line); border-radius: 8px; padding: 4px 10px; font-size: 11px;
+               color: var(--muted); display: none; }
+
+  @media (max-width: 760px) {
+    main { flex-direction: column; }
+    #sidebar { width: 100%; height: 42%; order: 2; border-right: none; border-top: 1px solid var(--line); }
+    #map { height: 58%; order: 1; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🗺️ ParentMap Family Calendar</h1>
+  <span class="sub" id="subtitle">Greater Seattle family events, mapped</span>
+</header>
+
+<div class="datebar">
+  <span class="lbl">Dates</span>
+  <span class="range-out" id="rangeOut">–</span>
+  <div class="slider-wrap">
+    <div class="slider-track"></div>
+    <div class="slider-fill" id="sliderFill"></div>
+    <input type="range" id="dayA" min="0" max="20" value="0" step="1">
+    <input type="range" id="dayB" min="0" max="20" value="20" step="1">
+    <div class="tick-labels"><span id="tickL"></span><span id="tickR"></span></div>
+  </div>
+</div>
+
+<div class="filters" id="filters">
+  <button class="chip free" data-filter="free">Free</button>
+  <span class="sep"></span>
+  <span class="group" id="regionChips"><span class="glabel">Region</span></span>
+  <span class="sep"></span>
+  <span class="group" id="ageChips"><span class="glabel">Ages</span></span>
+  <span class="sep"></span>
+  <span class="group" id="catChips"><span class="glabel">Category</span></span>
+  <span class="sep"></span>
+  <input id="search" type="search" placeholder="Search events…">
+  <button id="reset">Reset</button>
+  <span id="count"></span>
+</div>
+
+<main>
+  <div id="sidebar"></div>
+  <div id="map"><div id="geostatus"></div></div>
+</main>
+
+<div id="overlay"><div class="spinner"></div><div id="ovmsg">Loading events…</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+/* ============================================================
+   ParentMap FULL-CALENDAR map
+   Data: The Events Calendar REST API (open CORS) — fetched live
+   in the browser; falls back to a local calendar-events.json if
+   present (repo mode, produced by scrape-calendar.cjs).
+   ============================================================ */
+
+const API = 'https://www.parentmap.com/wp-json/tribe/events/v1/events';
+const DAYS = 21;                    // live window: today -> +21 days
+const CACHE_TTL = 60 * 60 * 1000;   // 1 h event cache
+
+const REGIONS = ['Seattle', 'Eastside', 'North Sound', 'South Sound', 'Greater Puget Sound', 'Pacific Northwest', 'Virtual'];
+const AGES = ['Baby', 'Toddlers + Preschoolers', 'Elementary', 'Tweens + Teens', 'Adults', 'All Ages'];
+const CATS = ['Education + Learning', 'Arts + Culture', 'Play + Recreation', 'Festivals + Community',
+              'Seasonal + Holiday', 'Parent + Caregiver', 'Inclusive + Sensory Friendly'];
+
+// City centroids: instant approximate pins; refined by Nominatim in background
+const CITY_COORDS = {
+  'seattle': [47.6062, -122.3321], 'shoreline': [47.7557, -122.3415], 'lake forest park': [47.757, -122.281],
+  'bellevue': [47.6101, -122.2015], 'kirkland': [47.6815, -122.2087], 'redmond': [47.674, -122.1215],
+  'issaquah': [47.5301, -122.0326], 'sammamish': [47.6163, -122.0356], 'bothell': [47.7601, -122.2054],
+  'woodinville': [47.7543, -122.1635], 'mercer island': [47.5707, -122.2221], 'newcastle': [47.539, -122.1554],
+  'duvall': [47.7423, -121.9857], 'north bend': [47.4957, -121.7868], 'snoqualmie': [47.5287, -121.8254],
+  'carnation': [47.6479, -121.9129], 'fall city': [47.5676, -121.8887], 'kenmore': [47.7573, -122.244],
+  'everett': [47.9789, -122.2021], 'lynnwood': [47.8279, -122.3053], 'edmonds': [47.8107, -122.3774],
+  'mukilteo': [47.9445, -122.3046], 'marysville': [48.0518, -122.1771], 'snohomish': [47.9129, -122.0982],
+  'mill creek': [47.8601, -122.2043], 'mountlake terrace': [47.7885, -122.3086], 'arlington': [48.1987, -122.1251],
+  'monroe': [47.8554, -121.971], 'lake stevens': [48.0154, -122.0635], 'stanwood': [48.2412, -122.3705],
+  'granite falls': [48.0837, -121.9687], 'tulalip': [48.0684, -122.2929], 'mount vernon': [48.4212, -122.3341],
+  'burlington': [48.4757, -122.3255], 'anacortes': [48.5126, -122.6127], 'bellingham': [48.7491, -122.4787],
+  'la conner': [48.3923, -122.4971], 'tacoma': [47.2529, -122.4443], 'puyallup': [47.1854, -122.2929],
+  'federal way': [47.3223, -122.3126], 'kent': [47.3809, -122.2348], 'auburn': [47.3073, -122.2285],
+  'renton': [47.4829, -122.2171], 'tukwila': [47.474, -122.261], 'seatac': [47.4436, -122.3016],
+  'burien': [47.4704, -122.3468], 'des moines': [47.4018, -122.3243], 'fife': [47.2393, -122.3571],
+  'lakewood': [47.1718, -122.5185], 'olympia': [47.0379, -122.9007], 'lacey': [47.0343, -122.8232],
+  'tumwater': [47.0073, -122.9093], 'gig harbor': [47.3295, -122.5801], 'bonney lake': [47.1776, -122.1866],
+  'sumner': [47.2032, -122.2404], 'maple valley': [47.3927, -122.0446], 'covington': [47.3581, -122.1131],
+  'enumclaw': [47.2043, -121.9915], 'dupont': [47.0968, -122.6313], 'university place': [47.2357, -122.5504],
+  'spanaway': [47.104, -122.4346], 'graham': [47.0529, -122.2943], 'orting': [47.0979, -122.2043],
+  'milton': [47.2482, -122.3132], 'edgewood': [47.236, -122.294], 'normandy park': [47.4362, -122.3407],
+  'black diamond': [47.3087, -122.0035], 'bainbridge island': [47.6262, -122.5212], 'bremerton': [47.5673, -122.6329],
+  'poulsbo': [47.7359, -122.6465], 'silverdale': [47.6445, -122.6949], 'port orchard': [47.5404, -122.6363],
+  'langley': [48.04, -122.4063], 'coupeville': [48.2187, -122.6863], 'oak harbor': [48.2932, -122.6432],
+  'clinton': [47.9793, -122.3585], 'freeland': [48.0115, -122.5266], 'port townsend': [48.117, -122.7604],
+  'sequim': [48.0795, -123.1013], 'vashon': [47.4471, -122.4599], 'kingston': [47.7962, -122.4982],
+  'suquamish': [47.7312, -122.5518], 'shelton': [47.2151, -123.1007],
+};
+
+const EASTSIDE = ['bellevue','kirkland','redmond','issaquah','sammamish','bothell','woodinville','mercer island','newcastle','duvall','north bend','snoqualmie','carnation','fall city','kenmore','medina','clyde hill','preston'];
+const NORTH = ['everett','lynnwood','edmonds','mukilteo','marysville','snohomish','mill creek','mountlake terrace','arlington','monroe','lake stevens','stanwood','granite falls','brier','tulalip','mount vernon','burlington','anacortes','bellingham','la conner'];
+const SOUTH = ['tacoma','puyallup','federal way','kent','auburn','renton','tukwila','seatac','burien','des moines','fife','lakewood','olympia','lacey','tumwater','gig harbor','bonney lake','sumner','maple valley','covington','enumclaw','dupont','university place','spanaway','graham','orting','milton','edgewood','normandy park','black diamond'];
+const GPS = ['bainbridge island','bremerton','poulsbo','silverdale','port orchard','langley','coupeville','oak harbor','clinton','freeland','port townsend','sequim','vashon','kingston','suquamish','shelton'];
+const SEA = ['seattle','shoreline','lake forest park'];
+
+function regionForCity(city) {
+  if (!city) return 'Pacific Northwest';
+  const c = city.trim().toLowerCase();
+  if (SEA.includes(c)) return 'Seattle';
+  if (EASTSIDE.includes(c)) return 'Eastside';
+  if (NORTH.includes(c)) return 'North Sound';
+  if (SOUTH.includes(c)) return 'South Sound';
+  if (GPS.includes(c)) return 'Greater Puget Sound';
+  return 'Pacific Northwest';
+}
+
+// ---------- tiny utils ----------
+const $ = s => document.querySelector(s);
+const store = {
+  get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (_) { return null; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (_) {} },
+};
+function decodeEntities(s) {
+  if (!s) return '';
+  return s.replace(/&#8217;|&#039;/g, "’").replace(/&#8216;/g, '‘').replace(/&#8220;/g, '“')
+    .replace(/&#8221;/g, '”').replace(/&#8211;/g, '–').replace(/&#8212;/g, '—')
+    .replace(/&#038;|&amp;/g, '&').replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>').replace(/&quot;/g, '"');
+}
+function stripHtml(s) { return decodeEntities(String(s || '').replace(/<[^>]*>/g, ' ')).replace(/\s+/g, ' ').trim(); }
+function esc(s) { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+const dayMs = 864e5;
+function dstr(d) { return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); }
+function trange(o) {   // "Tue, Jul 21 9:00 am – 4:00 pm" (or with end date if multi-day)
+  const s = new Date(o.start.replace(' ', 'T')), e = new Date(o.end.replace(' ', 'T'));
+  const t = d => d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }).toLowerCase();
+  const day = d => d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+  return day(s) + ' ' + t(s) + ' – ' + (s.toDateString() === e.toDateString() ? t(e) : day(e) + ' ' + t(e));
+}
+
+// ---------- state ----------
+let ALL = [];               // normalized events
+let windowStart = new Date(); windowStart.setHours(0, 0, 0, 0);
+let map, markerLayer, markers = {};
+let openSlug = null;        // slug of the marker whose popup is open
+let pendingRender = false;  // a re-render was skipped to keep the popup alive
+const sel = { free: false, regions: new Set(), ages: new Set(), cats: new Set(), q: '' };
+
+// ---------- data loading ----------
+async function loadEvents() {
+  // 1) repo mode: static JSON generated by scrape-calendar.cjs
+  try {
+    const r = await fetch('calendar-events.json', { cache: 'no-store' });
+    if (r.ok) {
+      const j = await r.json();
+      if (j.events && j.events.length) {
+        windowStart = new Date(j.window.start + 'T00:00:00');
+        $('#subtitle').textContent = `Static data · generated ${new Date(j.generated).toLocaleDateString()}`;
+        return { events: j.events, days: Math.round((new Date(j.window.end) - new Date(j.window.start)) / dayMs) };
+      }
+    }
+  } catch (_) { /* file:// or not present -> live mode */ }
+
+  // 2) cached live data
+  const cached = store.get('pmCalCache');
+  if (cached && Date.now() - cached.at < CACHE_TTL) {
+    windowStart = new Date(cached.start + 'T00:00:00');
+    return { events: cached.events, days: cached.days };
+  }
+
+  // 3) live from the ParentMap REST API
+  const fmt = d => d.toISOString().slice(0, 10);
+  const start = new Date(), end = new Date(Date.now() + DAYS * dayMs);
+  const base = `${API}?per_page=50&start_date=${fmt(start)}&end_date=${fmt(end)}&status=publish`;
+  const first = await (await fetch(base + '&page=1')).json();
+  const totalPages = first.total_pages || 1;
+  let raw = [...(first.events || [])];
+  const msg = $('#ovmsg');
+  for (let p = 2; p <= totalPages; p += 4) {   // batches of 4 parallel requests
+    const batch = [];
+    for (let q = p; q < p + 4 && q <= totalPages; q++)
+      batch.push(fetch(base + '&page=' + q).then(r => r.json()).catch(() => ({ events: [] })));
+    (await Promise.all(batch)).forEach(d => raw.push(...(d.events || [])));
+    msg.textContent = `Loading events… ${Math.min(p + 3, totalPages)}/${totalPages} pages (${raw.length} entries)`;
+  }
+  const events = normalize(raw);
+  store.set('pmCalCache', { at: Date.now(), start: fmt(start), days: DAYS, events });
+  return { events, days: DAYS };
+}
+
+function normalize(rawEvents) {
+  const bySlug = new Map();
+  for (const ev of rawEvents) {
+    const venue = Array.isArray(ev.venue) ? null : ev.venue;
+    const ages = ev.custom_fields && ev.custom_fields._ecp_custom_2
+      ? String(ev.custom_fields._ecp_custom_2.value).split('|').map(s => s.trim()) : [];
+    const isFree = /free/i.test(ev.cost || '') ||
+      (ev.cost_details && (ev.cost_details.values || []).length > 0 &&
+       (ev.cost_details.values || []).every(v => v === '0' || v === 'free'));
+    const occ = { start: ev.start_date, end: ev.end_date };
+    if (bySlug.has(ev.slug)) { bySlug.get(ev.slug).occurrences.push(occ); continue; }
+    bySlug.set(ev.slug, {
+      id: ev.id, slug: ev.slug,
+      title: decodeEntities(ev.title), url: ev.url,
+      description: stripHtml(ev.description).slice(0, 300),
+      image: ev.image && ev.image.sizes && ev.image.sizes.medium ? ev.image.sizes.medium.url
+           : (ev.image && ev.image.url) || null,
+      cost: decodeEntities(ev.cost || ''), free: !!isFree,
+      categories: (ev.categories || []).map(c => c.name),
+      ages, virtual: !!ev.is_virtual,
+      venue: venue ? {
+        id: venue.id, name: decodeEntities(venue.venue || ''),
+        address: [venue.address, venue.city, venue.stateprovince || venue.state, venue.zip].filter(Boolean).join(', '),
+        city: venue.city || '',
+      } : null,
+      region: venue ? regionForCity(venue.city) : (ev.is_virtual ? 'Virtual' : 'Pacific Northwest'),
+      occurrences: [occ], lat: null, lng: null, geoApprox: true,
+    });
+  }
+  const evs = [...bySlug.values()];
+  for (const e of evs) e.occurrences.sort((a, b) => a.start.localeCompare(b.start));
+  evs.sort((a, b) => a.occurrences[0].start.localeCompare(b.occurrences[0].start));
+  return evs;
+}
+
+// ---------- geocoding: city centroid now, Nominatim refine later ----------
+function seedCoords() {
+  const geoCache = store.get('pmVenueGeo') || {};
+  const jitterCount = {};
+  for (const e of ALL) {
+    if (!e.venue) continue;
+    const hit = geoCache[e.venue.id];
+    if (hit) { e.lat = hit.lat; e.lng = hit.lng; e.geoApprox = false; continue; }
+    if (e.lat != null) { e.geoApprox = e.geoApprox !== false; continue; } // repo-mode precise coords
+    const c = CITY_COORDS[(e.venue.city || '').trim().toLowerCase()];
+    if (c) {
+      const k = (e.venue.city || '').toLowerCase();
+      const n = jitterCount[k] = (jitterCount[k] || 0) + 1;      // spread same-city pins
+      const ang = n * 2.4, r = 0.004 * Math.sqrt(n);
+      e.lat = c[0] + r * Math.cos(ang); e.lng = c[1] + r * Math.sin(ang);
+      e.geoApprox = true;
+    }
+  }
+}
+
+async function refineGeocodes() {
+  const geoCache = store.get('pmVenueGeo') || {};
+  const todo = new Map();
+  for (const e of ALL)
+    if (e.venue && geoCache[e.venue.id] === undefined) todo.set(e.venue.id, e.venue);
+  if (!todo.size) return;
+  const status = $('#geostatus'); status.style.display = 'block';
+  let done = 0;
+  for (const [id, v] of todo) {
+    status.textContent = `Refining venue locations… ${++done}/${todo.size}`;
+    let hit = null;
+    for (const q of [v.address, `${v.name}, ${v.city}, WA, USA`].filter(Boolean)) {
+      try {
+        const r = await fetch('https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=' +
+          encodeURIComponent(q));
+        if (r.ok) { const js = await r.json(); if (js[0]) hit = { lat: +js[0].lat, lng: +js[0].lon }; }
+      } catch (_) { /* offline / blocked: keep centroid */ }
+      await new Promise(res => setTimeout(res, 1100));  // Nominatim: max 1 req/s
+      if (hit) break;
+    }
+    geoCache[id] = hit;           // null = don't retry this session's failures
+    store.set('pmVenueGeo', geoCache);
+    if (hit) {
+      let needsFullRender = false;
+      const { s, e: en } = selectedRange();
+      for (const e of ALL) if (e.venue && e.venue.id === id) {
+        const hadPin = e.lat != null;
+        e.lat = hit.lat; e.lng = hit.lng; e.geoApprox = false;
+        const m = markers[e.slug];
+        if (m) {                  // move the existing pin in place — keeps popups open
+          m.setLatLng([hit.lat, hit.lng]);
+          m.setPopupContent(popupHtml(e, s, en));
+        } else if (!hadPin) {
+          needsFullRender = true; // event gains a pin -> numbering changes
+        }
+      }
+      // full re-render destroys open popups, so defer it while one is open
+      if (needsFullRender) {
+        if (openSlug) pendingRender = true;
+        else render();
+      }
+    }
+  }
+  status.style.display = 'none';
+  if (pendingRender && !openSlug) { pendingRender = false; render(); }
+}
+
+// ---------- filtering ----------
+function selectedRange() {
+  const a = +$('#dayA').value, b = +$('#dayB').value;
+  const lo = Math.min(a, b), hi = Math.max(a, b);
+  const s = new Date(windowStart.getTime() + lo * dayMs);
+  const e = new Date(windowStart.getTime() + hi * dayMs); e.setHours(23, 59, 59);
+  return { s, e, lo, hi };
+}
+function occInRange(e, s, en) {
+  return e.occurrences.some(o => new Date(o.start.replace(' ', 'T')) <= en &&
+                                 new Date(o.end.replace(' ', 'T')) >= s);
+}
+function filtered() {
+  const { s, e } = selectedRange();
+  const q = sel.q.toLowerCase();
+  return ALL.filter(ev => {
+    if (!occInRange(ev, s, e)) return false;
+    if (sel.free && !ev.free) return false;
+    if (sel.regions.size && !sel.regions.has(ev.region)) return false;
+    if (sel.cats.size && !ev.categories.some(c => sel.cats.has(c))) return false;
+    if (sel.ages.size && !(ev.ages.includes('All Ages') || ev.ages.some(a => sel.ages.has(a)))) return false;
+    if (q && !(ev.title + ' ' + (ev.venue ? ev.venue.name + ' ' + ev.venue.city : '') + ' ' +
+               ev.description).toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+
+// ---------- rendering ----------
+function render(fit) {   // fit=true -> zoom map to the visible pins (filter changes)
+  const evs = filtered();
+  const { s, e } = selectedRange();
+  $('#count').textContent = `${evs.length} of ${ALL.length} events`;
+
+  // sidebar
+  const sb = $('#sidebar');
+  sb.innerHTML = '';
+  if (!evs.length) sb.innerHTML = '<div class="empty">No events match — widen the date range or clear filters.</div>';
+  evs.forEach((ev, i) => {
+    const n = i + 1;
+    const occs = ev.occurrences.filter(o => new Date(o.start.replace(' ', 'T')) <= e &&
+                                            new Date(o.end.replace(' ', 'T')) >= s);
+    const when = occs.length ? trange(occs[0]) + (occs.length > 1 ? ` · +${occs.length - 1} more dates` : '') : '';
+    const div = document.createElement('div');
+    div.className = 'ev' + (ev.free ? ' is-free' : '') + (ev.lat == null ? ' no-pin' : '');
+    div.id = 'ev-' + ev.slug;
+    div.innerHTML = `
+      <div class="num">${ev.lat == null ? '–' : n}</div>
+      <div class="body">
+        <div class="t">${esc(ev.title)}</div>
+        <div class="meta">${esc(when)}${ev.venue ? '<br>' + esc(ev.venue.name) + (ev.venue.city ? ' · ' + esc(ev.venue.city) : '') : ''}</div>
+        <div class="badges">
+          ${ev.free ? '<span class="badge free">FREE</span>' : (ev.cost ? `<span class="badge cost">${esc(ev.cost)}</span>` : '')}
+          ${ev.virtual ? '<span class="badge virtual">Virtual</span>' : ''}
+          ${ev.categories.map(c => `<span class="badge cat">${esc(c)}</span>`).join('')}
+          <a class="badge gcal" href="${gcalUrl(ev, occs[0] || ev.occurrences[0])}" target="_blank"
+             rel="noopener">📆 + Calendar</a>
+        </div>
+      </div>`;
+    div.querySelector('.badge.gcal').onclick = e => e.stopPropagation();
+    div.onclick = () => focusEvent(ev);
+    sb.appendChild(div);
+  });
+
+  // markers
+  markerLayer.clearLayers();
+  markers = {};
+  evs.forEach((ev, i) => {
+    if (ev.lat == null) return;
+    const icon = L.divIcon({ className: '', iconSize: [26, 26], iconAnchor: [13, 13],
+      html: `<div class="pin${ev.free ? ' free' : ''}">${i + 1}</div>` });
+    const m = L.marker([ev.lat, ev.lng], { icon }).addTo(markerLayer);
+    m.bindPopup(popupHtml(ev, s, e), { maxWidth: 260 });
+    m.on('click', () => highlight(ev.slug));
+    m.on('popupopen', () => { openSlug = ev.slug; });
+    m.on('popupclose', () => {
+      if (openSlug === ev.slug) openSlug = null;
+      // flush a deferred re-render once no popup is open (delay lets
+      // popup-switching finish: close fires before the next open)
+      if (pendingRender) setTimeout(() => {
+        if (!openSlug && pendingRender) { pendingRender = false; render(); }
+      }, 400);
+    });
+    markers[ev.slug] = m;
+  });
+
+  if (fit) {
+    const pts = evs.filter(ev => ev.lat != null).map(ev => [ev.lat, ev.lng]);
+    if (pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.2), { maxZoom: 13 });
+  }
+}
+
+// "Add to Google Calendar" template link for one occurrence
+function gcalUrl(ev, occ) {
+  const f = s => s.slice(0, 10).replace(/-/g, '') + 'T' + s.slice(11).replace(/:/g, '');
+  const p = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: ev.title,
+    dates: f(occ.start) + '/' + f(occ.end),
+    ctz: 'America/Los_Angeles',
+    location: ev.virtual ? 'Virtual' : (ev.venue ? `${ev.venue.name}, ${ev.venue.address}` : ''),
+    details: (ev.description ? ev.description + '\n\n' : '') +
+             (ev.cost ? 'Cost: ' + ev.cost + '\n' : '') + 'Details: ' + ev.url,
+  });
+  return 'https://calendar.google.com/calendar/render?' + p.toString();
+}
+
+function popupHtml(ev, s, e) {
+  const occs = ev.occurrences.filter(o => new Date(o.start.replace(' ', 'T')) <= e &&
+                                          new Date(o.end.replace(' ', 'T')) >= s).slice(0, 4);
+  return `<div class="pop">
+    ${ev.image ? `<img src="${ev.image}" alt="">` : ''}
+    <div class="t">${esc(ev.title)}</div>
+    ${occs.map(o => `<div class="m">📅 ${esc(trange(o))} · <a href="${gcalUrl(ev, o)}" target="_blank" rel="noopener">+ GCal</a></div>`).join('')}
+    ${ev.venue ? `<div class="m">📍 ${esc(ev.venue.name)}${ev.geoApprox ? ' <i>(approx. location)</i>' : ''}</div>
+                  <div class="m">${esc(ev.venue.address)}</div>` : ''}
+    ${ev.description ? `<div class="desc">${esc(ev.description)}${ev.description.length >= 300 ? '…' : ''}</div>` : ''}
+    <div class="m">${ev.free ? '🆓 Free' : (ev.cost ? '💲 ' + esc(ev.cost) : '')}
+                   ${ev.ages.length ? ' · 👶 ' + esc(ev.ages.join(', ')) : ''}</div>
+    <div class="m"><a href="${ev.url}" target="_blank" rel="noopener">Event details →</a></div>
+    <a class="gcal-btn" href="${gcalUrl(ev, occs[0] || ev.occurrences[0])}" target="_blank" rel="noopener">📆 Add to Google Calendar</a>
+  </div>`;
+}
+
+function focusEvent(ev) {
+  highlight(ev.slug);
+  const m = markers[ev.slug];
+  if (m) { map.setView(m.getLatLng(), Math.max(map.getZoom(), 12)); m.openPopup(); }
+}
+function highlight(slug) {
+  document.querySelectorAll('.ev.active').forEach(x => x.classList.remove('active'));
+  const el = document.getElementById('ev-' + slug);
+  if (el) { el.classList.add('active'); el.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
+}
+
+// ---------- date slider ----------
+function initSlider(days) {
+  const A = $('#dayA'), B = $('#dayB');
+  A.max = B.max = days; A.value = 0; B.value = 0;   // default: today only
+  $('#tickL').textContent = dstr(windowStart);
+  $('#tickR').textContent = dstr(new Date(windowStart.getTime() + days * dayMs));
+  const update = () => {
+    const { s, e, lo, hi } = selectedRange();
+    $('#rangeOut').textContent = dstr(s) + ' – ' + dstr(e);
+    const max = +A.max || 1;
+    $('#sliderFill').style.left = (lo / max * 100) + '%';
+    $('#sliderFill').style.width = ((hi - lo) / max * 100) + '%';
+    render(true);
+  };
+  A.oninput = B.oninput = update;
+  update();
+}
+
+// ---------- filter chips ----------
+function chip(label, set, cls) {
+  const b = document.createElement('button');
+  b.className = 'chip' + (cls ? ' ' + cls : '');
+  b.textContent = label;
+  b.onclick = () => { b.classList.toggle('on');
+    b.classList.contains('on') ? set.add(label) : set.delete(label); render(true); };
+  return b;
+}
+function initFilters() {
+  REGIONS.forEach(r => {
+    const c = chip(r, sel.regions);
+    if (r === 'Eastside') { c.classList.add('on'); sel.regions.add(r); }  // default
+    $('#regionChips').appendChild(c);
+  });
+  AGES.forEach(a => $('#ageChips').appendChild(chip(a, sel.ages)));
+  CATS.forEach(c => $('#catChips').appendChild(chip(c, sel.cats)));
+  const freeBtn = document.querySelector('[data-filter=free]');
+  freeBtn.classList.add('on'); sel.free = true;                           // default
+  freeBtn.onclick = function () {
+    this.classList.toggle('on'); sel.free = this.classList.contains('on'); render(true); };
+  $('#search').oninput = function () { sel.q = this.value.trim(); render(true); };
+  $('#reset').onclick = () => {
+    sel.free = false; sel.regions.clear(); sel.ages.clear(); sel.cats.clear(); sel.q = '';
+    $('#search').value = '';
+    document.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
+    $('#dayA').value = 0; $('#dayB').value = $('#dayB').max;
+    $('#dayA').dispatchEvent(new Event('input'));
+  };
+}
+
+// ---------- map with 3-provider tile fallback (Carto -> Esri -> OSM) ----------
+function initMap() {
+  map = L.map('map', { zoomControl: true }).setView([47.55, -122.25], 9);
+  markerLayer = L.layerGroup().addTo(map);
+  const providers = [
+    ['https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+      { attribution: '© OpenStreetMap © CARTO', subdomains: 'abcd', maxZoom: 19 }],
+    ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
+      { attribution: 'Tiles © Esri', maxZoom: 19 }],
+    ['https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+      { attribution: '© OpenStreetMap contributors', maxZoom: 19 }],
+  ];
+  let idx = 0, errors = 0, layer;
+  const use = i => {
+    if (layer) map.removeLayer(layer);
+    errors = 0;
+    layer = L.tileLayer(providers[i][0], providers[i][1]).addTo(map);
+    layer.on('tileerror', () => {
+      if (++errors > 6 && idx < providers.length - 1) use(++idx);
+    });
+  };
+  use(0);
+}
+
+// ---------- boot ----------
+(async function () {
+  initMap();
+  initFilters();
+  try {
+    const { events, days } = await loadEvents();
+    ALL = events;
+    seedCoords();
+    initSlider(days);
+    $('#overlay').classList.add('hide');
+    refineGeocodes();   // background; re-renders as pins sharpen
+  } catch (err) {
+    $('#ovmsg').innerHTML = 'Could not load events (' + esc(err.message) +
+      ').<br>Check your internet connection, or generate <code>calendar-events.json</code> with <code>node scrape-calendar.cjs</code>.';
+  }
+})();
+</script>
+</body>
+</html>
