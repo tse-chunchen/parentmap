@@ -599,7 +599,11 @@ function initFilters() {
 // fallback below never triggered for it. Dropped in favor of two
 // providers that stay genuinely key-free.
 function initMap() {
-  map = L.map('map', { zoomControl: true, wheelPxPerZoomLevel: 200 }).setView([47.55, -122.25], 9);
+  // scrollWheelZoom off: Leaflet's built-in handler uses an acceleration
+  // curve that can still jump 2-3 zoom levels on one physical scroll
+  // notch (precision mice/trackpads report large deltas). Replaced below
+  // with a throttled handler that changes exactly one level per scroll.
+  map = L.map('map', { zoomControl: true, scrollWheelZoom: false }).setView([47.55, -122.25], 9);
   markerLayer = L.layerGroup().addTo(map);
   const providers = [
     ['https://tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -617,6 +621,15 @@ function initMap() {
     });
   };
   use(0);
+
+  let wheelCooldown = false;
+  map.getContainer().addEventListener('wheel', e => {
+    e.preventDefault();
+    if (wheelCooldown) return;
+    wheelCooldown = true;
+    setTimeout(() => { wheelCooldown = false; }, 250);
+    map.setZoomAround(map.mouseEventToContainerPoint(e), map.getZoom() + (e.deltaY < 0 ? 1 : -1));
+  }, { passive: false });
 }
 
 // ---------- boot ----------
