@@ -592,17 +592,20 @@ function initFilters() {
   };
 }
 
-// ---------- map with 3-provider tile fallback (Carto -> Esri -> OSM) ----------
+// ---------- map with 2-provider tile fallback (OSM -> Esri) ----------
+// Note: CARTO's free basemaps.cartocdn.com tiles now require a registered
+// API key (carto.com/basemap/apikey) and otherwise render an "API key
+// required" watermark instead of a real tile error, so the automatic
+// fallback below never triggered for it. Dropped in favor of two
+// providers that stay genuinely key-free.
 function initMap() {
   map = L.map('map', { zoomControl: true }).setView([47.55, -122.25], 9);
   markerLayer = L.layerGroup().addTo(map);
   const providers = [
-    ['https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
-      { attribution: '© OpenStreetMap © CARTO', subdomains: 'abcd', maxZoom: 19 }],
-    ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
-      { attribution: 'Tiles © Esri', maxZoom: 19 }],
     ['https://tile.openstreetmap.org/{z}/{x}/{y}.png',
       { attribution: '© OpenStreetMap contributors', maxZoom: 19 }],
+    ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
+      { attribution: 'Tiles © Esri', maxZoom: 19 }],
   ];
   let idx = 0, errors = 0, layer;
   const use = i => {
