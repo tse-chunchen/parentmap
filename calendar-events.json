@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-02T22:12:00.246Z",
+ "generated": "2026-11-03T19:59:44.490Z",
  "window": {
-  "start": "2026-11-02",
-  "end": "2026-12-02"
+  "start": "2026-11-03",
+  "end": "2026-12-03"
  },
  "events": [
   {
-   "id": 10063750,
+   "id": 10063751,
    "slug": "salmon-seeson-issaquah-creek",
    "title": "Salmon SEEson at Issaquah Creek",
-   "url": "https://www.parentmap.com/calendar/salmon-seeson-issaquah-creek/2026-11-02/",
+   "url": "https://www.parentmap.com/calendar/salmon-seeson-issaquah-creek/2026-11-03/",
    "website": "https://experience.arcgis.com/experience/779f2239705a42fba71f198d958da479/page/Home/?data_id=dataSource_2-Salmon_viewing_sites_8034%3A10",
    "description": "See salmon return to Issaquah Creek from the W Sunset Way bridge over Issaquah Creek near Newport Way NW from September through November . Street parking is available along W Sunset Way east of the bridge. If you decide to visit this site, please remember to recreate responsibly : plan ahead, choose a site near you, leave no trace, and contribute to an inclusive experience for all. Issaquah Salmon",
    "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775190961150-issaquah-salmon-hatchery-credit-thales-via-flickr-cc-croppe-horiz-f51536bc2f4d-300x231.jpg",
@@ -29,10 +29,6 @@
    },
    "region": "Eastside",
    "occurrences": [
-    {
-     "start": "2026-11-02 08:00:00",
-     "end": "2026-11-02 16:30:00"
-    },
     {
      "start": "2026-11-03 08:00:00",
      "end": "2026-11-03 16:30:00"
@@ -151,10 +147,10 @@
    "geoApprox": true
   },
   {
-   "id": 10060690,
+   "id": 10060691,
    "slug": "virtual-story-time-uw-botanic-gardens-s2-2",
    "title": "Story Time with Seattle Botanic Gardens",
-   "url": "https://www.parentmap.com/calendar/virtual-story-time-uw-botanic-gardens-s2-2/2026-11-02/",
+   "url": "https://www.parentmap.com/calendar/virtual-story-time-uw-botanic-gardens-s2-2/2026-11-03/",
    "website": "https://depts.washington.edu/hortlib/events/story-time/",
    "description": "With a new theme and three new stories every month, Story Time from the Miller Library is always available on our website. Join us each month for stories and activities that celebrate gardens, plants, and nature! Virtual story time is planned for children ages 3 to 8 and their families. Upcoming themes: September: Autumn Showers October: In the Swim November: One with Nature December: Evergreens J",
    "image": "https://www.parentmap.com/wp-content/uploads/2026/06/HowManySeedsinaPumpkintitlecard-300x169.jpg",
@@ -168,10 +164,6 @@
    "venue": null,
    "region": "Virtual",
    "occurrences": [
-    {
-     "start": "2026-11-02 08:00:00",
-     "end": "2026-11-02 19:00:00"
-    },
     {
      "start": "2026-11-03 08:00:00",
      "end": "2026-11-03 19:00:00"
@@ -291,6 +283,10 @@
     {
      "start": "2026-12-02 08:00:00",
      "end": "2026-12-02 19:00:00"
+    },
+    {
+     "start": "2026-12-03 08:00:00",
+     "end": "2026-12-03 19:00:00"
     }
    ],
    "lat": null,
@@ -298,10 +294,74 @@
    "geoApprox": false
   },
   {
-   "id": 10070420,
+   "id": 10063534,
+   "slug": "55554",
+   "title": "Northgate Tot Drop In Gym",
+   "url": "https://www.parentmap.com/calendar/55554/2026-11-03/",
+   "website": "https://www.seattle.gov/parks/learning-and-childcare/toddler-indoor-play-areas",
+   "description": "Toddler play gyms and rooms are available at various community centers during the fall, winter and spring seasons when weather is not favorable for outdoor play. They’re a dry, warm place to let your child play with toys, mats, and slides. You must register for a Quick Card at the front desk on your first visit. No food or drinks are allowed in the playroom, though tables are available in the hall",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775190800319-screenshot-2023-08-07-161657-323a75c3fdb6-300x198.png",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 415683,
+    "name": "Northgate Community Center",
+    "address": "10510 5th Ave NE, Seattle, WA, 98125-7202",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-03 09:00:00",
+     "end": "2026-11-03 11:30:00"
+    },
+    {
+     "start": "2026-11-05 09:00:00",
+     "end": "2026-11-05 11:30:00"
+    },
+    {
+     "start": "2026-11-10 09:00:00",
+     "end": "2026-11-10 11:30:00"
+    },
+    {
+     "start": "2026-11-12 09:00:00",
+     "end": "2026-11-12 11:30:00"
+    },
+    {
+     "start": "2026-11-17 09:00:00",
+     "end": "2026-11-17 11:30:00"
+    },
+    {
+     "start": "2026-11-19 09:00:00",
+     "end": "2026-11-19 11:30:00"
+    },
+    {
+     "start": "2026-11-24 09:00:00",
+     "end": "2026-11-24 11:30:00"
+    },
+    {
+     "start": "2026-12-01 09:00:00",
+     "end": "2026-12-01 11:30:00"
+    },
+    {
+     "start": "2026-12-03 09:00:00",
+     "end": "2026-12-03 11:30:00"
+    }
+   ],
+   "lat": 47.705461,
+   "lng": -122.3222991,
+   "geoApprox": false
+  },
+  {
+   "id": 10070421,
    "slug": "toddler-gym-delridge-community-center",
    "title": "Toddler Gym at Delridge Community Center",
-   "url": "https://www.parentmap.com/calendar/toddler-gym-delridge-community-center/2026-11-02/",
+   "url": "https://www.parentmap.com/calendar/toddler-gym-delridge-community-center/2026-11-03/",
    "website": "http://www.seattle.gov/parks/find/toddler-indoor-play-areas",
    "description": "Toddler Gyms offer a variety of toys and larger space to play indoors. Children will enjoy toys, balls, trikes, scooters, push bikes, and more. Parental supervision required. Toddler gym closed during any Seattle Public School closures and early release days.",
    "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775190115588-toddler-girl-ab401908bd05-300x201.jpg",
@@ -320,10 +380,6 @@
    },
    "region": "Seattle",
    "occurrences": [
-    {
-     "start": "2026-11-02 09:00:00",
-     "end": "2026-11-02 15:00:00"
-    },
     {
      "start": "2026-11-03 09:00:00",
      "end": "2026-11-03 15:00:00"
@@ -401,12 +457,20 @@
      "end": "2026-11-30 15:00:00"
     },
     {
+     "start": "2026-11-30 09:00:00",
+     "end": "2026-11-30 15:00:00"
+    },
+    {
      "start": "2026-12-01 09:00:00",
      "end": "2026-12-01 15:00:00"
     },
     {
      "start": "2026-12-02 09:00:00",
      "end": "2026-12-02 15:00:00"
+    },
+    {
+     "start": "2026-12-03 09:00:00",
+     "end": "2026-12-03 15:00:00"
     }
    ],
    "lat": 47.5633072,
@@ -414,14 +478,14 @@
    "geoApprox": false
   },
   {
-   "id": 10060396,
-   "slug": "minimu-0",
-   "title": "Minimu",
-   "url": "https://www.parentmap.com/calendar/minimu-0/2026-11-02/",
-   "website": "https://www.kidimu.org/minimu",
-   "description": "A welcoming weekly gathering for infants, toddlers, and their caregivers featuring circle time, storytelling, music, play, and meaningful connections. Held Mondays from 9:00–11:00 AM, MiniMu offers a dedicated space for little ones to explore at their own pace while caregivers build community and support one another. Each session includes songs, stories, rhymes, and open-ended play in a relaxed en",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775192700959-minimu-january-2019-6631ba6163e9-300x195.jpg",
-   "cost": "Free; donations welcome",
+   "id": 10072308,
+   "slug": "west-seattle-nazarene-playspace",
+   "title": "West Seattle Nazarene PlaySpace",
+   "url": "https://www.parentmap.com/calendar/west-seattle-nazarene-playspace/2026-11-03/",
+   "website": "https://www.facebook.com/westseattlenaz/posts/pfbid0Hkji7guZRwuepz54PV2V1yaC86vXZFJqJTTQuSA2RHSyrxfJKddoJ6dNbS5LoXwkl",
+   "description": "Bring your little ones and come play at our church’s PlaySpace—open every Tuesday and Thursday from 9:00 a.m. to noon! It’s a warm, welcoming indoor spot for kids to move, imagine, and make new friends while parents and caregivers connect with one another. All are welcome, drop-in style, and the cost is FREE—come as you are and stay as long as you like!",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775187509439-blocks-503109_640-88e269b99c70-300x200.jpg",
+   "cost": "Free",
    "free": true,
    "categories": [
     "Play + Recreation"
@@ -429,43 +493,63 @@
    "ages": [],
    "virtual": false,
    "venue": {
-    "id": 413307,
-    "name": "KiDiMu – Kids Discovery Museum",
-    "address": "301 Ravine Ln NE, Bainbridge Island, WA, 98110-2670",
-    "city": "Bainbridge Island"
+    "id": 421639,
+    "name": "West Seattle Church of the Nazarene",
+    "address": "4201 SW Juneau St, Seattle, WA, 98136",
+    "city": "Seattle"
    },
-   "region": "Greater Puget Sound",
+   "region": "Seattle",
    "occurrences": [
     {
-     "start": "2026-11-02 09:00:00",
-     "end": "2026-11-02 11:00:00"
+     "start": "2026-11-03 09:00:00",
+     "end": "2026-11-03 12:00:00"
     },
     {
-     "start": "2026-11-09 09:00:00",
-     "end": "2026-11-09 11:00:00"
+     "start": "2026-11-05 09:00:00",
+     "end": "2026-11-05 12:00:00"
     },
     {
-     "start": "2026-11-16 09:00:00",
-     "end": "2026-11-16 11:00:00"
+     "start": "2026-11-10 09:00:00",
+     "end": "2026-11-10 12:00:00"
     },
     {
-     "start": "2026-11-23 09:00:00",
-     "end": "2026-11-23 11:00:00"
+     "start": "2026-11-12 09:00:00",
+     "end": "2026-11-12 12:00:00"
     },
     {
-     "start": "2026-11-30 09:00:00",
-     "end": "2026-11-30 11:00:00"
+     "start": "2026-11-17 09:00:00",
+     "end": "2026-11-17 12:00:00"
+    },
+    {
+     "start": "2026-11-19 09:00:00",
+     "end": "2026-11-19 12:00:00"
+    },
+    {
+     "start": "2026-11-24 09:00:00",
+     "end": "2026-11-24 12:00:00"
+    },
+    {
+     "start": "2026-11-26 09:00:00",
+     "end": "2026-11-26 12:00:00"
+    },
+    {
+     "start": "2026-12-01 09:00:00",
+     "end": "2026-12-01 12:00:00"
+    },
+    {
+     "start": "2026-12-03 09:00:00",
+     "end": "2026-12-03 12:00:00"
     }
    ],
-   "lat": 47.6261293,
-   "lng": -122.5148952,
+   "lat": 47.5500823,
+   "lng": -122.3859228,
    "geoApprox": false
   },
   {
-   "id": 10064045,
+   "id": 10064046,
    "slug": "salmon-seeson-north-creek-trail-park",
    "title": "Salmon SEEson at North Creek Trail Park",
-   "url": "https://www.parentmap.com/calendar/salmon-seeson-north-creek-trail-park/2026-11-02/",
+   "url": "https://www.parentmap.com/calendar/salmon-seeson-north-creek-trail-park/2026-11-03/",
    "website": "https://experience.arcgis.com/experience/779f2239705a42fba71f198d958da479/page/Home/?data_id=dataSource_2-Salmon_viewing_sites_8034%3A14",
    "description": "If you decide to visit this site, please remember to recreate responsibly : plan ahead, choose a site near you, leave no trace, and contribute to an inclusive experience for all. Start at North Creek Trail Park in Bothell and walk south along the trail. Watch for Chinook salmon in September, sockeye in October and coho in November as they migrate up North Creek. Start at North Creek Trail Park and",
    "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775157435972-12northcreekcreditcityofbothell-41e9eb32bd22-300x229.jpg",
@@ -485,10 +569,6 @@
    },
    "region": "Eastside",
    "occurrences": [
-    {
-     "start": "2026-11-02 09:00:00",
-     "end": "2026-11-02 19:00:00"
-    },
     {
      "start": "2026-11-03 09:00:00",
      "end": "2026-11-03 19:00:00"
@@ -551,10 +631,10 @@
    "geoApprox": true
   },
   {
-   "id": 10063780,
+   "id": 10063781,
    "slug": "salmon-seeson-ebright-creek",
    "title": "Salmon SEEson at Ebright Creek",
-   "url": "https://www.parentmap.com/calendar/salmon-seeson-ebright-creek/2026-11-02/",
+   "url": "https://www.parentmap.com/calendar/salmon-seeson-ebright-creek/2026-11-03/",
    "website": "https://experience.arcgis.com/experience/779f2239705a42fba71f198d958da479/page/Home/?data_id=dataSource_2-Salmon_viewing_sites_8034%3A25",
    "description": "Sightings between early November and late January. Call Dan Lantz at 206-477-4746 before you go to make sure kokanee are visible. Don’t miss this chance to see one of the only six known native populations of kokanee in all of Washington State. Lake Sammamish kokanee or little red salmon are a smaller version of the larger sockeye salmon that have been isolated since the early 1900s. Unlike other s",
    "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775188179616-22ebright-28932ea6e90f-300x187.jpg",
@@ -574,10 +654,6 @@
    },
    "region": "Eastside",
    "occurrences": [
-    {
-     "start": "2026-11-02 09:00:00",
-     "end": "2026-11-02 19:00:00"
-    },
     {
      "start": "2026-11-03 09:00:00",
      "end": "2026-11-03 19:00:00"
@@ -691,12 +767,20 @@
      "end": "2026-11-30 19:00:00"
     },
     {
+     "start": "2026-11-30 09:00:00",
+     "end": "2026-11-30 19:00:00"
+    },
+    {
      "start": "2026-12-01 09:00:00",
      "end": "2026-12-01 19:00:00"
     },
     {
      "start": "2026-12-02 09:00:00",
      "end": "2026-12-02 19:00:00"
+    },
+    {
+     "start": "2026-12-03 09:00:00",
+     "end": "2026-12-03 19:00:00"
     }
    ],
    "lat": 47.5975338,
@@ -704,10 +788,10 @@
    "geoApprox": false
   },
   {
-   "id": 10063638,
+   "id": 10063639,
    "slug": "salmon-seeson-longfellow-creek",
    "title": "Salmon SEEson at Longfellow Creek",
-   "url": "https://www.parentmap.com/calendar/salmon-seeson-longfellow-creek/2026-11-02/",
+   "url": "https://www.parentmap.com/calendar/salmon-seeson-longfellow-creek/2026-11-03/",
    "website": "https://experience.arcgis.com/experience/779f2239705a42fba71f198d958da479/page/Home/?data_id=dataSource_2-Salmon_viewing_sites_8034%3A17",
    "description": "Watch for coho salmon in October through December and chum in November as they migrate up Longfellow Creek! Start at Dragonfly Garden (corner of 28th Avenue SW and SW Dakota St., Seattle) and walk the trail south along the creek. Look under bridges where fish often hide. For best viewing, visit in the early morning or late afternoon to avoid glare and bring polarized glasses. Check here later in t",
    "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775192910124-15longfellowcreek-1753fd5f8524-300x199.jpg",
@@ -727,10 +811,6 @@
    },
    "region": "Seattle",
    "occurrences": [
-    {
-     "start": "2026-11-02 09:00:00",
-     "end": "2026-11-02 18:00:00"
-    },
     {
      "start": "2026-11-03 09:00:00",
      "end": "2026-11-03 18:00:00"
@@ -850,6 +930,10 @@
     {
      "start": "2026-12-02 09:00:00",
      "end": "2026-12-02 18:00:00"
+    },
+    {
+     "start": "2026-12-03 09:00:00",
+     "end": "2026-12-03 18:00:00"
     }
    ],
    "lat": 47.5667333,
@@ -857,10 +941,10 @@
    "geoApprox": false
   },
   {
-   "id": 10025592,
+   "id": 10025593,
    "slug": "ai-weiwei-circle-animalszodiac-heads",
    "title": "Ai Weiwei: Circle of Animals/Zodiac Heads",
-   "url": "https://www.parentmap.com/calendar/ai-weiwei-circle-animalszodiac-heads/2026-11-02/",
+   "url": "https://www.parentmap.com/calendar/ai-weiwei-circle-animalszodiac-heads/2026-11-03/",
    "website": "https://seattleartmuseum.org/whats-on/exhibitions/ai-weiwei-circle-of-animals-zodiac-heads",
    "description": "Get up close with Ai Weiwei’s Circle of Animals/Zodiac Heads (2010) at the Olympic Sculpture Park, where you can walk among these monumental sculptures. Consisting of 12 zodiac head sculptures arranged in an arcing semicircle, each animal in Circle of Animals/Zodiac Heads stands over ten feet tall and weighs over 1500 pounds. The sculptures are installed in order of the traditional Chinese zodiac ",
    "image": "https://www.parentmap.com/wp-content/uploads/2026/05/1778645739075-1cb0ee1bc374434896519f1d51b53093-08879d3cc6fc-300x200.jpg",
@@ -881,10 +965,6 @@
    "region": "Seattle",
    "occurrences": [
     {
-     "start": "2026-11-02 09:00:00",
-     "end": "2026-11-02 19:00:00"
-    },
-    {
      "start": "2026-11-03 09:00:00",
      "end": "2026-11-03 19:00:00"
     },
@@ -1003,6 +1083,10 @@
     {
      "start": "2026-12-02 09:00:00",
      "end": "2026-12-02 19:00:00"
+    },
+    {
+     "start": "2026-12-03 09:00:00",
+     "end": "2026-12-03 19:00:00"
     }
    ],
    "lat": 47.61627,
@@ -1010,46 +1094,10 @@
    "geoApprox": false
   },
   {
-   "id": 10050878,
-   "slug": "tots-trail-walk-sound-olympics-trail",
-   "title": "Tots on the Trail Walk: Sound to Olympics Trail",
-   "url": "https://www.parentmap.com/calendar/tots-trail-walk-sound-olympics-trail/2026-11-02/",
-   "website": "https://www.bainbridgeplaycafe.com/events-1",
-   "description": "Join us for a walk from Bainbridge Play Cafe at 9:00 AM on the first Tuesday of every month. We’ll grab our drinks/snacks and then walk over to the Sound to Olympics Trail, which is located next to Hwy 305. We will walk all the way down to Winslow and then back up to the cafe using the sidewalk on Ericksen. It’s a loop with a little bit of a challenge as we walk slightly uphill on our way back. It",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/05/1779337292834-screenshot_2026-05-12_at_51137_pm_50-84e13b1b06e9-300x216.png",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 420668,
-    "name": "Bainbridge Play Cafe",
-    "address": "360 Tormey Ln NE\nSuite 194, Bainbridge Island, WA, 98110",
-    "city": "Bainbridge Island"
-   },
-   "region": "Greater Puget Sound",
-   "occurrences": [
-    {
-     "start": "2026-11-02 09:00:00",
-     "end": "2026-11-02 11:00:00"
-    },
-    {
-     "start": "2026-12-02 09:00:00",
-     "end": "2026-12-02 11:00:00"
-    }
-   ],
-   "lat": 47.6515096,
-   "lng": -122.5246791,
-   "geoApprox": true
-  },
-  {
-   "id": 10063947,
+   "id": 10063948,
    "slug": "salmon-seeson-flaming-geyser-state-park-2",
    "title": "Salmon SEEson Flaming Geyser State Park",
-   "url": "https://www.parentmap.com/calendar/salmon-seeson-flaming-geyser-state-park-2/2026-11-02/",
+   "url": "https://www.parentmap.com/calendar/salmon-seeson-flaming-geyser-state-park-2/2026-11-03/",
    "website": "https://experience.arcgis.com/experience/779f2239705a42fba71f198d958da479/page/Home/?data_id=dataSource_2-Salmon_viewing_sites_8034%3A32",
    "description": "If you decide to visit this site, please remember to recreate responsibly : plan ahead, practice physical distancing, wear a mask, choose a site near you, leave no trace, and contribute to an inclusive experience for all. Spot Chinook/pink from September through December, coho from October through December and chum from November through December returning to Flaming Geyser State Park. Salmon can b",
    "image": "https://www.parentmap.com/wp-content/uploads/2026/03/1773118111313-flaminggeyser2-d3bb8a845f28-300x200.jpg",
@@ -1070,10 +1118,6 @@
    "region": "South Sound",
    "occurrences": [
     {
-     "start": "2026-11-02 09:00:00",
-     "end": "2026-11-02 19:00:00"
-    },
-    {
      "start": "2026-11-03 09:00:00",
      "end": "2026-11-03 19:00:00"
     },
@@ -1192,6 +1236,10 @@
     {
      "start": "2026-12-02 09:00:00",
      "end": "2026-12-02 19:00:00"
+    },
+    {
+     "start": "2026-12-03 09:00:00",
+     "end": "2026-12-03 19:00:00"
     }
    ],
    "lat": 47.2723116,
@@ -1199,13 +1247,13 @@
    "geoApprox": false
   },
   {
-   "id": 10063499,
-   "slug": "toddler-gym-rainier-beach-community-center-2",
-   "title": "Toddler Gym at Rainier Beach Community Center",
-   "url": "https://www.parentmap.com/calendar/toddler-gym-rainier-beach-community-center-2/2026-11-02/",
-   "website": "https://www.seattle.gov/parks/find/toddler-indoor-play-areas?utm_medium=email&amp;utm_source=govdelivery",
-   "description": "A FREE drop-in program! Looking for a dry, warm place to let your child play inside? Our tot gyms are full of toys, mats, and slides. Must register for a Quick Card at the front desk on your first visit. No food or drinks allowed in the playroom. We do have tables and chairs in the hallway for serving snacks and drinks. Parent supervision is required at ALL times.",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775187216370-thomas-and-friends-2435542_960_720-6d07d9c83f5a-300x200.jpg",
+   "id": 10024620,
+   "slug": "west-seattle-nazarene-playspace-2",
+   "title": "West Seattle Nazarene PlaySpace",
+   "url": "https://www.parentmap.com/calendar/west-seattle-nazarene-playspace-2/2026-11-03/",
+   "website": "https://www.facebook.com/westseattlenaz/posts/pfbid0Hkji7guZRwuepz54PV2V1yaC86vXZFJqJTTQuSA2RHSyrxfJKddoJ6dNbS5LoXwkl",
+   "description": "Bring your little ones and come play at our church’s PlaySpace—open every Tuesday and Thursday from 9:00 a.m. to noon! It’s a warm, welcoming indoor spot for kids to move, imagine, and make new friends while parents and caregivers connect with one another. All are welcome, drop-in style, and the cost is FREE—come as you are and stay as long as you like!",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775187509439-blocks-503109_640-88e269b99c70-300x200.jpg",
    "cost": "Free",
    "free": true,
    "categories": [
@@ -1214,145 +1262,59 @@
    "ages": [],
    "virtual": false,
    "venue": {
-    "id": 411725,
-    "name": "Rainier Beach Community Center and Pool",
-    "address": "8825 Rainier Ave S, Seattle, WA, 98118-4928",
+    "id": 421639,
+    "name": "West Seattle Church of the Nazarene",
+    "address": "4201 SW Juneau St, Seattle, WA, 98136",
     "city": "Seattle"
    },
    "region": "Seattle",
    "occurrences": [
     {
-     "start": "2026-11-02 09:00:00",
-     "end": "2026-11-02 12:00:00"
+     "start": "2026-11-03 09:00:00",
+     "end": "2026-11-03 12:00:00"
     },
     {
      "start": "2026-11-05 09:00:00",
      "end": "2026-11-05 12:00:00"
     },
     {
-     "start": "2026-11-06 09:00:00",
-     "end": "2026-11-06 12:00:00"
-    },
-    {
-     "start": "2026-11-09 09:00:00",
-     "end": "2026-11-09 12:00:00"
+     "start": "2026-11-10 09:00:00",
+     "end": "2026-11-10 12:00:00"
     },
     {
      "start": "2026-11-12 09:00:00",
      "end": "2026-11-12 12:00:00"
     },
     {
-     "start": "2026-11-13 09:00:00",
-     "end": "2026-11-13 12:00:00"
-    },
-    {
-     "start": "2026-11-16 09:00:00",
-     "end": "2026-11-16 12:00:00"
+     "start": "2026-11-17 09:00:00",
+     "end": "2026-11-17 12:00:00"
     },
     {
      "start": "2026-11-19 09:00:00",
      "end": "2026-11-19 12:00:00"
     },
     {
-     "start": "2026-11-20 09:00:00",
-     "end": "2026-11-20 12:00:00"
+     "start": "2026-11-24 09:00:00",
+     "end": "2026-11-24 12:00:00"
     },
     {
-     "start": "2026-11-23 09:00:00",
-     "end": "2026-11-23 12:00:00"
+     "start": "2026-12-01 09:00:00",
+     "end": "2026-12-01 12:00:00"
+    },
+    {
+     "start": "2026-12-03 09:00:00",
+     "end": "2026-12-03 12:00:00"
     }
    ],
-   "lat": 47.52439,
-   "lng": -122.270709,
+   "lat": 47.5500823,
+   "lng": -122.3859228,
    "geoApprox": false
   },
   {
-   "id": 10059653,
-   "slug": "open-dance-and-play-at-all-that-dance-2",
-   "title": "Open Dance and Play at All That Dance",
-   "url": "https://www.parentmap.com/calendar/open-dance-and-play-at-all-that-dance-2/2026-11-02/",
-   "website": "https://app.acuityscheduling.com/schedule.php?owner=35107101",
-   "description": "Open Dance & Play is a fun, free-flowing playtime designed for toddlers and their grown-ups! This open-ended studio time gives little movers the chance to explore the space, climb, tumble, dance, and build confidence in a safe, welcoming environment. Soft mats, age-friendly props, and upbeat music create the perfect space for imaginative play and early motor-skill development. Caregivers stay and ",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/08/Parent-Map-Dance-Play-Header1-300x169.png",
-   "cost": "$8",
-   "free": false,
-   "categories": [
-    "Arts + Culture",
-    "Play + Recreation",
-    "Parent + Caregiver"
-   ],
-   "ages": [
-    "Baby",
-    "Toddlers + Preschoolers",
-    "Elementary"
-   ],
-   "virtual": false,
-   "venue": {
-    "id": 412884,
-    "name": "All That Dance",
-    "address": "3012 NE Blakeley St, Seattle, WA, 98105",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-02 09:00:00",
-     "end": "2026-11-02 11:30:00"
-    },
-    {
-     "start": "2026-11-04 09:00:00",
-     "end": "2026-11-04 11:30:00"
-    },
-    {
-     "start": "2026-11-06 09:00:00",
-     "end": "2026-11-06 11:30:00"
-    },
-    {
-     "start": "2026-11-09 09:00:00",
-     "end": "2026-11-09 11:30:00"
-    },
-    {
-     "start": "2026-11-11 09:00:00",
-     "end": "2026-11-11 11:30:00"
-    },
-    {
-     "start": "2026-11-13 09:00:00",
-     "end": "2026-11-13 11:30:00"
-    },
-    {
-     "start": "2026-11-16 09:00:00",
-     "end": "2026-11-16 11:30:00"
-    },
-    {
-     "start": "2026-11-18 09:00:00",
-     "end": "2026-11-18 11:30:00"
-    },
-    {
-     "start": "2026-11-20 09:00:00",
-     "end": "2026-11-20 11:30:00"
-    },
-    {
-     "start": "2026-11-23 09:00:00",
-     "end": "2026-11-23 11:30:00"
-    },
-    {
-     "start": "2026-11-30 09:00:00",
-     "end": "2026-11-30 11:30:00"
-    },
-    {
-     "start": "2026-12-02 09:00:00",
-     "end": "2026-12-02 11:30:00"
-    }
-   ],
-   "lat": 47.6646279,
-   "lng": -122.2952899,
-   "geoApprox": false
-  },
-  {
-   "id": 10073598,
+   "id": 10073599,
    "slug": "food-drive-play-days-at-the-sand-garden",
    "title": "Food Drive Play Days at The Sand Garden",
-   "url": "https://www.parentmap.com/calendar/food-drive-play-days-at-the-sand-garden/2026-11-02/",
+   "url": "https://www.parentmap.com/calendar/food-drive-play-days-at-the-sand-garden/2026-11-03/",
    "website": "https://www.thesandgardenllc.com/",
    "description": "Bring a food donation for the Issaquah Food & Clothing Bank and get 20% off sand play in our indoor sandbox, with 60,000 lbs of soft, low-dust, silica-free sand, calm music, and free drip coffee for parents. The food bank especially needs canned proteins like tuna, chicken, and Spam.",
    "image": "https://www.parentmap.com/wp-content/uploads/2026/10/Screenshot-2026-10-26-164535-300x245.png",
@@ -1371,10 +1333,6 @@
    },
    "region": "Eastside",
    "occurrences": [
-    {
-     "start": "2026-11-02 09:00:00",
-     "end": "2026-11-02 17:00:00"
-    },
     {
      "start": "2026-11-03 09:00:00",
      "end": "2026-11-03 17:00:00"
@@ -1443,1826 +1401,6 @@
    "lat": 47.5348778,
    "lng": -122.043297,
    "geoApprox": true
-  },
-  {
-   "id": 10059935,
-   "slug": "40114-s11",
-   "title": "Toddler Time at the Seattle Aquarium",
-   "url": "https://www.parentmap.com/calendar/40114-s11/2026-11-02/",
-   "website": "https://www.seattleaquarium.org/events/toddler-time",
-   "description": "This drop-in program is free with Aquarium admission and offers a variety of learner-centered, developmentally age-appropriate, hands-on activities for young children. Join us for crafts, songs, story time and more! No reservations needed—feel free to stay for any length of time. Please note: children must be accompanied by an adult at all times. ¡Vamos al Acuario! September 27–28; October 11–12 I",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/03/1773118010948-toddler-time-857785ee325b-300x223.jpg",
-   "cost": "Included with admission",
-   "free": false,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 411841,
-    "name": "Seattle Aquarium",
-    "address": "1483 Alaskan Way Pier 59, Seattle, WA, 98101-2015",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-02 09:30:00",
-     "end": "2026-11-02 12:00:00"
-    },
-    {
-     "start": "2026-11-08 09:30:00",
-     "end": "2026-11-08 12:00:00"
-    },
-    {
-     "start": "2026-11-09 09:30:00",
-     "end": "2026-11-09 12:00:00"
-    },
-    {
-     "start": "2026-11-15 09:30:00",
-     "end": "2026-11-15 12:00:00"
-    },
-    {
-     "start": "2026-11-16 09:30:00",
-     "end": "2026-11-16 12:00:00"
-    }
-   ],
-   "lat": 47.6076248,
-   "lng": -122.3432202,
-   "geoApprox": true
-  },
-  {
-   "id": 10018732,
-   "slug": "31646",
-   "title": "Baby Jam",
-   "url": "https://www.parentmap.com/calendar/31646/2026-11-02/",
-   "website": "http://www.babyjam.net/",
-   "description": "Seattle Baby Jam is an award winning music class for kids ages birth to three years old. Preschoolers, toddlers, babies, and kids from all backgrounds are welcome to attend. We offer fun, engaging, safe, low-pressure rhythm and music exposure for young ones. Help nurture your child’s cognitive development through hands-on drumming, percussion, and multilingual songs, stories and games. Our class i",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775079744193-31646-8027dda1e9dc-300x200.jpg",
-   "cost": "$2 – $30",
-   "free": false,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 419467,
-    "name": "Salsa Con Todo Fremont",
-    "address": "211 N 36th St, Seattle, WA, 98103",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-02 09:30:00",
-     "end": "2026-11-02 10:00:00"
-    },
-    {
-     "start": "2026-11-09 09:30:00",
-     "end": "2026-11-09 10:00:00"
-    },
-    {
-     "start": "2026-11-16 09:30:00",
-     "end": "2026-11-16 10:00:00"
-    },
-    {
-     "start": "2026-11-23 09:30:00",
-     "end": "2026-11-23 10:00:00"
-    },
-    {
-     "start": "2026-11-30 09:30:00",
-     "end": "2026-11-30 10:00:00"
-    }
-   ],
-   "lat": 47.6524374,
-   "lng": -122.3561097,
-   "geoApprox": false
-  },
-  {
-   "id": 10063570,
-   "slug": "indoor-playground-1",
-   "title": "Indoor Playground",
-   "url": "https://www.parentmap.com/calendar/indoor-playground-1/2026-11-02/",
-   "website": "https://www.auburnwa.gov/cms/One.aspx?portalId=11470638&amp;pageId=12529809",
-   "description": "Monday, Wednesday, and Friday | 9:30AM-11:00AM | September 21-December 11 | $3 per child | No Program November 11, 25, or 27. Pop in and play! This 1.5-hour preschool drop-in program turns our indoor gym into its very own playground! Staff set up bikes, blocks, balls, toys, scooters, and a bounce house. Stay, play, and meet fellow parents! The gymnasium at Les Gove Park 910 9th Street SE Adult sup",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775079896528-screenshot-2024-02-21-171215-b10520ca1f4e-300x198.png",
-   "cost": "$3",
-   "free": false,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 416022,
-    "name": "Les Gove Gymnasium",
-    "address": "910 9th St SE, Auburn, WA, 98002-6200",
-    "city": "Auburn"
-   },
-   "region": "South Sound",
-   "occurrences": [
-    {
-     "start": "2026-11-02 09:30:00",
-     "end": "2026-11-02 11:00:00"
-    },
-    {
-     "start": "2026-11-04 09:30:00",
-     "end": "2026-11-04 11:00:00"
-    },
-    {
-     "start": "2026-11-06 09:30:00",
-     "end": "2026-11-06 11:00:00"
-    },
-    {
-     "start": "2026-11-09 09:30:00",
-     "end": "2026-11-09 11:00:00"
-    },
-    {
-     "start": "2026-11-13 09:30:00",
-     "end": "2026-11-13 11:00:00"
-    },
-    {
-     "start": "2026-11-16 09:30:00",
-     "end": "2026-11-16 11:00:00"
-    },
-    {
-     "start": "2026-11-18 09:30:00",
-     "end": "2026-11-18 11:00:00"
-    },
-    {
-     "start": "2026-11-20 09:30:00",
-     "end": "2026-11-20 11:00:00"
-    },
-    {
-     "start": "2026-11-23 09:30:00",
-     "end": "2026-11-23 11:00:00"
-    },
-    {
-     "start": "2026-11-30 09:30:00",
-     "end": "2026-11-30 11:00:00"
-    },
-    {
-     "start": "2026-12-02 09:30:00",
-     "end": "2026-12-02 11:00:00"
-    }
-   ],
-   "lat": 47.2999715,
-   "lng": -122.2167023,
-   "geoApprox": false
-  },
-  {
-   "id": 10071971,
-   "slug": "bubble-planet-experience",
-   "title": "Bubble Planet Experience",
-   "url": "https://www.parentmap.com/calendar/bubble-planet-experience/2026-11-02/",
-   "website": "https://feverup.com/m/312867",
-   "description": "Bubble Planet is an immersive experience in which you’ll surround yourself with bubbles like never before! Step into a planet beyond your imagination with VR technology, themed rooms and fantastical landscapes. Jump from one immersive space to the next and explore them all with your five senses! Highlights Enter a surreal and colorful world of bubbles Discover all kinds of bubbles, interact with t",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775146692234-unnamed_115-534b11d7df76-300x200.jpg",
-   "cost": "$16 – $20",
-   "free": false,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 426707,
-    "name": "Bubble Planet",
-    "address": "103 110th Ave NE, Bellevue, WA, 98004",
-    "city": "Bellevue"
-   },
-   "region": "Eastside",
-   "occurrences": [
-    {
-     "start": "2026-11-02 09:30:00",
-     "end": "2026-11-02 20:00:00"
-    },
-    {
-     "start": "2026-11-04 09:30:00",
-     "end": "2026-11-04 20:00:00"
-    },
-    {
-     "start": "2026-11-05 09:30:00",
-     "end": "2026-11-05 20:00:00"
-    },
-    {
-     "start": "2026-11-06 09:30:00",
-     "end": "2026-11-06 20:00:00"
-    },
-    {
-     "start": "2026-11-07 09:30:00",
-     "end": "2026-11-07 20:00:00"
-    },
-    {
-     "start": "2026-11-08 09:30:00",
-     "end": "2026-11-08 20:00:00"
-    },
-    {
-     "start": "2026-11-09 09:30:00",
-     "end": "2026-11-09 20:00:00"
-    },
-    {
-     "start": "2026-11-11 09:30:00",
-     "end": "2026-11-11 20:00:00"
-    },
-    {
-     "start": "2026-11-12 09:30:00",
-     "end": "2026-11-12 20:00:00"
-    },
-    {
-     "start": "2026-11-13 09:30:00",
-     "end": "2026-11-13 20:00:00"
-    },
-    {
-     "start": "2026-11-14 09:30:00",
-     "end": "2026-11-14 20:00:00"
-    },
-    {
-     "start": "2026-11-15 09:30:00",
-     "end": "2026-11-15 20:00:00"
-    },
-    {
-     "start": "2026-11-16 09:30:00",
-     "end": "2026-11-16 20:00:00"
-    },
-    {
-     "start": "2026-11-18 09:30:00",
-     "end": "2026-11-18 20:00:00"
-    },
-    {
-     "start": "2026-11-19 09:30:00",
-     "end": "2026-11-19 20:00:00"
-    },
-    {
-     "start": "2026-11-20 09:30:00",
-     "end": "2026-11-20 20:00:00"
-    },
-    {
-     "start": "2026-11-21 09:30:00",
-     "end": "2026-11-21 20:00:00"
-    },
-    {
-     "start": "2026-11-22 09:30:00",
-     "end": "2026-11-22 20:00:00"
-    },
-    {
-     "start": "2026-11-23 09:30:00",
-     "end": "2026-11-23 20:00:00"
-    },
-    {
-     "start": "2026-11-25 09:30:00",
-     "end": "2026-11-25 20:00:00"
-    },
-    {
-     "start": "2026-11-26 09:30:00",
-     "end": "2026-11-26 20:00:00"
-    },
-    {
-     "start": "2026-11-27 09:30:00",
-     "end": "2026-11-27 20:00:00"
-    },
-    {
-     "start": "2026-11-28 09:30:00",
-     "end": "2026-11-28 20:00:00"
-    },
-    {
-     "start": "2026-11-29 09:30:00",
-     "end": "2026-11-29 20:00:00"
-    },
-    {
-     "start": "2026-11-30 09:30:00",
-     "end": "2026-11-30 20:00:00"
-    },
-    {
-     "start": "2026-12-02 09:30:00",
-     "end": "2026-12-02 20:00:00"
-    }
-   ],
-   "lat": 47.611512,
-   "lng": -122.1942331,
-   "geoApprox": false
-  },
-  {
-   "id": 10059463,
-   "slug": "trolls-a-field-study-at-nw-trek",
-   "title": "Trolls: A Field Study at NW Trek and PDZA",
-   "url": "https://www.parentmap.com/calendar/trolls-a-field-study-at-nw-trek/2026-11-02/",
-   "website": "https://www.pdza.org/trolls/",
-   "description": "Discover an immersive outdoor art experience in Thomas Dambo’s TROLLS: A Field Study, where whimsical giant troll sculptures hide among towering evergreens, winding trails, and native wildlife habitats at Northwest Trek. Quietly curious, the trolls observe humans as we wander through the wild spaces they call home. Handcrafted from reclaimed materials like fallen branches, scrap wood, pallets, and",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/08/TAFS_FullGroup-540x350-1-300x194.jpg",
-   "cost": "$2 – $32",
-   "free": false,
-   "categories": [
-    "Arts + Culture",
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": null,
-   "region": "Pacific Northwest",
-   "occurrences": [
-    {
-     "start": "2026-11-02 09:30:00",
-     "end": "2026-11-02 15:00:00"
-    },
-    {
-     "start": "2026-11-05 09:30:00",
-     "end": "2026-11-05 15:00:00"
-    },
-    {
-     "start": "2026-11-06 09:30:00",
-     "end": "2026-11-06 15:00:00"
-    },
-    {
-     "start": "2026-11-07 09:30:00",
-     "end": "2026-11-07 15:00:00"
-    },
-    {
-     "start": "2026-11-08 09:30:00",
-     "end": "2026-11-08 15:00:00"
-    },
-    {
-     "start": "2026-11-09 09:30:00",
-     "end": "2026-11-09 15:00:00"
-    },
-    {
-     "start": "2026-11-12 09:30:00",
-     "end": "2026-11-12 15:00:00"
-    },
-    {
-     "start": "2026-11-13 09:30:00",
-     "end": "2026-11-13 15:00:00"
-    },
-    {
-     "start": "2026-11-14 09:30:00",
-     "end": "2026-11-14 15:00:00"
-    },
-    {
-     "start": "2026-11-15 09:30:00",
-     "end": "2026-11-15 15:00:00"
-    },
-    {
-     "start": "2026-11-16 09:30:00",
-     "end": "2026-11-16 15:00:00"
-    },
-    {
-     "start": "2026-11-19 09:30:00",
-     "end": "2026-11-19 15:00:00"
-    },
-    {
-     "start": "2026-11-20 09:30:00",
-     "end": "2026-11-20 15:00:00"
-    },
-    {
-     "start": "2026-11-21 09:30:00",
-     "end": "2026-11-21 15:00:00"
-    },
-    {
-     "start": "2026-11-22 09:30:00",
-     "end": "2026-11-22 15:00:00"
-    },
-    {
-     "start": "2026-11-23 09:30:00",
-     "end": "2026-11-23 15:00:00"
-    },
-    {
-     "start": "2026-11-27 09:30:00",
-     "end": "2026-11-27 15:00:00"
-    },
-    {
-     "start": "2026-11-28 09:30:00",
-     "end": "2026-11-28 15:00:00"
-    },
-    {
-     "start": "2026-11-29 09:30:00",
-     "end": "2026-11-29 15:00:00"
-    },
-    {
-     "start": "2026-11-30 09:30:00",
-     "end": "2026-11-30 15:00:00"
-    }
-   ],
-   "lat": null,
-   "lng": null,
-   "geoApprox": false
-  },
-  {
-   "id": 10064306,
-   "slug": "toddler-gym-playtime-yesler-cc-2",
-   "title": "Toddler Gym Playtime at Yesler CC",
-   "url": "https://www.parentmap.com/calendar/toddler-gym-playtime-yesler-cc-2/2026-11-02/",
-   "website": "https://www.seattle.gov/parks/find/toddler-indoor-play-areas",
-   "description": "For ages 5 and younger. Your child will play, learn, and develop both motor and social skills in this highly interactive drop-in play time. They will meet new friends, play on bouncy toys, ride scooters and much more. A parent or guardian must always accompany their child.",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/03/1773115298692-screen-shot-2017-08-17-at-11037-pm-cdba0d5222c5-300x121.png",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 412516,
-    "name": "Yesler Community Center",
-    "address": "917 E Yesler Way, Seattle, WA, 98122-5417",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-02 09:30:00",
-     "end": "2026-11-02 11:30:00"
-    },
-    {
-     "start": "2026-11-04 09:30:00",
-     "end": "2026-11-04 11:30:00"
-    },
-    {
-     "start": "2026-11-06 09:30:00",
-     "end": "2026-11-06 11:30:00"
-    },
-    {
-     "start": "2026-11-09 09:30:00",
-     "end": "2026-11-09 11:30:00"
-    },
-    {
-     "start": "2026-11-11 09:30:00",
-     "end": "2026-11-11 11:30:00"
-    },
-    {
-     "start": "2026-11-13 09:30:00",
-     "end": "2026-11-13 11:30:00"
-    },
-    {
-     "start": "2026-11-16 09:30:00",
-     "end": "2026-11-16 11:30:00"
-    },
-    {
-     "start": "2026-11-18 09:30:00",
-     "end": "2026-11-18 11:30:00"
-    },
-    {
-     "start": "2026-11-20 09:30:00",
-     "end": "2026-11-20 11:30:00"
-    },
-    {
-     "start": "2026-11-23 09:30:00",
-     "end": "2026-11-23 11:30:00"
-    },
-    {
-     "start": "2026-11-25 09:30:00",
-     "end": "2026-11-25 11:30:00"
-    },
-    {
-     "start": "2026-11-27 09:30:00",
-     "end": "2026-11-27 11:30:00"
-    },
-    {
-     "start": "2026-11-30 09:30:00",
-     "end": "2026-11-30 11:30:00"
-    },
-    {
-     "start": "2026-12-02 09:30:00",
-     "end": "2026-12-02 11:30:00"
-    }
-   ],
-   "lat": 47.6013443,
-   "lng": -122.3203002,
-   "geoApprox": false
-  },
-  {
-   "id": 10073567,
-   "slug": "see-salmon-mclane-creek-docents",
-   "title": "See the Salmon at McLane Creek With Docents",
-   "url": "https://www.parentmap.com/calendar/see-salmon-mclane-creek-docents/2026-11-02/",
-   "website": "https://streamteam.info/events/",
-   "description": "Each fall, McLane Creek welcomes the migrating native chum salmon back to their natal waters. These fearless fish are tired and worn from having traveled all the way from the Pacific Ocean. Some come from as far north as Alaska, yet they are determined to spawn before they die. Witness their unique spawning display from early November through mid-December. To help you learn more, trained Salmon St",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775193062418-display_event_photo-0ef8ed61beee-300x200.jpg",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Education + Learning",
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 428381,
-    "name": "McLane Creek Nature Trail",
-    "address": "Delphi Road, Olympia, Wa, 98502",
-    "city": "Olympia"
-   },
-   "region": "South Sound",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:00:00",
-     "end": "2026-11-02 16:00:00"
-    },
-    {
-     "start": "2026-11-03 10:00:00",
-     "end": "2026-11-03 16:00:00"
-    },
-    {
-     "start": "2026-11-04 10:00:00",
-     "end": "2026-11-04 16:00:00"
-    },
-    {
-     "start": "2026-11-05 10:00:00",
-     "end": "2026-11-05 16:00:00"
-    },
-    {
-     "start": "2026-11-06 10:00:00",
-     "end": "2026-11-06 16:00:00"
-    },
-    {
-     "start": "2026-11-07 10:00:00",
-     "end": "2026-11-07 16:00:00"
-    },
-    {
-     "start": "2026-11-08 10:00:00",
-     "end": "2026-11-08 16:00:00"
-    },
-    {
-     "start": "2026-11-09 10:00:00",
-     "end": "2026-11-09 16:00:00"
-    },
-    {
-     "start": "2026-11-10 10:00:00",
-     "end": "2026-11-10 16:00:00"
-    },
-    {
-     "start": "2026-11-11 10:00:00",
-     "end": "2026-11-11 16:00:00"
-    },
-    {
-     "start": "2026-11-12 10:00:00",
-     "end": "2026-11-12 16:00:00"
-    },
-    {
-     "start": "2026-11-13 10:00:00",
-     "end": "2026-11-13 16:00:00"
-    },
-    {
-     "start": "2026-11-14 10:00:00",
-     "end": "2026-11-14 16:00:00"
-    },
-    {
-     "start": "2026-11-15 10:00:00",
-     "end": "2026-11-15 16:00:00"
-    },
-    {
-     "start": "2026-11-16 10:00:00",
-     "end": "2026-11-16 16:00:00"
-    },
-    {
-     "start": "2026-11-17 10:00:00",
-     "end": "2026-11-17 16:00:00"
-    },
-    {
-     "start": "2026-11-18 10:00:00",
-     "end": "2026-11-18 16:00:00"
-    },
-    {
-     "start": "2026-11-19 10:00:00",
-     "end": "2026-11-19 16:00:00"
-    },
-    {
-     "start": "2026-11-20 10:00:00",
-     "end": "2026-11-20 16:00:00"
-    },
-    {
-     "start": "2026-11-21 10:00:00",
-     "end": "2026-11-21 16:00:00"
-    },
-    {
-     "start": "2026-11-22 10:00:00",
-     "end": "2026-11-22 16:00:00"
-    },
-    {
-     "start": "2026-11-23 10:00:00",
-     "end": "2026-11-23 16:00:00"
-    },
-    {
-     "start": "2026-11-24 10:00:00",
-     "end": "2026-11-24 16:00:00"
-    },
-    {
-     "start": "2026-11-25 10:00:00",
-     "end": "2026-11-25 16:00:00"
-    },
-    {
-     "start": "2026-11-26 10:00:00",
-     "end": "2026-11-26 16:00:00"
-    },
-    {
-     "start": "2026-11-27 10:00:00",
-     "end": "2026-11-27 16:00:00"
-    },
-    {
-     "start": "2026-11-28 10:00:00",
-     "end": "2026-11-28 16:00:00"
-    },
-    {
-     "start": "2026-11-29 10:00:00",
-     "end": "2026-11-29 16:00:00"
-    },
-    {
-     "start": "2026-11-30 10:00:00",
-     "end": "2026-11-30 16:00:00"
-    },
-    {
-     "start": "2026-12-01 10:00:00",
-     "end": "2026-12-01 16:00:00"
-    }
-   ],
-   "lat": 46.9884902,
-   "lng": -123.0053033,
-   "geoApprox": false
-  },
-  {
-   "id": 10060124,
-   "slug": "exquisite-creatures-exhibit",
-   "title": "‘Exquisite Creatures’ Exhibit",
-   "url": "https://www.parentmap.com/calendar/exquisite-creatures-exhibit/2026-11-02/",
-   "website": "https://widgets.bokun.io/online-sales/b036b8a2-1b85-4b00-b85c-4c075b2da68e/experience/1070505",
-   "description": "“Exquisite Creatures” is an immersive journey that challenges your perception of the natural world. Far from a typical museum display, this exhibit presents thousands of real specimens — from brilliantly colored insects and exotic fish to striking minerals and delicate plants — as works of art. Step into a world where art, nature and science converge. “Exquisite Creatures” is a stunning exhibition",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775192841068-screenshot-2026-01-06-141029-54573a414224-300x189.jpg",
-   "cost": "$28 – $34",
-   "free": false,
-   "categories": [
-    "Arts + Culture"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 423628,
-    "name": "Exquisite Creatures Exhibit",
-    "address": "Alaskan Way 900, Seattle, WA, 98104",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:00:00",
-     "end": "2026-11-02 17:00:00"
-    },
-    {
-     "start": "2026-11-03 10:00:00",
-     "end": "2026-11-03 17:00:00"
-    },
-    {
-     "start": "2026-11-05 10:00:00",
-     "end": "2026-11-05 17:00:00"
-    },
-    {
-     "start": "2026-11-07 10:00:00",
-     "end": "2026-11-07 17:00:00"
-    },
-    {
-     "start": "2026-11-09 10:00:00",
-     "end": "2026-11-09 17:00:00"
-    },
-    {
-     "start": "2026-11-10 10:00:00",
-     "end": "2026-11-10 17:00:00"
-    },
-    {
-     "start": "2026-11-12 10:00:00",
-     "end": "2026-11-12 17:00:00"
-    },
-    {
-     "start": "2026-11-14 10:00:00",
-     "end": "2026-11-14 17:00:00"
-    },
-    {
-     "start": "2026-11-16 10:00:00",
-     "end": "2026-11-16 17:00:00"
-    },
-    {
-     "start": "2026-11-17 10:00:00",
-     "end": "2026-11-17 17:00:00"
-    },
-    {
-     "start": "2026-11-19 10:00:00",
-     "end": "2026-11-19 17:00:00"
-    },
-    {
-     "start": "2026-11-21 10:00:00",
-     "end": "2026-11-21 17:00:00"
-    },
-    {
-     "start": "2026-11-23 10:00:00",
-     "end": "2026-11-23 17:00:00"
-    },
-    {
-     "start": "2026-11-24 10:00:00",
-     "end": "2026-11-24 17:00:00"
-    },
-    {
-     "start": "2026-11-26 10:00:00",
-     "end": "2026-11-26 17:00:00"
-    },
-    {
-     "start": "2026-11-28 10:00:00",
-     "end": "2026-11-28 17:00:00"
-    },
-    {
-     "start": "2026-11-30 10:00:00",
-     "end": "2026-11-30 17:00:00"
-    },
-    {
-     "start": "2026-12-01 10:00:00",
-     "end": "2026-12-01 17:00:00"
-    }
-   ],
-   "lat": 47.6035927,
-   "lng": -122.3381152,
-   "geoApprox": false
-  },
-  {
-   "id": 10056698,
-   "slug": "for-which-it-stands-the-many-threads-of-the-american-flag",
-   "title": "For Which it Stands: The Many Threads of the American Flag",
-   "url": "https://www.parentmap.com/calendar/for-which-it-stands-the-many-threads-of-the-american-flag/2026-11-02/",
-   "website": "https://mohai.org/exhibits/for-which-it-stands-the-many-threads-of-the-american-flag/",
-   "description": "The American flag is a dynamic and evolving symbol inviting belonging, inspiring sacrifice, and projecting power. Across generations, people used it to celebrate the nation’s founding ideals, while others used it to challenge the country to live up to those same promises. For Which It Stands invites visitors to explore the many meanings and contradictions embodied in the flag. Through historical f",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/07/citizenship-ceremony-courtesy-mohai-300x201.jpg",
-   "cost": "$14 – $25",
-   "free": false,
-   "categories": [
-    "Education + Learning"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 422575,
-    "name": "MOHAI (Museum of History & Industry)",
-    "address": "860 Terry Ave N, Seattle, WA, 98109-4330",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:00:00",
-     "end": "2026-11-02 17:00:00"
-    },
-    {
-     "start": "2026-11-03 10:00:00",
-     "end": "2026-11-03 17:00:00"
-    },
-    {
-     "start": "2026-11-04 10:00:00",
-     "end": "2026-11-04 17:00:00"
-    },
-    {
-     "start": "2026-11-05 10:00:00",
-     "end": "2026-11-05 17:00:00"
-    },
-    {
-     "start": "2026-11-06 10:00:00",
-     "end": "2026-11-06 17:00:00"
-    },
-    {
-     "start": "2026-11-07 10:00:00",
-     "end": "2026-11-07 17:00:00"
-    },
-    {
-     "start": "2026-11-08 10:00:00",
-     "end": "2026-11-08 17:00:00"
-    },
-    {
-     "start": "2026-11-09 10:00:00",
-     "end": "2026-11-09 17:00:00"
-    },
-    {
-     "start": "2026-11-10 10:00:00",
-     "end": "2026-11-10 17:00:00"
-    },
-    {
-     "start": "2026-11-11 10:00:00",
-     "end": "2026-11-11 17:00:00"
-    },
-    {
-     "start": "2026-11-12 10:00:00",
-     "end": "2026-11-12 17:00:00"
-    },
-    {
-     "start": "2026-11-13 10:00:00",
-     "end": "2026-11-13 17:00:00"
-    },
-    {
-     "start": "2026-11-14 10:00:00",
-     "end": "2026-11-14 17:00:00"
-    },
-    {
-     "start": "2026-11-15 10:00:00",
-     "end": "2026-11-15 17:00:00"
-    }
-   ],
-   "lat": 47.6275114,
-   "lng": -122.3367506,
-   "geoApprox": false
-  },
-  {
-   "id": 10063378,
-   "slug": "toddler-gym-playtime-ballard-cc-2",
-   "title": "Toddler Gym Playtime at Ballard CC",
-   "url": "https://www.parentmap.com/calendar/toddler-gym-playtime-ballard-cc-2/2026-11-02/",
-   "website": "https://www.seattle.gov/parks/find/toddler-indoor-play-areas",
-   "description": "Looking for a dry, warm place to let your child play inside? Our playroom is full of toys, mats, and slides. Parent supervision is re\u0002quired at ALL times. Must register for a Quick Card at the front desk on your first visit. No food or drinks allowed in the playroom. We do have tables and chairs in the hallway for serving snacks and drinks For ages 5 and younger. A parents or guardian must accompa",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775190439107-screenshot-2022-09-23-133009-fa201e04c19e-300x166.png",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 411150,
-    "name": "Ballard Community Center",
-    "address": "6020 28th Ave NW, Seattle, WA, 98107-5313",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:00:00",
-     "end": "2026-11-02 12:30:00"
-    },
-    {
-     "start": "2026-11-04 10:00:00",
-     "end": "2026-11-04 12:30:00"
-    },
-    {
-     "start": "2026-11-06 10:00:00",
-     "end": "2026-11-06 12:30:00"
-    },
-    {
-     "start": "2026-11-09 10:00:00",
-     "end": "2026-11-09 12:30:00"
-    },
-    {
-     "start": "2026-11-11 10:00:00",
-     "end": "2026-11-11 12:30:00"
-    },
-    {
-     "start": "2026-11-13 10:00:00",
-     "end": "2026-11-13 12:30:00"
-    },
-    {
-     "start": "2026-11-16 10:00:00",
-     "end": "2026-11-16 12:30:00"
-    },
-    {
-     "start": "2026-11-18 10:00:00",
-     "end": "2026-11-18 12:30:00"
-    },
-    {
-     "start": "2026-11-20 10:00:00",
-     "end": "2026-11-20 12:30:00"
-    },
-    {
-     "start": "2026-11-23 10:00:00",
-     "end": "2026-11-23 12:30:00"
-    },
-    {
-     "start": "2026-11-25 10:00:00",
-     "end": "2026-11-25 12:30:00"
-    },
-    {
-     "start": "2026-11-27 10:00:00",
-     "end": "2026-11-27 12:30:00"
-    },
-    {
-     "start": "2026-11-30 10:00:00",
-     "end": "2026-11-30 12:30:00"
-    },
-    {
-     "start": "2026-12-02 10:00:00",
-     "end": "2026-12-02 12:30:00"
-    }
-   ],
-   "lat": 47.6728435,
-   "lng": -122.3921853,
-   "geoApprox": false
-  },
-  {
-   "id": 10064356,
-   "slug": "toddler-gym-garfield-community-center-2",
-   "title": "Toddler Gym at Garfield Community Center",
-   "url": "https://www.parentmap.com/calendar/toddler-gym-garfield-community-center-2/2026-11-02/",
-   "website": "https://www.seattle.gov/parks/find/toddler-indoor-play-areas?utm_medium=email&amp;utm_source=govdelivery",
-   "description": "A FREE drop-in program! Looking for a dry, warm place to let your child play inside? Our tot gyms are full of toys, mats, and slides. Must register for a Quick Card at the front desk on your first visit. No food or drinks allowed in the playroom. We do have tables and chairs in the hallway for serving snacks and drinks. Parent supervision is required at ALL times.",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775185166325-child-1864718_960_720-e27412da1a86-300x200.jpg",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 411963,
-    "name": "Garfield Community Center",
-    "address": "2323 E Cherry St, Seattle, WA, 98122-4829",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:00:00",
-     "end": "2026-11-02 13:00:00"
-    },
-    {
-     "start": "2026-11-04 10:00:00",
-     "end": "2026-11-04 13:00:00"
-    },
-    {
-     "start": "2026-11-09 10:00:00",
-     "end": "2026-11-09 13:00:00"
-    },
-    {
-     "start": "2026-11-11 10:00:00",
-     "end": "2026-11-11 13:00:00"
-    },
-    {
-     "start": "2026-11-16 10:00:00",
-     "end": "2026-11-16 13:00:00"
-    },
-    {
-     "start": "2026-11-18 10:00:00",
-     "end": "2026-11-18 13:00:00"
-    },
-    {
-     "start": "2026-11-23 10:00:00",
-     "end": "2026-11-23 13:00:00"
-    },
-    {
-     "start": "2026-11-25 10:00:00",
-     "end": "2026-11-25 13:00:00"
-    },
-    {
-     "start": "2026-11-30 10:00:00",
-     "end": "2026-11-30 13:00:00"
-    },
-    {
-     "start": "2026-12-02 10:00:00",
-     "end": "2026-12-02 13:00:00"
-    }
-   ],
-   "lat": 47.6076248,
-   "lng": -122.3022459,
-   "geoApprox": false
-  },
-  {
-   "id": 10071144,
-   "slug": "luckie-farms-pumpkin-smash-with-highland-cows",
-   "title": "Luckie Farms Pumpkin Smash with Highland Cows",
-   "url": "https://www.parentmap.com/calendar/luckie-farms-pumpkin-smash-with-highland-cows/2026-11-02/",
-   "website": "https://pos.luckiefarms.com/luckiefarms/checkout/default/addtocart/add/42",
-   "description": "Bring your Halloween pumpkin to the farm and smash it for our Highland cows! Don’t have a pumpkin? No problem—we’ll have one waiting for you. Watch the Highland cows come running for their favorite fall treat and get up close and personal as they crunch, munch, and enjoy your pumpkin. It’s messy, silly, and a whole lot of fun! Around 1 hour of fun: sign up for timed sessions throughout the day. Yo",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/a5b4c9c4-20d7-4fe9-815b-237b551f5037-300x225.jpg",
-   "cost": "$35",
-   "free": false,
-   "categories": [
-    "Play + Recreation",
-    "Festivals + Community",
-    "Seasonal + Holiday"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 415741,
-    "name": "Luckie Farms",
-    "address": "930 Sunnyside Blvd, Lake Stevens, WA, 98258",
-    "city": "Lake Stevens"
-   },
-   "region": "North Sound",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:00:00",
-     "end": "2026-11-02 18:00:00"
-    },
-    {
-     "start": "2026-11-03 10:00:00",
-     "end": "2026-11-03 18:00:00"
-    },
-    {
-     "start": "2026-11-04 10:00:00",
-     "end": "2026-11-04 18:00:00"
-    },
-    {
-     "start": "2026-11-05 10:00:00",
-     "end": "2026-11-05 18:00:00"
-    },
-    {
-     "start": "2026-11-06 10:00:00",
-     "end": "2026-11-06 18:00:00"
-    },
-    {
-     "start": "2026-11-07 10:00:00",
-     "end": "2026-11-07 18:00:00"
-    },
-    {
-     "start": "2026-11-08 10:00:00",
-     "end": "2026-11-08 18:00:00"
-    }
-   ],
-   "lat": 48.0197794,
-   "lng": -122.0660914,
-   "geoApprox": true
-  },
-  {
-   "id": 10072197,
-   "slug": "sturtevants-ready-set-snow-ski-snowboard-sale-bellevue",
-   "title": "Sturtevant’s Ready. Set. Snow! Ski & Snowboard Sale",
-   "url": "https://www.parentmap.com/calendar/sturtevants-ready-set-snow-ski-snowboard-sale-bellevue/2026-11-02/",
-   "website": "https://www.christysports.com/pages/ready-set-snow.html?utm_source=parentmap&amp;utm_medium=calendar&amp;utm_campaign=ready-set-snow-2026",
-   "description": "The Eastside’s preseason ski and snowboard kickoff. Sturtevant’s Bellevue is hosting Ready. Set. Snow!, the Locals’ Appreciation Event, October 30 through November 8 at 13131 NE 20th St. Get ready for Snoqualmie, Crystal and Stevens with the new 2026-27 lineup, expert boot fitting, and in-store event offers: 25% off tuning and repairs, 25% off custom insoles with a boot purchase, and $25 off purch",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/1-rss-photo-notext-1170x760-2-300x195.jpg",
-   "cost": "Free; items for purchase",
-   "free": true,
-   "categories": [
-    "Play + Recreation",
-    "Seasonal + Holiday"
-   ],
-   "ages": [
-    "Elementary",
-    "Tweens + Teens",
-    "Adults"
-   ],
-   "virtual": false,
-   "venue": {
-    "id": 464656,
-    "name": "Sturtevant’s Bellevue",
-    "address": "13131 NE 20th St, Bellevue, Washington, 98005",
-    "city": "Bellevue"
-   },
-   "region": "Eastside",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:00:00",
-     "end": "2026-11-02 19:00:00"
-    },
-    {
-     "start": "2026-11-03 10:00:00",
-     "end": "2026-11-03 19:00:00"
-    },
-    {
-     "start": "2026-11-04 10:00:00",
-     "end": "2026-11-04 19:00:00"
-    },
-    {
-     "start": "2026-11-05 10:00:00",
-     "end": "2026-11-05 19:00:00"
-    },
-    {
-     "start": "2026-11-06 10:00:00",
-     "end": "2026-11-06 19:00:00"
-    },
-    {
-     "start": "2026-11-07 10:00:00",
-     "end": "2026-11-07 19:00:00"
-    },
-    {
-     "start": "2026-11-08 10:00:00",
-     "end": "2026-11-08 19:00:00"
-    }
-   ],
-   "lat": 47.6276471,
-   "lng": -122.1648856,
-   "geoApprox": false
-  },
-  {
-   "id": 10072563,
-   "slug": "celebrate-diwali-bellevue-collection-2",
-   "title": "Celebrate Diwali at The Bellevue Collection",
-   "url": "https://www.parentmap.com/calendar/celebrate-diwali-bellevue-collection-2/2026-11-02/",
-   "website": "https://bellevuecollection.com/diwali/",
-   "description": "Enjoy Diwali decor and displays! Enjoy a Diwali celebration on Nov. 7 featuring live performances, henna design and more. Diwali is a time to welcome a new year, happiness and prosperity. It is a festival of lights that follows the lunar calendar and is similar to a new year celebration. Diwali is one of India’s most celebrated holidays. Displays November 2 – 8 Rangoli Display See beautiful rangol",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/03/1773115263149-diwali-1-copy-a9e57b76e59e-300x200.jpg",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Arts + Culture",
-    "Festivals + Community",
-    "Seasonal + Holiday"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 410810,
-    "name": "Bellevue Square",
-    "address": "575 Bellevue Square, Bellevue, WA, 98004",
-    "city": "Bellevue"
-   },
-   "region": "Eastside",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:00:00",
-     "end": "2026-11-02 21:00:00"
-    },
-    {
-     "start": "2026-11-03 10:00:00",
-     "end": "2026-11-03 21:00:00"
-    },
-    {
-     "start": "2026-11-04 10:00:00",
-     "end": "2026-11-04 21:00:00"
-    },
-    {
-     "start": "2026-11-05 10:00:00",
-     "end": "2026-11-05 21:00:00"
-    },
-    {
-     "start": "2026-11-06 10:00:00",
-     "end": "2026-11-06 21:00:00"
-    },
-    {
-     "start": "2026-11-07 10:00:00",
-     "end": "2026-11-07 21:00:00"
-    }
-   ],
-   "lat": 47.6156549,
-   "lng": -122.2036769,
-   "geoApprox": false
-  },
-  {
-   "id": 10018782,
-   "slug": "31646-s2",
-   "title": "Baby Jam",
-   "url": "https://www.parentmap.com/calendar/31646-s2/2026-11-02/",
-   "website": "http://www.babyjam.net/",
-   "description": "Seattle Baby Jam is an award winning music class for kids ages birth to three years old. Preschoolers, toddlers, babies, and kids from all backgrounds are welcome to attend. We offer fun, engaging, safe, low-pressure rhythm and music exposure for young ones. Help nurture your child’s cognitive development through hands-on drumming, percussion, and multilingual songs, stories and games. Our class i",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775079744193-31646-8027dda1e9dc-300x200.jpg",
-   "cost": "$2 – $30",
-   "free": false,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 419467,
-    "name": "Salsa Con Todo Fremont",
-    "address": "211 N 36th St, Seattle, WA, 98103",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:15:00",
-     "end": "2026-11-02 10:45:00"
-    },
-    {
-     "start": "2026-11-09 10:15:00",
-     "end": "2026-11-09 10:45:00"
-    },
-    {
-     "start": "2026-11-16 10:15:00",
-     "end": "2026-11-16 10:45:00"
-    },
-    {
-     "start": "2026-11-23 10:15:00",
-     "end": "2026-11-23 10:45:00"
-    },
-    {
-     "start": "2026-11-30 10:15:00",
-     "end": "2026-11-30 10:45:00"
-    }
-   ],
-   "lat": 47.6524374,
-   "lng": -122.3561097,
-   "geoApprox": false
-  },
-  {
-   "id": 10064479,
-   "slug": "54217-s2",
-   "title": "Indoor Play at South Bellevue Community Center",
-   "url": "https://www.parentmap.com/calendar/54217-s2/2026-11-02/",
-   "website": "https://register.bellevuewa.gov/WA/bellevue-wa/catalog/index/d6dd282a189572d42bdbe005f9f1bccc?filter=c2VhcmNoPWluZG9vciUyMHBsYXkmbG9jYXRpb24lNUIzNjkzMCU1RD0x",
-   "description": "Ages: 0-5 Come enjoy some indoor gym play with toys, bounce houses, mats and other fun activities for children ages 5 and under. Parents/caregivers must supervise their own children and be present at all times. Drop-In, Monday, Wednesday, Friday from 10:30a – 12p in Gym B. $4(R)/$5 (NR) per child (parent/guardian/caregiver is FREE) No Indoor Play during Bellevue School District holidays or schedul",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775160985931-23669158_1632760910118697_5724074899236088556_o_0-cd02817a356a-300x146.jpg",
-   "cost": "$4 – $5",
-   "free": false,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 417623,
-    "name": "South Bellevue Community Center",
-    "address": "14509 SE Newport Way, Bellevue, WA, 98006-1514",
-    "city": "Bellevue"
-   },
-   "region": "Eastside",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:30:00",
-     "end": "2026-11-02 12:00:00"
-    },
-    {
-     "start": "2026-11-04 10:30:00",
-     "end": "2026-11-04 12:00:00"
-    },
-    {
-     "start": "2026-11-06 10:30:00",
-     "end": "2026-11-06 12:00:00"
-    },
-    {
-     "start": "2026-11-09 10:30:00",
-     "end": "2026-11-09 12:00:00"
-    },
-    {
-     "start": "2026-11-11 10:30:00",
-     "end": "2026-11-11 12:00:00"
-    },
-    {
-     "start": "2026-11-13 10:30:00",
-     "end": "2026-11-13 12:00:00"
-    },
-    {
-     "start": "2026-11-16 10:30:00",
-     "end": "2026-11-16 12:00:00"
-    },
-    {
-     "start": "2026-11-18 10:30:00",
-     "end": "2026-11-18 12:00:00"
-    },
-    {
-     "start": "2026-11-20 10:30:00",
-     "end": "2026-11-20 12:00:00"
-    },
-    {
-     "start": "2026-11-23 10:30:00",
-     "end": "2026-11-23 12:00:00"
-    },
-    {
-     "start": "2026-11-25 10:30:00",
-     "end": "2026-11-25 12:00:00"
-    },
-    {
-     "start": "2026-11-27 10:30:00",
-     "end": "2026-11-27 12:00:00"
-    },
-    {
-     "start": "2026-11-30 10:30:00",
-     "end": "2026-11-30 12:00:00"
-    },
-    {
-     "start": "2026-12-02 10:30:00",
-     "end": "2026-12-02 12:00:00"
-    }
-   ],
-   "lat": 47.569052,
-   "lng": -122.145994,
-   "geoApprox": false
-  },
-  {
-   "id": 10063421,
-   "slug": "toddler-gym-playtime-bitter-lake-cc",
-   "title": "Toddler Gym Playtime at Bitter Lake CC",
-   "url": "https://www.parentmap.com/calendar/toddler-gym-playtime-bitter-lake-cc/2026-11-02/",
-   "website": "https://www.seattle.gov/parks/find/toddler-indoor-play-areas",
-   "description": "Looking for a dry, warm place to let your child play inside? Our playroom is full of toys, mats, and slides. Parent supervision is required at ALL times. Must register for a Quick Card at the front desk on your first visit. No food or drinks allowed in the playroom. We do have tables and chairs in the hallway for serving snacks and drinks. Ages 9 months to 6 years.",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/03/1773115298692-screen-shot-2017-08-17-at-11037-pm-cdba0d5222c5-300x121.png",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 413565,
-    "name": "Bitter Lake Community Center",
-    "address": "13035 Linden Ave N, Seattle, WA, 98133-7560",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:30:00",
-     "end": "2026-11-02 12:30:00"
-    },
-    {
-     "start": "2026-11-04 10:30:00",
-     "end": "2026-11-04 12:30:00"
-    },
-    {
-     "start": "2026-11-08 10:30:00",
-     "end": "2026-11-08 12:30:00"
-    },
-    {
-     "start": "2026-11-09 10:30:00",
-     "end": "2026-11-09 12:30:00"
-    },
-    {
-     "start": "2026-11-11 10:30:00",
-     "end": "2026-11-11 12:30:00"
-    },
-    {
-     "start": "2026-11-15 10:30:00",
-     "end": "2026-11-15 12:30:00"
-    },
-    {
-     "start": "2026-11-16 10:30:00",
-     "end": "2026-11-16 12:30:00"
-    },
-    {
-     "start": "2026-11-18 10:30:00",
-     "end": "2026-11-18 12:30:00"
-    },
-    {
-     "start": "2026-11-22 10:30:00",
-     "end": "2026-11-22 12:30:00"
-    },
-    {
-     "start": "2026-11-23 10:30:00",
-     "end": "2026-11-23 12:30:00"
-    },
-    {
-     "start": "2026-11-25 10:30:00",
-     "end": "2026-11-25 12:30:00"
-    },
-    {
-     "start": "2026-11-29 10:30:00",
-     "end": "2026-11-29 12:30:00"
-    },
-    {
-     "start": "2026-11-30 10:30:00",
-     "end": "2026-11-30 12:30:00"
-    },
-    {
-     "start": "2026-12-02 10:30:00",
-     "end": "2026-12-02 12:30:00"
-    }
-   ],
-   "lat": 47.724083,
-   "lng": -122.348533,
-   "geoApprox": false
-  },
-  {
-   "id": 10055561,
-   "slug": "storytime-with-ms-judi",
-   "title": "Storytime with Ms. Judi",
-   "url": "https://www.parentmap.com/calendar/storytime-with-ms-judi/2026-11-02/",
-   "website": "https://www.eagleharborbooks.com/events/storytime",
-   "description": "Join Ms. Judi and her autoharp on Monday mornings at 10:30am back in the kids section! Come sing along to favorite songs and listen to wonderful stories read aloud. All are welcome! Our story time is primarily geared towards toddlers and pre-schoolers, but can be enjoyed by anyone! It’s fun to hear a story, no matter what your age. See you there!",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/07/Storytime-w-Ms.-Judi-225x300.jpg",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Education + Learning",
-    "Arts + Culture"
-   ],
-   "ages": [
-    "Baby",
-    "Toddlers + Preschoolers"
-   ],
-   "virtual": false,
-   "venue": {
-    "id": 442731,
-    "name": "Eagle Harbor Book Co.",
-    "address": "157 Winslow Way E, Bainbridge Island, Washington, 98110",
-    "city": "Bainbridge Island"
-   },
-   "region": "Greater Puget Sound",
-   "occurrences": [
-    {
-     "start": "2026-11-02 10:30:00",
-     "end": "2026-11-02 11:30:00"
-    },
-    {
-     "start": "2026-11-09 10:30:00",
-     "end": "2026-11-09 11:30:00"
-    },
-    {
-     "start": "2026-11-16 10:30:00",
-     "end": "2026-11-16 11:30:00"
-    },
-    {
-     "start": "2026-11-23 10:30:00",
-     "end": "2026-11-23 11:30:00"
-    },
-    {
-     "start": "2026-11-30 10:30:00",
-     "end": "2026-11-30 11:30:00"
-    }
-   ],
-   "lat": 47.6245569,
-   "lng": -122.5202851,
-   "geoApprox": false
-  },
-  {
-   "id": 10062793,
-   "slug": "story-time-snoqualmie-valley-historical-museum",
-   "title": "Story Time at the Snoqualmie Valley Historical Museum",
-   "url": "https://www.parentmap.com/calendar/story-time-snoqualmie-valley-historical-museum/2026-11-02/",
-   "website": "https://www.facebook.com/SnoqualmieValleyMuseum/events/?id=100064789353685&amp;sk=events",
-   "description": "On the 1st, 3rd, and 5th Mondays of the month story time will feature two stories, a themed activity, a look at some historic objects from the past, and a coloring project.",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775190340560-502569440_1137765041726464_7953471893670802160_n-b8a7ad1f2d69-300x111.jpg",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Education + Learning"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 416303,
-    "name": "Snoqualmie Valley Historical Museum",
-    "address": "320 Bendigo Blvd S, North Bend, WA, 98045",
-    "city": "North Bend"
-   },
-   "region": "Eastside",
-   "occurrences": [
-    {
-     "start": "2026-11-02 11:00:00",
-     "end": "2026-11-02 12:00:00"
-    },
-    {
-     "start": "2026-11-16 11:00:00",
-     "end": "2026-11-16 12:00:00"
-    },
-    {
-     "start": "2026-11-30 11:00:00",
-     "end": "2026-11-30 12:00:00"
-    }
-   ],
-   "lat": 47.4934321,
-   "lng": -121.7885951,
-   "geoApprox": false
-  },
-  {
-   "id": 10004907,
-   "slug": "purposeful-play-pre-crawlers-0",
-   "title": "Purposeful Play: Pre-Crawlers",
-   "url": "https://www.parentmap.com/calendar/purposeful-play-pre-crawlers-0/2026-11-02/",
-   "website": "https://www.theheybrook.com/class-descriptions/pre-crawlers",
-   "description": "Purposeful Play: Pre-Crawlers A structured weekly class for early infants, created in partnership with a play therapist, pediatric physical therapist, and parent support specialists. In your baby’s first months, development moves fast — and the right kind of play makes all the difference. Each session is built around what your baby’s body and brain need right now: tummy time, reaching, rolling, an",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/05/1778645769926-hb_purposeful-play_0-c1120c9ef964-300x451.jpg",
-   "cost": "$35",
-   "free": false,
-   "categories": [
-    "Play + Recreation",
-    "Inclusive + Sensory Friendly"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 411173,
-    "name": "The Heybrook Eastside",
-    "address": "10415 NE 37th Circle, Kirkland, WA, 98033",
-    "city": "Kirkland"
-   },
-   "region": "Eastside",
-   "occurrences": [
-    {
-     "start": "2026-11-02 11:00:00",
-     "end": "2026-11-02 12:00:00"
-    },
-    {
-     "start": "2026-11-09 11:00:00",
-     "end": "2026-11-09 12:00:00"
-    },
-    {
-     "start": "2026-11-16 11:00:00",
-     "end": "2026-11-16 12:00:00"
-    },
-    {
-     "start": "2026-11-23 11:00:00",
-     "end": "2026-11-23 12:00:00"
-    },
-    {
-     "start": "2026-11-30 11:00:00",
-     "end": "2026-11-30 12:00:00"
-    }
-   ],
-   "lat": 47.6443324,
-   "lng": -122.2011895,
-   "geoApprox": false
-  },
-  {
-   "id": 10067612,
-   "slug": "storytime-and-indoor-play-at-north-bellevue-cc",
-   "title": "Storytime and Indoor Play at North Bellevue CC",
-   "url": "https://www.parentmap.com/calendar/storytime-and-indoor-play-at-north-bellevue-cc/2026-11-02/",
-   "website": "https://register.bellevuewa.gov/WA/bellevue-wa/catalog/index/6817981137ee80ae07798ce1e1f23bdd?filter=c2VhcmNoPXN0b3J5dGltZQ==",
-   "description": "Get lost in an adventure and discover new characters with your child during our fun, free story time.",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/09/Screenshot-2026-09-24-124628-300x165.png",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Education + Learning"
-   ],
-   "ages": [
-    "Baby",
-    "Toddlers + Preschoolers"
-   ],
-   "virtual": false,
-   "venue": {
-    "id": 412365,
-    "name": "North Bellevue Community Center",
-    "address": "4063 148th Ave NE, Bellevue, WA, 98007-3118",
-    "city": "Bellevue"
-   },
-   "region": "Eastside",
-   "occurrences": [
-    {
-     "start": "2026-11-02 12:30:00",
-     "end": "2026-11-02 13:00:00"
-    },
-    {
-     "start": "2026-11-09 12:30:00",
-     "end": "2026-11-09 13:00:00"
-    },
-    {
-     "start": "2026-11-16 12:30:00",
-     "end": "2026-11-16 13:00:00"
-    },
-    {
-     "start": "2026-11-23 12:30:00",
-     "end": "2026-11-23 13:00:00"
-    },
-    {
-     "start": "2026-11-30 12:30:00",
-     "end": "2026-11-30 13:00:00"
-    }
-   ],
-   "lat": 47.6474719,
-   "lng": -122.1451015,
-   "geoApprox": false
-  },
-  {
-   "id": 10073624,
-   "slug": "yoga-with-baby-2",
-   "title": "Yoga With Baby",
-   "url": "https://www.parentmap.com/calendar/yoga-with-baby-2/2026-11-02/",
-   "website": "https://www.willawell.com/classes/series/#yoga-with-baby",
-   "description": "A postnatal yoga class with your baby that teaches you how to keep moving your body after childbirth. This class focuses on rebuilding your postnatal core and pelvic floor function. We practice yoga, sing, dance a little, breathe deep and enjoy a much needed moment of rest and self care together. Come to connect with other parents, yourself and your baby. Make space for yourself this holiday seaso",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/EachOther_0194-1365x2048-1-200x300.jpg",
-   "cost": "$40",
-   "free": false,
-   "categories": [
-    "Education + Learning",
-    "Play + Recreation",
-    "Parent + Caregiver"
-   ],
-   "ages": [
-    "Baby",
-    "Adults"
-   ],
-   "virtual": false,
-   "venue": {
-    "id": 467576,
-    "name": "Barre3 Issaquah",
-    "address": "1091 NE High St, Issaquah, WA, 98029",
-    "city": "Issaquah"
-   },
-   "region": "Eastside",
-   "occurrences": [
-    {
-     "start": "2026-11-02 13:30:00",
-     "end": "2026-11-02 15:00:00"
-    },
-    {
-     "start": "2026-11-16 13:30:00",
-     "end": "2026-11-16 15:00:00"
-    },
-    {
-     "start": "2026-11-23 13:30:00",
-     "end": "2026-11-23 15:00:00"
-    },
-    {
-     "start": "2026-11-30 13:30:00",
-     "end": "2026-11-30 15:00:00"
-    }
-   ],
-   "lat": 47.5443229,
-   "lng": -122.0149098,
-   "geoApprox": false
-  },
-  {
-   "id": 462580,
-   "slug": "redmond-dia-de-los-meurtos",
-   "title": "Redmond Dia de Los Meurtos",
-   "url": "https://www.parentmap.com/calendar/redmond-dia-de-los-meurtos/",
-   "website": "https://app.amilia.com/store/en/city-of-redmond/shop/activities/7117283",
-   "description": "(All Ages) Day of the Dead (Día de los Muertos) is a vibrant Mexican tradition that honors and celebrates the lives of loved ones who have passed away. It is not a somber gathering, it’s a joyful reunion to honor the dead. The tradition is rooted in pre-Hispanic Indigenous rituals and has evolved through the years. Join us in celebrating with crafts, music, food, and learning about this beautiful ",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/6966ac7d-55d4-45fb-8d1b-ac1339d087b7_day_of_the_dead_ofrenda-300x225.png",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Festivals + Community",
-    "Seasonal + Holiday"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 411757,
-    "name": "Redmond Senior & Community Center",
-    "address": "8703 160th Ave NE, Redmond, WA, 98052-7510",
-    "city": "Redmond"
-   },
-   "region": "Eastside",
-   "occurrences": [
-    {
-     "start": "2026-11-02 17:00:00",
-     "end": "2026-11-02 19:00:00"
-    }
-   ],
-   "lat": 47.6804231,
-   "lng": -122.1311716,
-   "geoApprox": false
-  },
-  {
-   "id": 10063534,
-   "slug": "55554",
-   "title": "Northgate Tot Drop In Gym",
-   "url": "https://www.parentmap.com/calendar/55554/2026-11-03/",
-   "website": "https://www.seattle.gov/parks/learning-and-childcare/toddler-indoor-play-areas",
-   "description": "Toddler play gyms and rooms are available at various community centers during the fall, winter and spring seasons when weather is not favorable for outdoor play. They’re a dry, warm place to let your child play with toys, mats, and slides. You must register for a Quick Card at the front desk on your first visit. No food or drinks are allowed in the playroom, though tables are available in the hall",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775190800319-screenshot-2023-08-07-161657-323a75c3fdb6-300x198.png",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 415683,
-    "name": "Northgate Community Center",
-    "address": "10510 5th Ave NE, Seattle, WA, 98125-7202",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-03 09:00:00",
-     "end": "2026-11-03 11:30:00"
-    },
-    {
-     "start": "2026-11-05 09:00:00",
-     "end": "2026-11-05 11:30:00"
-    },
-    {
-     "start": "2026-11-10 09:00:00",
-     "end": "2026-11-10 11:30:00"
-    },
-    {
-     "start": "2026-11-12 09:00:00",
-     "end": "2026-11-12 11:30:00"
-    },
-    {
-     "start": "2026-11-17 09:00:00",
-     "end": "2026-11-17 11:30:00"
-    },
-    {
-     "start": "2026-11-19 09:00:00",
-     "end": "2026-11-19 11:30:00"
-    },
-    {
-     "start": "2026-11-24 09:00:00",
-     "end": "2026-11-24 11:30:00"
-    },
-    {
-     "start": "2026-12-01 09:00:00",
-     "end": "2026-12-01 11:30:00"
-    }
-   ],
-   "lat": 47.705461,
-   "lng": -122.3222991,
-   "geoApprox": false
-  },
-  {
-   "id": 10072308,
-   "slug": "west-seattle-nazarene-playspace",
-   "title": "West Seattle Nazarene PlaySpace",
-   "url": "https://www.parentmap.com/calendar/west-seattle-nazarene-playspace/2026-11-03/",
-   "website": "https://www.facebook.com/westseattlenaz/posts/pfbid0Hkji7guZRwuepz54PV2V1yaC86vXZFJqJTTQuSA2RHSyrxfJKddoJ6dNbS5LoXwkl",
-   "description": "Bring your little ones and come play at our church’s PlaySpace—open every Tuesday and Thursday from 9:00 a.m. to noon! It’s a warm, welcoming indoor spot for kids to move, imagine, and make new friends while parents and caregivers connect with one another. All are welcome, drop-in style, and the cost is FREE—come as you are and stay as long as you like!",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775187509439-blocks-503109_640-88e269b99c70-300x200.jpg",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 421639,
-    "name": "West Seattle Church of the Nazarene",
-    "address": "4201 SW Juneau St, Seattle, WA, 98136",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-03 09:00:00",
-     "end": "2026-11-03 12:00:00"
-    },
-    {
-     "start": "2026-11-05 09:00:00",
-     "end": "2026-11-05 12:00:00"
-    },
-    {
-     "start": "2026-11-10 09:00:00",
-     "end": "2026-11-10 12:00:00"
-    },
-    {
-     "start": "2026-11-12 09:00:00",
-     "end": "2026-11-12 12:00:00"
-    },
-    {
-     "start": "2026-11-17 09:00:00",
-     "end": "2026-11-17 12:00:00"
-    },
-    {
-     "start": "2026-11-19 09:00:00",
-     "end": "2026-11-19 12:00:00"
-    },
-    {
-     "start": "2026-11-24 09:00:00",
-     "end": "2026-11-24 12:00:00"
-    },
-    {
-     "start": "2026-11-26 09:00:00",
-     "end": "2026-11-26 12:00:00"
-    },
-    {
-     "start": "2026-12-01 09:00:00",
-     "end": "2026-12-01 12:00:00"
-    }
-   ],
-   "lat": 47.5500823,
-   "lng": -122.3859228,
-   "geoApprox": false
-  },
-  {
-   "id": 10024620,
-   "slug": "west-seattle-nazarene-playspace-2",
-   "title": "West Seattle Nazarene PlaySpace",
-   "url": "https://www.parentmap.com/calendar/west-seattle-nazarene-playspace-2/2026-11-03/",
-   "website": "https://www.facebook.com/westseattlenaz/posts/pfbid0Hkji7guZRwuepz54PV2V1yaC86vXZFJqJTTQuSA2RHSyrxfJKddoJ6dNbS5LoXwkl",
-   "description": "Bring your little ones and come play at our church’s PlaySpace—open every Tuesday and Thursday from 9:00 a.m. to noon! It’s a warm, welcoming indoor spot for kids to move, imagine, and make new friends while parents and caregivers connect with one another. All are welcome, drop-in style, and the cost is FREE—come as you are and stay as long as you like!",
-   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775187509439-blocks-503109_640-88e269b99c70-300x200.jpg",
-   "cost": "Free",
-   "free": true,
-   "categories": [
-    "Play + Recreation"
-   ],
-   "ages": [],
-   "virtual": false,
-   "venue": {
-    "id": 421639,
-    "name": "West Seattle Church of the Nazarene",
-    "address": "4201 SW Juneau St, Seattle, WA, 98136",
-    "city": "Seattle"
-   },
-   "region": "Seattle",
-   "occurrences": [
-    {
-     "start": "2026-11-03 09:00:00",
-     "end": "2026-11-03 12:00:00"
-    },
-    {
-     "start": "2026-11-05 09:00:00",
-     "end": "2026-11-05 12:00:00"
-    },
-    {
-     "start": "2026-11-10 09:00:00",
-     "end": "2026-11-10 12:00:00"
-    },
-    {
-     "start": "2026-11-12 09:00:00",
-     "end": "2026-11-12 12:00:00"
-    },
-    {
-     "start": "2026-11-17 09:00:00",
-     "end": "2026-11-17 12:00:00"
-    },
-    {
-     "start": "2026-11-19 09:00:00",
-     "end": "2026-11-19 12:00:00"
-    },
-    {
-     "start": "2026-11-24 09:00:00",
-     "end": "2026-11-24 12:00:00"
-    },
-    {
-     "start": "2026-12-01 09:00:00",
-     "end": "2026-12-01 12:00:00"
-    }
-   ],
-   "lat": 47.5500823,
-   "lng": -122.3859228,
-   "geoApprox": false
   },
   {
    "id": 10072215,
@@ -3334,6 +1472,10 @@
     {
      "start": "2026-12-02 09:30:00",
      "end": "2026-12-02 11:00:00"
+    },
+    {
+     "start": "2026-12-03 09:30:00",
+     "end": "2026-12-03 11:00:00"
     }
    ],
    "lat": 47.385621,
@@ -3394,6 +1536,10 @@
     {
      "start": "2026-12-01 09:30:00",
      "end": "2026-12-01 12:30:00"
+    },
+    {
+     "start": "2026-12-03 09:30:00",
+     "end": "2026-12-03 12:30:00"
     }
    ],
    "lat": 47.6362648,
@@ -3552,6 +1698,10 @@
     {
      "start": "2026-12-01 10:00:00",
      "end": "2026-12-01 14:00:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 14:00:00"
     }
    ],
    "lat": 47.567674,
@@ -3612,10 +1762,159 @@
     {
      "start": "2026-12-01 10:00:00",
      "end": "2026-12-01 13:00:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 13:00:00"
     }
    ],
    "lat": 47.621854,
    "lng": -122.3069193,
+   "geoApprox": false
+  },
+  {
+   "id": 10073568,
+   "slug": "see-salmon-mclane-creek-docents",
+   "title": "See the Salmon at McLane Creek With Docents",
+   "url": "https://www.parentmap.com/calendar/see-salmon-mclane-creek-docents/2026-11-03/",
+   "website": "https://streamteam.info/events/",
+   "description": "Each fall, McLane Creek welcomes the migrating native chum salmon back to their natal waters. These fearless fish are tired and worn from having traveled all the way from the Pacific Ocean. Some come from as far north as Alaska, yet they are determined to spawn before they die. Witness their unique spawning display from early November through mid-December. To help you learn more, trained Salmon St",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775193062418-display_event_photo-0ef8ed61beee-300x200.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Education + Learning",
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 428381,
+    "name": "McLane Creek Nature Trail",
+    "address": "Delphi Road, Olympia, Wa, 98502",
+    "city": "Olympia"
+   },
+   "region": "South Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-03 10:00:00",
+     "end": "2026-11-03 16:00:00"
+    },
+    {
+     "start": "2026-11-04 10:00:00",
+     "end": "2026-11-04 16:00:00"
+    },
+    {
+     "start": "2026-11-05 10:00:00",
+     "end": "2026-11-05 16:00:00"
+    },
+    {
+     "start": "2026-11-06 10:00:00",
+     "end": "2026-11-06 16:00:00"
+    },
+    {
+     "start": "2026-11-07 10:00:00",
+     "end": "2026-11-07 16:00:00"
+    },
+    {
+     "start": "2026-11-08 10:00:00",
+     "end": "2026-11-08 16:00:00"
+    },
+    {
+     "start": "2026-11-09 10:00:00",
+     "end": "2026-11-09 16:00:00"
+    },
+    {
+     "start": "2026-11-10 10:00:00",
+     "end": "2026-11-10 16:00:00"
+    },
+    {
+     "start": "2026-11-11 10:00:00",
+     "end": "2026-11-11 16:00:00"
+    },
+    {
+     "start": "2026-11-12 10:00:00",
+     "end": "2026-11-12 16:00:00"
+    },
+    {
+     "start": "2026-11-13 10:00:00",
+     "end": "2026-11-13 16:00:00"
+    },
+    {
+     "start": "2026-11-14 10:00:00",
+     "end": "2026-11-14 16:00:00"
+    },
+    {
+     "start": "2026-11-15 10:00:00",
+     "end": "2026-11-15 16:00:00"
+    },
+    {
+     "start": "2026-11-16 10:00:00",
+     "end": "2026-11-16 16:00:00"
+    },
+    {
+     "start": "2026-11-17 10:00:00",
+     "end": "2026-11-17 16:00:00"
+    },
+    {
+     "start": "2026-11-18 10:00:00",
+     "end": "2026-11-18 16:00:00"
+    },
+    {
+     "start": "2026-11-19 10:00:00",
+     "end": "2026-11-19 16:00:00"
+    },
+    {
+     "start": "2026-11-20 10:00:00",
+     "end": "2026-11-20 16:00:00"
+    },
+    {
+     "start": "2026-11-21 10:00:00",
+     "end": "2026-11-21 16:00:00"
+    },
+    {
+     "start": "2026-11-22 10:00:00",
+     "end": "2026-11-22 16:00:00"
+    },
+    {
+     "start": "2026-11-23 10:00:00",
+     "end": "2026-11-23 16:00:00"
+    },
+    {
+     "start": "2026-11-24 10:00:00",
+     "end": "2026-11-24 16:00:00"
+    },
+    {
+     "start": "2026-11-25 10:00:00",
+     "end": "2026-11-25 16:00:00"
+    },
+    {
+     "start": "2026-11-26 10:00:00",
+     "end": "2026-11-26 16:00:00"
+    },
+    {
+     "start": "2026-11-27 10:00:00",
+     "end": "2026-11-27 16:00:00"
+    },
+    {
+     "start": "2026-11-28 10:00:00",
+     "end": "2026-11-28 16:00:00"
+    },
+    {
+     "start": "2026-11-29 10:00:00",
+     "end": "2026-11-29 16:00:00"
+    },
+    {
+     "start": "2026-11-30 10:00:00",
+     "end": "2026-11-30 16:00:00"
+    },
+    {
+     "start": "2026-12-01 10:00:00",
+     "end": "2026-12-01 16:00:00"
+    }
+   ],
+   "lat": 46.9884902,
+   "lng": -123.0053033,
    "geoApprox": false
   },
   {
@@ -3783,6 +2082,186 @@
    "geoApprox": false
   },
   {
+   "id": 10060125,
+   "slug": "exquisite-creatures-exhibit",
+   "title": "‘Exquisite Creatures’ Exhibit",
+   "url": "https://www.parentmap.com/calendar/exquisite-creatures-exhibit/2026-11-03/",
+   "website": "https://widgets.bokun.io/online-sales/b036b8a2-1b85-4b00-b85c-4c075b2da68e/experience/1070505",
+   "description": "“Exquisite Creatures” is an immersive journey that challenges your perception of the natural world. Far from a typical museum display, this exhibit presents thousands of real specimens — from brilliantly colored insects and exotic fish to striking minerals and delicate plants — as works of art. Step into a world where art, nature and science converge. “Exquisite Creatures” is a stunning exhibition",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775192841068-screenshot-2026-01-06-141029-54573a414224-300x189.jpg",
+   "cost": "$28 – $34",
+   "free": false,
+   "categories": [
+    "Arts + Culture"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 423628,
+    "name": "Exquisite Creatures Exhibit",
+    "address": "Alaskan Way 900, Seattle, WA, 98104",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-03 10:00:00",
+     "end": "2026-11-03 17:00:00"
+    },
+    {
+     "start": "2026-11-05 10:00:00",
+     "end": "2026-11-05 17:00:00"
+    },
+    {
+     "start": "2026-11-07 10:00:00",
+     "end": "2026-11-07 17:00:00"
+    },
+    {
+     "start": "2026-11-09 10:00:00",
+     "end": "2026-11-09 17:00:00"
+    },
+    {
+     "start": "2026-11-10 10:00:00",
+     "end": "2026-11-10 17:00:00"
+    },
+    {
+     "start": "2026-11-12 10:00:00",
+     "end": "2026-11-12 17:00:00"
+    },
+    {
+     "start": "2026-11-14 10:00:00",
+     "end": "2026-11-14 17:00:00"
+    },
+    {
+     "start": "2026-11-16 10:00:00",
+     "end": "2026-11-16 17:00:00"
+    },
+    {
+     "start": "2026-11-17 10:00:00",
+     "end": "2026-11-17 17:00:00"
+    },
+    {
+     "start": "2026-11-19 10:00:00",
+     "end": "2026-11-19 17:00:00"
+    },
+    {
+     "start": "2026-11-21 10:00:00",
+     "end": "2026-11-21 17:00:00"
+    },
+    {
+     "start": "2026-11-23 10:00:00",
+     "end": "2026-11-23 17:00:00"
+    },
+    {
+     "start": "2026-11-24 10:00:00",
+     "end": "2026-11-24 17:00:00"
+    },
+    {
+     "start": "2026-11-26 10:00:00",
+     "end": "2026-11-26 17:00:00"
+    },
+    {
+     "start": "2026-11-28 10:00:00",
+     "end": "2026-11-28 17:00:00"
+    },
+    {
+     "start": "2026-11-30 10:00:00",
+     "end": "2026-11-30 17:00:00"
+    },
+    {
+     "start": "2026-12-01 10:00:00",
+     "end": "2026-12-01 17:00:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 17:00:00"
+    }
+   ],
+   "lat": 47.6035927,
+   "lng": -122.3381152,
+   "geoApprox": false
+  },
+  {
+   "id": 10056699,
+   "slug": "for-which-it-stands-the-many-threads-of-the-american-flag",
+   "title": "For Which it Stands: The Many Threads of the American Flag",
+   "url": "https://www.parentmap.com/calendar/for-which-it-stands-the-many-threads-of-the-american-flag/2026-11-03/",
+   "website": "https://mohai.org/exhibits/for-which-it-stands-the-many-threads-of-the-american-flag/",
+   "description": "The American flag is a dynamic and evolving symbol inviting belonging, inspiring sacrifice, and projecting power. Across generations, people used it to celebrate the nation’s founding ideals, while others used it to challenge the country to live up to those same promises. For Which It Stands invites visitors to explore the many meanings and contradictions embodied in the flag. Through historical f",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/07/citizenship-ceremony-courtesy-mohai-300x201.jpg",
+   "cost": "$14 – $25",
+   "free": false,
+   "categories": [
+    "Education + Learning"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 422575,
+    "name": "MOHAI (Museum of History & Industry)",
+    "address": "860 Terry Ave N, Seattle, WA, 98109-4330",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-03 10:00:00",
+     "end": "2026-11-03 17:00:00"
+    },
+    {
+     "start": "2026-11-04 10:00:00",
+     "end": "2026-11-04 17:00:00"
+    },
+    {
+     "start": "2026-11-05 10:00:00",
+     "end": "2026-11-05 17:00:00"
+    },
+    {
+     "start": "2026-11-06 10:00:00",
+     "end": "2026-11-06 17:00:00"
+    },
+    {
+     "start": "2026-11-07 10:00:00",
+     "end": "2026-11-07 17:00:00"
+    },
+    {
+     "start": "2026-11-08 10:00:00",
+     "end": "2026-11-08 17:00:00"
+    },
+    {
+     "start": "2026-11-09 10:00:00",
+     "end": "2026-11-09 17:00:00"
+    },
+    {
+     "start": "2026-11-10 10:00:00",
+     "end": "2026-11-10 17:00:00"
+    },
+    {
+     "start": "2026-11-11 10:00:00",
+     "end": "2026-11-11 17:00:00"
+    },
+    {
+     "start": "2026-11-12 10:00:00",
+     "end": "2026-11-12 17:00:00"
+    },
+    {
+     "start": "2026-11-13 10:00:00",
+     "end": "2026-11-13 17:00:00"
+    },
+    {
+     "start": "2026-11-14 10:00:00",
+     "end": "2026-11-14 17:00:00"
+    },
+    {
+     "start": "2026-11-15 10:00:00",
+     "end": "2026-11-15 17:00:00"
+    }
+   ],
+   "lat": 47.6275114,
+   "lng": -122.3367506,
+   "geoApprox": false
+  },
+  {
    "id": 10068927,
    "slug": "lil-diggers-indoor-sand-play-at-4th-ave-beach",
    "title": "Lil’ Diggers Indoor Sand Play at 4th Ave Beach",
@@ -3897,6 +2376,60 @@
    "geoApprox": true
   },
   {
+   "id": 10071145,
+   "slug": "luckie-farms-pumpkin-smash-with-highland-cows",
+   "title": "Luckie Farms Pumpkin Smash with Highland Cows",
+   "url": "https://www.parentmap.com/calendar/luckie-farms-pumpkin-smash-with-highland-cows/2026-11-03/",
+   "website": "https://pos.luckiefarms.com/luckiefarms/checkout/default/addtocart/add/42",
+   "description": "Bring your Halloween pumpkin to the farm and smash it for our Highland cows! Don’t have a pumpkin? No problem—we’ll have one waiting for you. Watch the Highland cows come running for their favorite fall treat and get up close and personal as they crunch, munch, and enjoy your pumpkin. It’s messy, silly, and a whole lot of fun! Around 1 hour of fun: sign up for timed sessions throughout the day. Yo",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/a5b4c9c4-20d7-4fe9-815b-237b551f5037-300x225.jpg",
+   "cost": "$35",
+   "free": false,
+   "categories": [
+    "Play + Recreation",
+    "Festivals + Community",
+    "Seasonal + Holiday"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 415741,
+    "name": "Luckie Farms",
+    "address": "930 Sunnyside Blvd, Lake Stevens, WA, 98258",
+    "city": "Lake Stevens"
+   },
+   "region": "North Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-03 10:00:00",
+     "end": "2026-11-03 18:00:00"
+    },
+    {
+     "start": "2026-11-04 10:00:00",
+     "end": "2026-11-04 18:00:00"
+    },
+    {
+     "start": "2026-11-05 10:00:00",
+     "end": "2026-11-05 18:00:00"
+    },
+    {
+     "start": "2026-11-06 10:00:00",
+     "end": "2026-11-06 18:00:00"
+    },
+    {
+     "start": "2026-11-07 10:00:00",
+     "end": "2026-11-07 18:00:00"
+    },
+    {
+     "start": "2026-11-08 10:00:00",
+     "end": "2026-11-08 18:00:00"
+    }
+   ],
+   "lat": 48.0197794,
+   "lng": -122.0660914,
+   "geoApprox": true
+  },
+  {
    "id": 10071855,
    "slug": "ktub-indoor-playground",
    "title": "KTUB Indoor Playground",
@@ -3953,10 +2486,71 @@
     {
      "start": "2026-12-01 10:00:00",
      "end": "2026-12-01 13:00:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 13:00:00"
     }
    ],
    "lat": 47.6764567,
    "lng": -122.2008026,
+   "geoApprox": false
+  },
+  {
+   "id": 10072198,
+   "slug": "sturtevants-ready-set-snow-ski-snowboard-sale-bellevue",
+   "title": "Sturtevant’s Ready. Set. Snow! Ski & Snowboard Sale",
+   "url": "https://www.parentmap.com/calendar/sturtevants-ready-set-snow-ski-snowboard-sale-bellevue/2026-11-03/",
+   "website": "https://www.christysports.com/pages/ready-set-snow.html?utm_source=parentmap&amp;utm_medium=calendar&amp;utm_campaign=ready-set-snow-2026",
+   "description": "The Eastside’s preseason ski and snowboard kickoff. Sturtevant’s Bellevue is hosting Ready. Set. Snow!, the Locals’ Appreciation Event, October 30 through November 8 at 13131 NE 20th St. Get ready for Snoqualmie, Crystal and Stevens with the new 2026-27 lineup, expert boot fitting, and in-store event offers: 25% off tuning and repairs, 25% off custom insoles with a boot purchase, and $25 off purch",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/1-rss-photo-notext-1170x760-2-300x195.jpg",
+   "cost": "Free; items for purchase",
+   "free": true,
+   "categories": [
+    "Play + Recreation",
+    "Seasonal + Holiday"
+   ],
+   "ages": [
+    "Elementary",
+    "Tweens + Teens",
+    "Adults"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 464656,
+    "name": "Sturtevant’s Bellevue",
+    "address": "13131 NE 20th St, Bellevue, Washington, 98005",
+    "city": "Bellevue"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-03 10:00:00",
+     "end": "2026-11-03 19:00:00"
+    },
+    {
+     "start": "2026-11-04 10:00:00",
+     "end": "2026-11-04 19:00:00"
+    },
+    {
+     "start": "2026-11-05 10:00:00",
+     "end": "2026-11-05 19:00:00"
+    },
+    {
+     "start": "2026-11-06 10:00:00",
+     "end": "2026-11-06 19:00:00"
+    },
+    {
+     "start": "2026-11-07 10:00:00",
+     "end": "2026-11-07 19:00:00"
+    },
+    {
+     "start": "2026-11-08 10:00:00",
+     "end": "2026-11-08 19:00:00"
+    }
+   ],
+   "lat": 47.6276471,
+   "lng": -122.1648856,
    "geoApprox": false
   },
   {
@@ -4013,10 +2607,64 @@
     {
      "start": "2026-12-01 10:00:00",
      "end": "2026-12-01 12:30:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 12:30:00"
     }
    ],
    "lat": 47.5406607,
    "lng": -122.3746262,
+   "geoApprox": false
+  },
+  {
+   "id": 10072558,
+   "slug": "celebrate-diwali-bellevue-collection-2",
+   "title": "Celebrate Diwali at The Bellevue Collection",
+   "url": "https://www.parentmap.com/calendar/celebrate-diwali-bellevue-collection-2/2026-11-03/",
+   "website": "https://bellevuecollection.com/diwali/",
+   "description": "Enjoy Diwali decor and displays! Enjoy a Diwali celebration on Nov. 7 featuring live performances, henna design and more. Diwali is a time to welcome a new year, happiness and prosperity. It is a festival of lights that follows the lunar calendar and is similar to a new year celebration. Diwali is one of India’s most celebrated holidays. Displays November 2 – 8 Rangoli Display See beautiful rangol",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/03/1773115263149-diwali-1-copy-a9e57b76e59e-300x200.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Arts + Culture",
+    "Festivals + Community",
+    "Seasonal + Holiday"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 410810,
+    "name": "Bellevue Square",
+    "address": "575 Bellevue Square, Bellevue, WA, 98004",
+    "city": "Bellevue"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-03 10:00:00",
+     "end": "2026-11-03 21:00:00"
+    },
+    {
+     "start": "2026-11-04 10:00:00",
+     "end": "2026-11-04 21:00:00"
+    },
+    {
+     "start": "2026-11-05 10:00:00",
+     "end": "2026-11-05 21:00:00"
+    },
+    {
+     "start": "2026-11-06 10:00:00",
+     "end": "2026-11-06 21:00:00"
+    },
+    {
+     "start": "2026-11-07 10:00:00",
+     "end": "2026-11-07 21:00:00"
+    }
+   ],
+   "lat": 47.6156549,
+   "lng": -122.2036769,
    "geoApprox": false
   },
   {
@@ -4073,6 +2721,10 @@
     {
      "start": "2026-12-01 11:00:00",
      "end": "2026-12-01 14:00:00"
+    },
+    {
+     "start": "2026-12-03 11:00:00",
+     "end": "2026-12-03 14:00:00"
     }
    ],
    "lat": 47.5393817,
@@ -4184,6 +2836,10 @@
     {
      "start": "2026-12-01 15:30:00",
      "end": "2026-12-01 17:30:00"
+    },
+    {
+     "start": "2026-12-03 15:30:00",
+     "end": "2026-12-03 17:30:00"
     }
    ],
    "lat": 47.6474719,
@@ -4605,6 +3261,84 @@
    "geoApprox": false
   },
   {
+   "id": 10059654,
+   "slug": "open-dance-and-play-at-all-that-dance-2",
+   "title": "Open Dance and Play at All That Dance",
+   "url": "https://www.parentmap.com/calendar/open-dance-and-play-at-all-that-dance-2/2026-11-04/",
+   "website": "https://app.acuityscheduling.com/schedule.php?owner=35107101",
+   "description": "Open Dance & Play is a fun, free-flowing playtime designed for toddlers and their grown-ups! This open-ended studio time gives little movers the chance to explore the space, climb, tumble, dance, and build confidence in a safe, welcoming environment. Soft mats, age-friendly props, and upbeat music create the perfect space for imaginative play and early motor-skill development. Caregivers stay and ",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/08/Parent-Map-Dance-Play-Header1-300x169.png",
+   "cost": "$8",
+   "free": false,
+   "categories": [
+    "Arts + Culture",
+    "Play + Recreation",
+    "Parent + Caregiver"
+   ],
+   "ages": [
+    "Baby",
+    "Toddlers + Preschoolers",
+    "Elementary"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 412884,
+    "name": "All That Dance",
+    "address": "3012 NE Blakeley St, Seattle, WA, 98105",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-04 09:00:00",
+     "end": "2026-11-04 11:30:00"
+    },
+    {
+     "start": "2026-11-06 09:00:00",
+     "end": "2026-11-06 11:30:00"
+    },
+    {
+     "start": "2026-11-09 09:00:00",
+     "end": "2026-11-09 11:30:00"
+    },
+    {
+     "start": "2026-11-11 09:00:00",
+     "end": "2026-11-11 11:30:00"
+    },
+    {
+     "start": "2026-11-13 09:00:00",
+     "end": "2026-11-13 11:30:00"
+    },
+    {
+     "start": "2026-11-16 09:00:00",
+     "end": "2026-11-16 11:30:00"
+    },
+    {
+     "start": "2026-11-18 09:00:00",
+     "end": "2026-11-18 11:30:00"
+    },
+    {
+     "start": "2026-11-20 09:00:00",
+     "end": "2026-11-20 11:30:00"
+    },
+    {
+     "start": "2026-11-23 09:00:00",
+     "end": "2026-11-23 11:30:00"
+    },
+    {
+     "start": "2026-11-30 09:00:00",
+     "end": "2026-11-30 11:30:00"
+    },
+    {
+     "start": "2026-12-02 09:00:00",
+     "end": "2026-12-02 11:30:00"
+    }
+   ],
+   "lat": 47.6646279,
+   "lng": -122.2952899,
+   "geoApprox": false
+  },
+  {
    "id": 10070231,
    "slug": "toddler-gym-playtime-magnolia-cc",
    "title": "Toddler Gym Playtime at Magnolia CC",
@@ -4717,6 +3451,74 @@
    "geoApprox": false
   },
   {
+   "id": 10063571,
+   "slug": "indoor-playground-1",
+   "title": "Indoor Playground",
+   "url": "https://www.parentmap.com/calendar/indoor-playground-1/2026-11-04/",
+   "website": "https://www.auburnwa.gov/cms/One.aspx?portalId=11470638&amp;pageId=12529809",
+   "description": "Monday, Wednesday, and Friday | 9:30AM-11:00AM | September 21-December 11 | $3 per child | No Program November 11, 25, or 27. Pop in and play! This 1.5-hour preschool drop-in program turns our indoor gym into its very own playground! Staff set up bikes, blocks, balls, toys, scooters, and a bounce house. Stay, play, and meet fellow parents! The gymnasium at Les Gove Park 910 9th Street SE Adult sup",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775079896528-screenshot-2024-02-21-171215-b10520ca1f4e-300x198.png",
+   "cost": "$3",
+   "free": false,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 416022,
+    "name": "Les Gove Gymnasium",
+    "address": "910 9th St SE, Auburn, WA, 98002-6200",
+    "city": "Auburn"
+   },
+   "region": "South Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-04 09:30:00",
+     "end": "2026-11-04 11:00:00"
+    },
+    {
+     "start": "2026-11-06 09:30:00",
+     "end": "2026-11-06 11:00:00"
+    },
+    {
+     "start": "2026-11-09 09:30:00",
+     "end": "2026-11-09 11:00:00"
+    },
+    {
+     "start": "2026-11-13 09:30:00",
+     "end": "2026-11-13 11:00:00"
+    },
+    {
+     "start": "2026-11-16 09:30:00",
+     "end": "2026-11-16 11:00:00"
+    },
+    {
+     "start": "2026-11-18 09:30:00",
+     "end": "2026-11-18 11:00:00"
+    },
+    {
+     "start": "2026-11-20 09:30:00",
+     "end": "2026-11-20 11:00:00"
+    },
+    {
+     "start": "2026-11-23 09:30:00",
+     "end": "2026-11-23 11:00:00"
+    },
+    {
+     "start": "2026-11-30 09:30:00",
+     "end": "2026-11-30 11:00:00"
+    },
+    {
+     "start": "2026-12-02 09:30:00",
+     "end": "2026-12-02 11:00:00"
+    }
+   ],
+   "lat": 47.2999715,
+   "lng": -122.2167023,
+   "geoApprox": false
+  },
+  {
    "id": 10009444,
    "slug": "play-lounge-beverly-park",
    "title": "Play Lounge at Beverly Park",
@@ -4762,6 +3564,283 @@
    ],
    "lat": 47.5228934,
    "lng": -122.3348648,
+   "geoApprox": false
+  },
+  {
+   "id": 10071972,
+   "slug": "bubble-planet-experience",
+   "title": "Bubble Planet Experience",
+   "url": "https://www.parentmap.com/calendar/bubble-planet-experience/2026-11-04/",
+   "website": "https://feverup.com/m/312867",
+   "description": "Bubble Planet is an immersive experience in which you’ll surround yourself with bubbles like never before! Step into a planet beyond your imagination with VR technology, themed rooms and fantastical landscapes. Jump from one immersive space to the next and explore them all with your five senses! Highlights Enter a surreal and colorful world of bubbles Discover all kinds of bubbles, interact with t",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775146692234-unnamed_115-534b11d7df76-300x200.jpg",
+   "cost": "$16 – $20",
+   "free": false,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 426707,
+    "name": "Bubble Planet",
+    "address": "103 110th Ave NE, Bellevue, WA, 98004",
+    "city": "Bellevue"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-04 09:30:00",
+     "end": "2026-11-04 20:00:00"
+    },
+    {
+     "start": "2026-11-05 09:30:00",
+     "end": "2026-11-05 20:00:00"
+    },
+    {
+     "start": "2026-11-06 09:30:00",
+     "end": "2026-11-06 20:00:00"
+    },
+    {
+     "start": "2026-11-07 09:30:00",
+     "end": "2026-11-07 20:00:00"
+    },
+    {
+     "start": "2026-11-08 09:30:00",
+     "end": "2026-11-08 20:00:00"
+    },
+    {
+     "start": "2026-11-09 09:30:00",
+     "end": "2026-11-09 20:00:00"
+    },
+    {
+     "start": "2026-11-11 09:30:00",
+     "end": "2026-11-11 20:00:00"
+    },
+    {
+     "start": "2026-11-12 09:30:00",
+     "end": "2026-11-12 20:00:00"
+    },
+    {
+     "start": "2026-11-13 09:30:00",
+     "end": "2026-11-13 20:00:00"
+    },
+    {
+     "start": "2026-11-14 09:30:00",
+     "end": "2026-11-14 20:00:00"
+    },
+    {
+     "start": "2026-11-15 09:30:00",
+     "end": "2026-11-15 20:00:00"
+    },
+    {
+     "start": "2026-11-16 09:30:00",
+     "end": "2026-11-16 20:00:00"
+    },
+    {
+     "start": "2026-11-18 09:30:00",
+     "end": "2026-11-18 20:00:00"
+    },
+    {
+     "start": "2026-11-19 09:30:00",
+     "end": "2026-11-19 20:00:00"
+    },
+    {
+     "start": "2026-11-20 09:30:00",
+     "end": "2026-11-20 20:00:00"
+    },
+    {
+     "start": "2026-11-21 09:30:00",
+     "end": "2026-11-21 20:00:00"
+    },
+    {
+     "start": "2026-11-22 09:30:00",
+     "end": "2026-11-22 20:00:00"
+    },
+    {
+     "start": "2026-11-23 09:30:00",
+     "end": "2026-11-23 20:00:00"
+    },
+    {
+     "start": "2026-11-25 09:30:00",
+     "end": "2026-11-25 20:00:00"
+    },
+    {
+     "start": "2026-11-26 09:30:00",
+     "end": "2026-11-26 20:00:00"
+    },
+    {
+     "start": "2026-11-27 09:30:00",
+     "end": "2026-11-27 20:00:00"
+    },
+    {
+     "start": "2026-11-28 09:30:00",
+     "end": "2026-11-28 20:00:00"
+    },
+    {
+     "start": "2026-11-29 09:30:00",
+     "end": "2026-11-29 20:00:00"
+    },
+    {
+     "start": "2026-11-30 09:30:00",
+     "end": "2026-11-30 20:00:00"
+    },
+    {
+     "start": "2026-12-02 09:30:00",
+     "end": "2026-12-02 20:00:00"
+    },
+    {
+     "start": "2026-12-03 09:30:00",
+     "end": "2026-12-03 20:00:00"
+    }
+   ],
+   "lat": 47.611512,
+   "lng": -122.1942331,
+   "geoApprox": false
+  },
+  {
+   "id": 10064307,
+   "slug": "toddler-gym-playtime-yesler-cc-2",
+   "title": "Toddler Gym Playtime at Yesler CC",
+   "url": "https://www.parentmap.com/calendar/toddler-gym-playtime-yesler-cc-2/2026-11-04/",
+   "website": "https://www.seattle.gov/parks/find/toddler-indoor-play-areas",
+   "description": "For ages 5 and younger. Your child will play, learn, and develop both motor and social skills in this highly interactive drop-in play time. They will meet new friends, play on bouncy toys, ride scooters and much more. A parent or guardian must always accompany their child.",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/03/1773115298692-screen-shot-2017-08-17-at-11037-pm-cdba0d5222c5-300x121.png",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 412516,
+    "name": "Yesler Community Center",
+    "address": "917 E Yesler Way, Seattle, WA, 98122-5417",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-04 09:30:00",
+     "end": "2026-11-04 11:30:00"
+    },
+    {
+     "start": "2026-11-06 09:30:00",
+     "end": "2026-11-06 11:30:00"
+    },
+    {
+     "start": "2026-11-09 09:30:00",
+     "end": "2026-11-09 11:30:00"
+    },
+    {
+     "start": "2026-11-11 09:30:00",
+     "end": "2026-11-11 11:30:00"
+    },
+    {
+     "start": "2026-11-13 09:30:00",
+     "end": "2026-11-13 11:30:00"
+    },
+    {
+     "start": "2026-11-16 09:30:00",
+     "end": "2026-11-16 11:30:00"
+    },
+    {
+     "start": "2026-11-18 09:30:00",
+     "end": "2026-11-18 11:30:00"
+    },
+    {
+     "start": "2026-11-20 09:30:00",
+     "end": "2026-11-20 11:30:00"
+    },
+    {
+     "start": "2026-11-23 09:30:00",
+     "end": "2026-11-23 11:30:00"
+    },
+    {
+     "start": "2026-11-25 09:30:00",
+     "end": "2026-11-25 11:30:00"
+    },
+    {
+     "start": "2026-11-27 09:30:00",
+     "end": "2026-11-27 11:30:00"
+    },
+    {
+     "start": "2026-11-30 09:30:00",
+     "end": "2026-11-30 11:30:00"
+    },
+    {
+     "start": "2026-12-02 09:30:00",
+     "end": "2026-12-02 11:30:00"
+    }
+   ],
+   "lat": 47.6013443,
+   "lng": -122.3203002,
+   "geoApprox": false
+  },
+  {
+   "id": 10076803,
+   "slug": "si-view-indoor-playground",
+   "title": "Si View Indoor Playground",
+   "url": "https://www.parentmap.com/calendar/si-view-indoor-playground/2026-11-04/",
+   "website": "https://apps.daysmartrecreation.com/dash/x/siview/programs/level/7318?facility_ids=1",
+   "description": "Ready. Set. Play! Si View Indoor Playground is a great opportunity for young kids ages 0-5 to practice social skills while their grown-ups make connections with local families during the school year. The spacious indoor setting offers lots of room to run and jump, opportunities for imaginative play, and best of all, new friendships. This is a drop-in activity, sign up for one or all open play date",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/pic-1-225x300.jpg",
+   "cost": "$3.60",
+   "free": false,
+   "categories": [
+    "Education + Learning",
+    "Play + Recreation",
+    "Parent + Caregiver"
+   ],
+   "ages": [
+    "Baby",
+    "Toddlers + Preschoolers"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 417599,
+    "name": "Si View Community Center",
+    "address": "400 SE Orchard Dr, North Bend, WA, 98045-9470",
+    "city": "North Bend"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-04 09:30:00",
+     "end": "2026-11-04 11:00:00"
+    },
+    {
+     "start": "2026-11-09 09:30:00",
+     "end": "2026-11-09 11:00:00"
+    },
+    {
+     "start": "2026-11-16 09:30:00",
+     "end": "2026-11-16 11:00:00"
+    },
+    {
+     "start": "2026-11-18 09:30:00",
+     "end": "2026-11-18 11:00:00"
+    },
+    {
+     "start": "2026-11-23 09:30:00",
+     "end": "2026-11-23 11:00:00"
+    },
+    {
+     "start": "2026-11-25 09:30:00",
+     "end": "2026-11-25 11:00:00"
+    },
+    {
+     "start": "2026-11-30 09:30:00",
+     "end": "2026-11-30 11:00:00"
+    },
+    {
+     "start": "2026-12-02 09:30:00",
+     "end": "2026-12-02 11:00:00"
+    }
+   ],
+   "lat": 47.4904673,
+   "lng": -121.7846785,
    "geoApprox": false
   },
   {
@@ -4969,6 +4048,150 @@
    "geoApprox": false
   },
   {
+   "id": 10063379,
+   "slug": "toddler-gym-playtime-ballard-cc-2",
+   "title": "Toddler Gym Playtime at Ballard CC",
+   "url": "https://www.parentmap.com/calendar/toddler-gym-playtime-ballard-cc-2/2026-11-04/",
+   "website": "https://www.seattle.gov/parks/find/toddler-indoor-play-areas",
+   "description": "Looking for a dry, warm place to let your child play inside? Our playroom is full of toys, mats, and slides. Parent supervision is re\u0002quired at ALL times. Must register for a Quick Card at the front desk on your first visit. No food or drinks allowed in the playroom. We do have tables and chairs in the hallway for serving snacks and drinks For ages 5 and younger. A parents or guardian must accompa",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775190439107-screenshot-2022-09-23-133009-fa201e04c19e-300x166.png",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 411150,
+    "name": "Ballard Community Center",
+    "address": "6020 28th Ave NW, Seattle, WA, 98107-5313",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-04 10:00:00",
+     "end": "2026-11-04 12:30:00"
+    },
+    {
+     "start": "2026-11-06 10:00:00",
+     "end": "2026-11-06 12:30:00"
+    },
+    {
+     "start": "2026-11-09 10:00:00",
+     "end": "2026-11-09 12:30:00"
+    },
+    {
+     "start": "2026-11-11 10:00:00",
+     "end": "2026-11-11 12:30:00"
+    },
+    {
+     "start": "2026-11-13 10:00:00",
+     "end": "2026-11-13 12:30:00"
+    },
+    {
+     "start": "2026-11-16 10:00:00",
+     "end": "2026-11-16 12:30:00"
+    },
+    {
+     "start": "2026-11-18 10:00:00",
+     "end": "2026-11-18 12:30:00"
+    },
+    {
+     "start": "2026-11-20 10:00:00",
+     "end": "2026-11-20 12:30:00"
+    },
+    {
+     "start": "2026-11-23 10:00:00",
+     "end": "2026-11-23 12:30:00"
+    },
+    {
+     "start": "2026-11-25 10:00:00",
+     "end": "2026-11-25 12:30:00"
+    },
+    {
+     "start": "2026-11-27 10:00:00",
+     "end": "2026-11-27 12:30:00"
+    },
+    {
+     "start": "2026-11-30 10:00:00",
+     "end": "2026-11-30 12:30:00"
+    },
+    {
+     "start": "2026-12-02 10:00:00",
+     "end": "2026-12-02 12:30:00"
+    }
+   ],
+   "lat": 47.6728435,
+   "lng": -122.3921853,
+   "geoApprox": false
+  },
+  {
+   "id": 10064371,
+   "slug": "toddler-gym-garfield-community-center-2",
+   "title": "Toddler Gym at Garfield Community Center",
+   "url": "https://www.parentmap.com/calendar/toddler-gym-garfield-community-center-2/2026-11-04/",
+   "website": "https://www.seattle.gov/parks/find/toddler-indoor-play-areas?utm_medium=email&amp;utm_source=govdelivery",
+   "description": "A FREE drop-in program! Looking for a dry, warm place to let your child play inside? Our tot gyms are full of toys, mats, and slides. Must register for a Quick Card at the front desk on your first visit. No food or drinks allowed in the playroom. We do have tables and chairs in the hallway for serving snacks and drinks. Parent supervision is required at ALL times.",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775185166325-child-1864718_960_720-e27412da1a86-300x200.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 411963,
+    "name": "Garfield Community Center",
+    "address": "2323 E Cherry St, Seattle, WA, 98122-4829",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-04 10:00:00",
+     "end": "2026-11-04 13:00:00"
+    },
+    {
+     "start": "2026-11-09 10:00:00",
+     "end": "2026-11-09 13:00:00"
+    },
+    {
+     "start": "2026-11-11 10:00:00",
+     "end": "2026-11-11 13:00:00"
+    },
+    {
+     "start": "2026-11-16 10:00:00",
+     "end": "2026-11-16 13:00:00"
+    },
+    {
+     "start": "2026-11-18 10:00:00",
+     "end": "2026-11-18 13:00:00"
+    },
+    {
+     "start": "2026-11-23 10:00:00",
+     "end": "2026-11-23 13:00:00"
+    },
+    {
+     "start": "2026-11-25 10:00:00",
+     "end": "2026-11-25 13:00:00"
+    },
+    {
+     "start": "2026-11-30 10:00:00",
+     "end": "2026-11-30 13:00:00"
+    },
+    {
+     "start": "2026-12-02 10:00:00",
+     "end": "2026-12-02 13:00:00"
+    }
+   ],
+   "lat": 47.6076248,
+   "lng": -122.3022459,
+   "geoApprox": false
+  },
+  {
    "id": 463860,
    "slug": "nov-welcome-wednesday-at-bloedel-reserve",
    "title": "November Welcome Wednesday at Bloedel Reserve",
@@ -5003,6 +4226,166 @@
    ],
    "lat": 47.7079059,
    "lng": -122.5484967,
+   "geoApprox": false
+  },
+  {
+   "id": 10064480,
+   "slug": "54217-s2",
+   "title": "Indoor Play at South Bellevue Community Center",
+   "url": "https://www.parentmap.com/calendar/54217-s2/2026-11-04/",
+   "website": "https://register.bellevuewa.gov/WA/bellevue-wa/catalog/index/d6dd282a189572d42bdbe005f9f1bccc?filter=c2VhcmNoPWluZG9vciUyMHBsYXkmbG9jYXRpb24lNUIzNjkzMCU1RD0x",
+   "description": "Ages: 0-5 Come enjoy some indoor gym play with toys, bounce houses, mats and other fun activities for children ages 5 and under. Parents/caregivers must supervise their own children and be present at all times. Drop-In, Monday, Wednesday, Friday from 10:30a – 12p in Gym B. $4(R)/$5 (NR) per child (parent/guardian/caregiver is FREE) No Indoor Play during Bellevue School District holidays or schedul",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775160985931-23669158_1632760910118697_5724074899236088556_o_0-cd02817a356a-300x146.jpg",
+   "cost": "$4 – $5",
+   "free": false,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 417623,
+    "name": "South Bellevue Community Center",
+    "address": "14509 SE Newport Way, Bellevue, WA, 98006-1514",
+    "city": "Bellevue"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-04 10:30:00",
+     "end": "2026-11-04 12:00:00"
+    },
+    {
+     "start": "2026-11-06 10:30:00",
+     "end": "2026-11-06 12:00:00"
+    },
+    {
+     "start": "2026-11-09 10:30:00",
+     "end": "2026-11-09 12:00:00"
+    },
+    {
+     "start": "2026-11-11 10:30:00",
+     "end": "2026-11-11 12:00:00"
+    },
+    {
+     "start": "2026-11-13 10:30:00",
+     "end": "2026-11-13 12:00:00"
+    },
+    {
+     "start": "2026-11-16 10:30:00",
+     "end": "2026-11-16 12:00:00"
+    },
+    {
+     "start": "2026-11-18 10:30:00",
+     "end": "2026-11-18 12:00:00"
+    },
+    {
+     "start": "2026-11-20 10:30:00",
+     "end": "2026-11-20 12:00:00"
+    },
+    {
+     "start": "2026-11-23 10:30:00",
+     "end": "2026-11-23 12:00:00"
+    },
+    {
+     "start": "2026-11-25 10:30:00",
+     "end": "2026-11-25 12:00:00"
+    },
+    {
+     "start": "2026-11-27 10:30:00",
+     "end": "2026-11-27 12:00:00"
+    },
+    {
+     "start": "2026-11-30 10:30:00",
+     "end": "2026-11-30 12:00:00"
+    },
+    {
+     "start": "2026-12-02 10:30:00",
+     "end": "2026-12-02 12:00:00"
+    }
+   ],
+   "lat": 47.569052,
+   "lng": -122.145994,
+   "geoApprox": false
+  },
+  {
+   "id": 10063422,
+   "slug": "toddler-gym-playtime-bitter-lake-cc",
+   "title": "Toddler Gym Playtime at Bitter Lake CC",
+   "url": "https://www.parentmap.com/calendar/toddler-gym-playtime-bitter-lake-cc/2026-11-04/",
+   "website": "https://www.seattle.gov/parks/find/toddler-indoor-play-areas",
+   "description": "Looking for a dry, warm place to let your child play inside? Our playroom is full of toys, mats, and slides. Parent supervision is required at ALL times. Must register for a Quick Card at the front desk on your first visit. No food or drinks allowed in the playroom. We do have tables and chairs in the hallway for serving snacks and drinks. Ages 9 months to 6 years.",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/03/1773115298692-screen-shot-2017-08-17-at-11037-pm-cdba0d5222c5-300x121.png",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 413565,
+    "name": "Bitter Lake Community Center",
+    "address": "13035 Linden Ave N, Seattle, WA, 98133-7560",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-04 10:30:00",
+     "end": "2026-11-04 12:30:00"
+    },
+    {
+     "start": "2026-11-08 10:30:00",
+     "end": "2026-11-08 12:30:00"
+    },
+    {
+     "start": "2026-11-09 10:30:00",
+     "end": "2026-11-09 12:30:00"
+    },
+    {
+     "start": "2026-11-11 10:30:00",
+     "end": "2026-11-11 12:30:00"
+    },
+    {
+     "start": "2026-11-15 10:30:00",
+     "end": "2026-11-15 12:30:00"
+    },
+    {
+     "start": "2026-11-16 10:30:00",
+     "end": "2026-11-16 12:30:00"
+    },
+    {
+     "start": "2026-11-18 10:30:00",
+     "end": "2026-11-18 12:30:00"
+    },
+    {
+     "start": "2026-11-22 10:30:00",
+     "end": "2026-11-22 12:30:00"
+    },
+    {
+     "start": "2026-11-23 10:30:00",
+     "end": "2026-11-23 12:30:00"
+    },
+    {
+     "start": "2026-11-25 10:30:00",
+     "end": "2026-11-25 12:30:00"
+    },
+    {
+     "start": "2026-11-29 10:30:00",
+     "end": "2026-11-29 12:30:00"
+    },
+    {
+     "start": "2026-11-30 10:30:00",
+     "end": "2026-11-30 12:30:00"
+    },
+    {
+     "start": "2026-12-02 10:30:00",
+     "end": "2026-12-02 12:30:00"
+    }
+   ],
+   "lat": 47.724083,
+   "lng": -122.348533,
    "geoApprox": false
   },
   {
@@ -5804,6 +5187,211 @@
    "geoApprox": false
   },
   {
+   "id": 10063500,
+   "slug": "toddler-gym-rainier-beach-community-center-2",
+   "title": "Toddler Gym at Rainier Beach Community Center",
+   "url": "https://www.parentmap.com/calendar/toddler-gym-rainier-beach-community-center-2/2026-11-05/",
+   "website": "https://www.seattle.gov/parks/find/toddler-indoor-play-areas?utm_medium=email&amp;utm_source=govdelivery",
+   "description": "A FREE drop-in program! Looking for a dry, warm place to let your child play inside? Our tot gyms are full of toys, mats, and slides. Must register for a Quick Card at the front desk on your first visit. No food or drinks allowed in the playroom. We do have tables and chairs in the hallway for serving snacks and drinks. Parent supervision is required at ALL times.",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775187216370-thomas-and-friends-2435542_960_720-6d07d9c83f5a-300x200.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 411725,
+    "name": "Rainier Beach Community Center and Pool",
+    "address": "8825 Rainier Ave S, Seattle, WA, 98118-4928",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-05 09:00:00",
+     "end": "2026-11-05 12:00:00"
+    },
+    {
+     "start": "2026-11-06 09:00:00",
+     "end": "2026-11-06 12:00:00"
+    },
+    {
+     "start": "2026-11-09 09:00:00",
+     "end": "2026-11-09 12:00:00"
+    },
+    {
+     "start": "2026-11-12 09:00:00",
+     "end": "2026-11-12 12:00:00"
+    },
+    {
+     "start": "2026-11-13 09:00:00",
+     "end": "2026-11-13 12:00:00"
+    },
+    {
+     "start": "2026-11-16 09:00:00",
+     "end": "2026-11-16 12:00:00"
+    },
+    {
+     "start": "2026-11-19 09:00:00",
+     "end": "2026-11-19 12:00:00"
+    },
+    {
+     "start": "2026-11-20 09:00:00",
+     "end": "2026-11-20 12:00:00"
+    },
+    {
+     "start": "2026-11-23 09:00:00",
+     "end": "2026-11-23 12:00:00"
+    }
+   ],
+   "lat": 47.52439,
+   "lng": -122.270709,
+   "geoApprox": false
+  },
+  {
+   "id": 10059464,
+   "slug": "trolls-a-field-study-at-nw-trek",
+   "title": "Trolls: A Field Study at NW Trek and PDZA",
+   "url": "https://www.parentmap.com/calendar/trolls-a-field-study-at-nw-trek/2026-11-05/",
+   "website": "https://www.pdza.org/trolls/",
+   "description": "Discover an immersive outdoor art experience in Thomas Dambo’s TROLLS: A Field Study, where whimsical giant troll sculptures hide among towering evergreens, winding trails, and native wildlife habitats at Northwest Trek. Quietly curious, the trolls observe humans as we wander through the wild spaces they call home. Handcrafted from reclaimed materials like fallen branches, scrap wood, pallets, and",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/08/TAFS_FullGroup-540x350-1-300x194.jpg",
+   "cost": "$2 – $32",
+   "free": false,
+   "categories": [
+    "Arts + Culture",
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": null,
+   "region": "Pacific Northwest",
+   "occurrences": [
+    {
+     "start": "2026-11-05 09:30:00",
+     "end": "2026-11-05 15:00:00"
+    },
+    {
+     "start": "2026-11-06 09:30:00",
+     "end": "2026-11-06 15:00:00"
+    },
+    {
+     "start": "2026-11-07 09:30:00",
+     "end": "2026-11-07 15:00:00"
+    },
+    {
+     "start": "2026-11-08 09:30:00",
+     "end": "2026-11-08 15:00:00"
+    },
+    {
+     "start": "2026-11-09 09:30:00",
+     "end": "2026-11-09 15:00:00"
+    },
+    {
+     "start": "2026-11-12 09:30:00",
+     "end": "2026-11-12 15:00:00"
+    },
+    {
+     "start": "2026-11-13 09:30:00",
+     "end": "2026-11-13 15:00:00"
+    },
+    {
+     "start": "2026-11-14 09:30:00",
+     "end": "2026-11-14 15:00:00"
+    },
+    {
+     "start": "2026-11-15 09:30:00",
+     "end": "2026-11-15 15:00:00"
+    },
+    {
+     "start": "2026-11-16 09:30:00",
+     "end": "2026-11-16 15:00:00"
+    },
+    {
+     "start": "2026-11-19 09:30:00",
+     "end": "2026-11-19 15:00:00"
+    },
+    {
+     "start": "2026-11-20 09:30:00",
+     "end": "2026-11-20 15:00:00"
+    },
+    {
+     "start": "2026-11-21 09:30:00",
+     "end": "2026-11-21 15:00:00"
+    },
+    {
+     "start": "2026-11-22 09:30:00",
+     "end": "2026-11-22 15:00:00"
+    },
+    {
+     "start": "2026-11-23 09:30:00",
+     "end": "2026-11-23 15:00:00"
+    },
+    {
+     "start": "2026-11-27 09:30:00",
+     "end": "2026-11-27 15:00:00"
+    },
+    {
+     "start": "2026-11-28 09:30:00",
+     "end": "2026-11-28 15:00:00"
+    },
+    {
+     "start": "2026-11-29 09:30:00",
+     "end": "2026-11-29 15:00:00"
+    },
+    {
+     "start": "2026-11-30 09:30:00",
+     "end": "2026-11-30 15:00:00"
+    },
+    {
+     "start": "2026-12-03 09:30:00",
+     "end": "2026-12-03 15:00:00"
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "geoApprox": false
+  },
+  {
+   "id": 469911,
+   "slug": "concordia-lutheran-school-seattle-fall-open-house",
+   "title": "Concordia Lutheran School Seattle Fall Open House",
+   "url": "https://www.parentmap.com/calendar/concordia-lutheran-school-seattle-fall-open-house/",
+   "website": "https://www.concordiaseattle.com/openhouse/",
+   "description": "When: Thursday, November 5th, at 9:30 AM Where: Concordia Lutheran School- 7040 36th Ave NE What: Come tour classrooms, meet teachers and staff, and get to know more about our preschool – 8th grade. Bring your questions! We can’t wait to meet you. * Students of all ages welcome to attend*",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/086A5065-1-1-300x200.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Education + Learning"
+   ],
+   "ages": [
+    "Baby",
+    "Toddlers + Preschoolers",
+    "Elementary",
+    "Adults"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 461913,
+    "name": "Concordia Lutheran School",
+    "address": "7040 36th Ave NE, Seattle, WA, 98115",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-05 09:30:00",
+     "end": "2026-11-05 10:30:00"
+    }
+   ],
+   "lat": 47.6810045,
+   "lng": -122.2884798,
+   "geoApprox": false
+  },
+  {
    "id": 10068209,
    "slug": "drop-in-stroller-workout-playdate",
    "title": "Drop-in Stroller Workout & Playdate",
@@ -5906,6 +5494,10 @@
     {
      "start": "2026-11-05 10:00:00",
      "end": "2026-11-05 17:00:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 17:00:00"
     }
    ],
    "lat": null,
@@ -5996,6 +5588,10 @@
     {
      "start": "2026-11-29 10:00:00",
      "end": "2026-11-29 16:00:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 16:00:00"
     }
    ],
    "lat": 47.2578433,
@@ -6064,6 +5660,10 @@
     {
      "start": "2026-11-28 10:00:00",
      "end": "2026-11-28 16:00:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 16:00:00"
     }
    ],
    "lat": 47.9002419,
@@ -6104,6 +5704,10 @@
     {
      "start": "2026-11-19 10:00:00",
      "end": "2026-11-19 12:00:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 12:00:00"
     }
    ],
    "lat": 47.4709656,
@@ -6145,6 +5749,10 @@
     {
      "start": "2026-11-19 10:00:00",
      "end": "2026-11-19 11:00:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 11:00:00"
     }
    ],
    "lat": 47.6443324,
@@ -6178,6 +5786,10 @@
     {
      "start": "2026-11-05 10:00:00",
      "end": "2026-11-05 16:00:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 16:00:00"
     }
    ],
    "lat": 47.6323139,
@@ -6257,6 +5869,10 @@
     {
      "start": "2026-11-26 10:30:00",
      "end": "2026-11-26 12:00:00"
+    },
+    {
+     "start": "2026-12-03 10:30:00",
+     "end": "2026-12-03 12:00:00"
     }
    ],
    "lat": 47.7154611,
@@ -6289,6 +5905,10 @@
     {
      "start": "2026-11-05 11:00:00",
      "end": "2026-11-05 12:00:00"
+    },
+    {
+     "start": "2026-12-03 11:00:00",
+     "end": "2026-12-03 12:00:00"
     }
    ],
    "lat": 47.1980001,
@@ -6370,6 +5990,10 @@
     {
      "start": "2026-11-19 12:00:00",
      "end": "2026-11-19 13:00:00"
+    },
+    {
+     "start": "2026-12-03 12:00:00",
+     "end": "2026-12-03 13:00:00"
     }
    ],
    "lat": 47.6895162,
@@ -6410,6 +6034,10 @@
     {
      "start": "2026-11-19 16:00:00",
      "end": "2026-11-19 20:00:00"
+    },
+    {
+     "start": "2026-12-03 16:00:00",
+     "end": "2026-12-03 20:00:00"
     }
    ],
    "lat": 47.6077008,
@@ -6484,6 +6112,10 @@
     {
      "start": "2026-11-26 17:00:00",
      "end": "2026-11-26 19:00:00"
+    },
+    {
+     "start": "2026-12-03 17:00:00",
+     "end": "2026-12-03 19:00:00"
     }
    ],
    "lat": 47.6131858,
@@ -6637,6 +6269,10 @@
     {
      "start": "2026-11-19 18:00:00",
      "end": "2026-11-19 22:00:00"
+    },
+    {
+     "start": "2026-12-03 18:00:00",
+     "end": "2026-12-03 22:00:00"
     }
    ],
    "lat": 47.1983048,
@@ -7204,6 +6840,38 @@
    "geoApprox": false
   },
   {
+   "id": 470024,
+   "slug": "family-weekend-henry-art-gallery-2",
+   "title": "Family Weekend at Henry Art Gallery",
+   "url": "https://www.parentmap.com/calendar/family-weekend-henry-art-gallery-2/",
+   "website": "https://henryart.org/programs/drop-in-printmaking-workshop-with-anneke-wilder",
+   "description": "As part of UW Family Weekend, join local artist Anneke Wilder for this all-ages drop-in printmaking workshop inspired by the exhibitions on view. Learn the basics of block printing using a technique called linocut, and leave with your own unique creation! Drawing from the deconstructed botanicals in Joiri Minaya: To Hell With Hibiscus and color-drenched abstractions in “Every Picture Somewhat of a",
+   "image": "https://www.parentmap.com/wp-content/uploads/2023/10/unnamed-1-300x200.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Arts + Culture"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 418394,
+    "name": "Henry Art Gallery",
+    "address": "15th Ave NE and NE 41st St, University of Washington Campus, Seattle, WA, 98115",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-06 11:00:00",
+     "end": "2026-11-06 14:00:00"
+    }
+   ],
+   "lat": 47.6565246,
+   "lng": -122.3117328,
+   "geoApprox": true
+  },
+  {
    "id": 10059980,
    "slug": "exquisite-creatures-exhibit-s2",
    "title": "‘Exquisite Creatures’ Exhibit",
@@ -7633,6 +7301,43 @@
    "geoApprox": false
   },
   {
+   "id": 468978,
+   "slug": "park-in-the-dark",
+   "title": "Park in the Dark",
+   "url": "https://www.parentmap.com/calendar/park-in-the-dark/",
+   "website": "https://botanicgardens.uw.edu/education/youth-family/night-hikes/",
+   "description": "Nighttime is special at the Arboretum – the people and cars are gone, and the nocturnal animals move about. Night hikes are a chance for us to explore our senses, search for crepuscular and nocturnal movements in the forest and learn about night-related animal adaptations. Programs are designed for youth ages 6-12 and their caregivers. Program will begin at the Graham Visitors Center (2300 Arboret",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/Screenshot-2026-10-30-143634-300x189.png",
+   "cost": "$3 – $10",
+   "free": false,
+   "categories": [
+    "Education + Learning",
+    "Play + Recreation",
+    "Seasonal + Holiday"
+   ],
+   "ages": [
+    "Elementary",
+    "Adults"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 411516,
+    "name": "Graham Visitors Center at Washington Park Arboretum",
+    "address": "2300 Arboretum Dr E, Seattle, WA, 98112-2300",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-06 18:00:00",
+     "end": "2026-11-06 19:30:00"
+    }
+   ],
+   "lat": 47.6399346,
+   "lng": -122.2943472,
+   "geoApprox": false
+  },
+  {
    "id": 10069971,
    "slug": "49879",
    "title": "Family Skate Night",
@@ -7670,6 +7375,43 @@
    ],
    "lat": 47.724083,
    "lng": -122.348533,
+   "geoApprox": false
+  },
+  {
+   "id": 468903,
+   "slug": "all-ages-hoedown",
+   "title": "All Ages Hoedown",
+   "url": "https://www.parentmap.com/calendar/all-ages-hoedown/",
+   "website": "https://apps.daysmartrecreation.com/dash/x/siview/programs/level/7336?facility_ids=1",
+   "description": "Saddle up for an evening of family fun at our Hoedown! Grab your boots and join us for a lively night filled with music, dancing, games, and western-themed activities for all ages. Led by line dance instructor Amanda Johnson, participants will learn easy-to-follow dances that are perfect for beginners and experienced dancers alike. Whether you’re stepping onto the dance floor for the first time or",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/Hoedown-video-media-Instagram-300x300.jpg",
+   "cost": "$18 – $48",
+   "free": false,
+   "categories": [
+    "Arts + Culture",
+    "Festivals + Community"
+   ],
+   "ages": [
+    "Elementary",
+    "Tweens + Teens",
+    "Adults"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 417599,
+    "name": "Si View Community Center",
+    "address": "400 SE Orchard Dr, North Bend, WA, 98045-9470",
+    "city": "North Bend"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-06 18:30:00",
+     "end": "2026-11-06 20:30:00"
+    }
+   ],
+   "lat": 47.4904673,
+   "lng": -121.7846785,
    "geoApprox": false
   },
   {
@@ -8119,6 +7861,10 @@
     {
      "start": "2026-12-02 09:00:00",
      "end": "2026-12-02 18:00:00"
+    },
+    {
+     "start": "2026-12-03 09:00:00",
+     "end": "2026-12-03 18:00:00"
     }
    ],
    "lat": 47.6999464,
@@ -9056,6 +8802,41 @@
    "geoApprox": false
   },
   {
+   "id": 469841,
+   "slug": "preseason-basketball-training-camp",
+   "title": "Preseason Basketball Training Camp",
+   "url": "https://www.parentmap.com/calendar/preseason-basketball-training-camp/",
+   "website": "https://finesseinfernobball.com/register/?utm_source=ig&amp;utm_medium=social&amp;utm_content=link_in_bio",
+   "description": "Train, compete, and elevate your game at the Chris Hyppa × Finesse Inferno Preseason Training Camp! This high-energy camp is designed for 6th–12th grade boys and girls looking to sharpen their skills and prepare for the upcoming basketball season. Led by renowned basketball trainer Chris Hyppa alongside Finesse Inferno, athletes will experience game-focused training centered around skill developme",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/IMG_5875-e1793728608156-300x268.jpeg",
+   "cost": "$135",
+   "free": false,
+   "categories": [
+    "Education + Learning",
+    "Play + Recreation"
+   ],
+   "ages": [
+    "Tweens + Teens"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 425788,
+    "name": "Edmonds College",
+    "address": "20000 68th Ave W, Lynnwood, WA, 98036-5912",
+    "city": "Lynnwood"
+   },
+   "region": "North Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-07 10:00:00",
+     "end": "2026-11-07 12:30:00"
+    }
+   ],
+   "lat": 47.8149381,
+   "lng": -122.3281079,
+   "geoApprox": false
+  },
+  {
    "id": 10070026,
    "slug": "33719",
    "title": "Piper’s Creek Salmon Viewing with Naturalists",
@@ -9494,6 +9275,43 @@
    ],
    "lat": 47.5568314,
    "lng": -122.0240816,
+   "geoApprox": false
+  },
+  {
+   "id": 469721,
+   "slug": "storytime-with-megan-woodward-no-ifs-and-or-butts-2",
+   "title": "Storytime with Megan Woodward: ‘No Ifs, And, or Butts’",
+   "url": "https://www.parentmap.com/calendar/storytime-with-megan-woodward-no-ifs-and-or-butts-2/",
+   "website": "https://www.paperboatbooksellers.com/calendar/events/family-reading-time-with-special-guest-megan-woodward-no-ifs-ands-or-butts",
+   "description": "Join PNW children’s book author, Megan Woodward for a hilarious story time of her new picture book, NO IFS, ANDS, OR BUTTS, at Paper Boat Booksellers in Seattle, WA on November 7th at 11am. Book description: The unforgettable story of a bear, a squirrel, two rams, a pig, a pirate, an astronaut, a talking taco…and their butts. It’s tough to tell a nice, polite story when the characters won’t cooper",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/Screenshot-2026-11-02-at-3.27.09-PM-300x215.png",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Education + Learning",
+    "Play + Recreation",
+    "Parent + Caregiver"
+   ],
+   "ages": [
+    "Toddlers + Preschoolers",
+    "Elementary"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 418169,
+    "name": "Paper Boat Booksellers",
+    "address": "4522 CALIFORNIA AVE SW, Seattle, WA, 98116",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-07 11:00:00",
+     "end": "2026-11-07 12:00:00"
+    }
+   ],
+   "lat": 47.562157,
+   "lng": -122.3865598,
    "geoApprox": false
   },
   {
@@ -10017,6 +9835,89 @@
    "geoApprox": false
   },
   {
+   "id": 469680,
+   "slug": "holiday-toy-drive",
+   "title": "Holiday Toy Drive",
+   "url": "https://www.parentmap.com/calendar/holiday-toy-drive/",
+   "website": "https://outletcollectionseattle.com/events/the-outlet-collection-seattle-baby-got-toys?from=tiles",
+   "description": "The Outlet Collection Seattle is kicking off the season of giving with a special Holiday Toy Drive benefiting The Jewell Project on Saturday, November 7, from 1 p.m. to 3 p.m. The festive community event will feature a special appearance by Seattle’s own hip-hop legend, Sir Mix-A-Lot, as shoppers and local residents come together to make the holidays brighter for children and families in need. Hel",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/Screenshot-2026-11-02-at-2.51.44-PM-300x300.png",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Seasonal + Holiday"
+   ],
+   "ages": [
+    "Baby",
+    "Toddlers + Preschoolers",
+    "Elementary",
+    "Tweens + Teens",
+    "Adults"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 411817,
+    "name": "The Outlet Collection | Seattle",
+    "address": "1101 Outlet Collection Way, Auburn, WA, 98001",
+    "city": "Auburn"
+   },
+   "region": "South Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-07 13:00:00",
+     "end": "2026-11-07 15:00:00"
+    }
+   ],
+   "lat": 47.2993393,
+   "lng": -122.2477712,
+   "geoApprox": false
+  },
+  {
+   "id": 10077151,
+   "slug": "wild-weather-a-childrens-planetarium-show",
+   "title": "Wild Weather: A Children’s Planetarium Show",
+   "url": "https://www.parentmap.com/calendar/wild-weather-a-childrens-planetarium-show/2026-11-07/",
+   "website": "https://piercecollegedome.ludus.com/index.php?sections=events&amp;ludus_mid=96494",
+   "description": "Have you ever wondered if there is weather on other planets and moons? Join us as we explore common weather on Earth and what similar weather looks like elsewhere in our solar system. From toxic snow on Io to world-wide sandstorms on Mars, we will be traveling through space to discover the Wild Weather on other worlds! Wild Weather is a live, interactive show designed for our youngest visitors. Th",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/Screenshot-2026-11-03-110644-300x211.png",
+   "cost": "$8",
+   "free": false,
+   "categories": [
+    "Education + Learning",
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 413572,
+    "name": "Pierce College Science Dome",
+    "address": "9401 Farwest Dr SW, Lakewood, WA, 98498-1919",
+    "city": "Lakewood"
+   },
+   "region": "South Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-07 13:00:00",
+     "end": "2026-11-07 13:45:00"
+    },
+    {
+     "start": "2026-11-14 13:00:00",
+     "end": "2026-11-14 13:45:00"
+    },
+    {
+     "start": "2026-11-21 13:00:00",
+     "end": "2026-11-21 13:45:00"
+    },
+    {
+     "start": "2026-11-28 13:00:00",
+     "end": "2026-11-28 13:45:00"
+    }
+   ],
+   "lat": 47.172291,
+   "lng": -122.5716189,
+   "geoApprox": false
+  },
+  {
    "id": 10073364,
    "slug": "baby-goat-snuggle-sesh-2",
    "title": "Baby Goat Snuggle Sesh",
@@ -10310,6 +10211,51 @@
    ],
    "lat": 47.0438762,
    "lng": -122.8999303,
+   "geoApprox": false
+  },
+  {
+   "id": 10077163,
+   "slug": "wild-weather-a-childrens-planetarium-show-2",
+   "title": "Wild Weather: A Children’s Planetarium Show",
+   "url": "https://www.parentmap.com/calendar/wild-weather-a-childrens-planetarium-show-2/2026-11-07/",
+   "website": "https://piercecollegedome.ludus.com/index.php?sections=events&amp;ludus_mid=96494",
+   "description": "Have you ever wondered if there is weather on other planets and moons? Join us as we explore common weather on Earth and what similar weather looks like elsewhere in our solar system. From toxic snow on Io to world-wide sandstorms on Mars, we will be traveling through space to discover the Wild Weather on other worlds! Wild Weather is a live, interactive show designed for our youngest visitors. Th",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/Screenshot-2026-11-03-110644-300x211.png",
+   "cost": "$8",
+   "free": false,
+   "categories": [
+    "Education + Learning",
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 413572,
+    "name": "Pierce College Science Dome",
+    "address": "9401 Farwest Dr SW, Lakewood, WA, 98498-1919",
+    "city": "Lakewood"
+   },
+   "region": "South Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-07 14:15:00",
+     "end": "2026-11-07 15:00:00"
+    },
+    {
+     "start": "2026-11-14 14:15:00",
+     "end": "2026-11-14 15:00:00"
+    },
+    {
+     "start": "2026-11-21 14:15:00",
+     "end": "2026-11-21 15:00:00"
+    },
+    {
+     "start": "2026-11-28 14:15:00",
+     "end": "2026-11-28 15:00:00"
+    }
+   ],
+   "lat": 47.172291,
+   "lng": -122.5716189,
    "geoApprox": false
   },
   {
@@ -10710,6 +10656,50 @@
    "lat": 47.6278254,
    "lng": -122.210849,
    "geoApprox": false
+  },
+  {
+   "id": 10059936,
+   "slug": "40114-s11",
+   "title": "Toddler Time at the Seattle Aquarium",
+   "url": "https://www.parentmap.com/calendar/40114-s11/2026-11-08/",
+   "website": "https://www.seattleaquarium.org/events/toddler-time",
+   "description": "This drop-in program is free with Aquarium admission and offers a variety of learner-centered, developmentally age-appropriate, hands-on activities for young children. Join us for crafts, songs, story time and more! No reservations needed—feel free to stay for any length of time. Please note: children must be accompanied by an adult at all times. ¡Vamos al Acuario! September 27–28; October 11–12 I",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/03/1773118010948-toddler-time-857785ee325b-300x223.jpg",
+   "cost": "Included with admission",
+   "free": false,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 411841,
+    "name": "Seattle Aquarium",
+    "address": "1483 Alaskan Way Pier 59, Seattle, WA, 98101-2015",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-08 09:30:00",
+     "end": "2026-11-08 12:00:00"
+    },
+    {
+     "start": "2026-11-09 09:30:00",
+     "end": "2026-11-09 12:00:00"
+    },
+    {
+     "start": "2026-11-15 09:30:00",
+     "end": "2026-11-15 12:00:00"
+    },
+    {
+     "start": "2026-11-16 09:30:00",
+     "end": "2026-11-16 12:00:00"
+    }
+   ],
+   "lat": 47.6076248,
+   "lng": -122.3432202,
+   "geoApprox": true
   },
   {
    "id": 10049413,
@@ -11348,6 +11338,98 @@
    "geoApprox": false
   },
   {
+   "id": 10060397,
+   "slug": "minimu-0",
+   "title": "Minimu",
+   "url": "https://www.parentmap.com/calendar/minimu-0/2026-11-09/",
+   "website": "https://www.kidimu.org/minimu",
+   "description": "A welcoming weekly gathering for infants, toddlers, and their caregivers featuring circle time, storytelling, music, play, and meaningful connections. Held Mondays from 9:00–11:00 AM, MiniMu offers a dedicated space for little ones to explore at their own pace while caregivers build community and support one another. Each session includes songs, stories, rhymes, and open-ended play in a relaxed en",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775192700959-minimu-january-2019-6631ba6163e9-300x195.jpg",
+   "cost": "Free; donations welcome",
+   "free": true,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 413307,
+    "name": "KiDiMu – Kids Discovery Museum",
+    "address": "301 Ravine Ln NE, Bainbridge Island, WA, 98110-2670",
+    "city": "Bainbridge Island"
+   },
+   "region": "Greater Puget Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-09 09:00:00",
+     "end": "2026-11-09 11:00:00"
+    },
+    {
+     "start": "2026-11-16 09:00:00",
+     "end": "2026-11-16 11:00:00"
+    },
+    {
+     "start": "2026-11-23 09:00:00",
+     "end": "2026-11-23 11:00:00"
+    },
+    {
+     "start": "2026-11-30 09:00:00",
+     "end": "2026-11-30 11:00:00"
+    },
+    {
+     "start": "2026-11-30 09:00:00",
+     "end": "2026-11-30 11:00:00"
+    }
+   ],
+   "lat": 47.6261293,
+   "lng": -122.5148952,
+   "geoApprox": false
+  },
+  {
+   "id": 10018733,
+   "slug": "31646",
+   "title": "Baby Jam",
+   "url": "https://www.parentmap.com/calendar/31646/2026-11-09/",
+   "website": "http://www.babyjam.net/",
+   "description": "Seattle Baby Jam is an award winning music class for kids ages birth to three years old. Preschoolers, toddlers, babies, and kids from all backgrounds are welcome to attend. We offer fun, engaging, safe, low-pressure rhythm and music exposure for young ones. Help nurture your child’s cognitive development through hands-on drumming, percussion, and multilingual songs, stories and games. Our class i",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775079744193-31646-8027dda1e9dc-300x200.jpg",
+   "cost": "$2 – $30",
+   "free": false,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 419467,
+    "name": "Salsa Con Todo Fremont",
+    "address": "211 N 36th St, Seattle, WA, 98103",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-09 09:30:00",
+     "end": "2026-11-09 10:00:00"
+    },
+    {
+     "start": "2026-11-16 09:30:00",
+     "end": "2026-11-16 10:00:00"
+    },
+    {
+     "start": "2026-11-23 09:30:00",
+     "end": "2026-11-23 10:00:00"
+    },
+    {
+     "start": "2026-11-30 09:30:00",
+     "end": "2026-11-30 10:00:00"
+    }
+   ],
+   "lat": 47.6524374,
+   "lng": -122.3561097,
+   "geoApprox": false
+  },
+  {
    "id": 10048246,
    "slug": "uw-biology-greenhouse-s2",
    "title": "UW Biology Greenhouse",
@@ -11448,6 +11530,50 @@
    "geoApprox": true
   },
   {
+   "id": 10018783,
+   "slug": "31646-s2",
+   "title": "Baby Jam",
+   "url": "https://www.parentmap.com/calendar/31646-s2/2026-11-09/",
+   "website": "http://www.babyjam.net/",
+   "description": "Seattle Baby Jam is an award winning music class for kids ages birth to three years old. Preschoolers, toddlers, babies, and kids from all backgrounds are welcome to attend. We offer fun, engaging, safe, low-pressure rhythm and music exposure for young ones. Help nurture your child’s cognitive development through hands-on drumming, percussion, and multilingual songs, stories and games. Our class i",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775079744193-31646-8027dda1e9dc-300x200.jpg",
+   "cost": "$2 – $30",
+   "free": false,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 419467,
+    "name": "Salsa Con Todo Fremont",
+    "address": "211 N 36th St, Seattle, WA, 98103",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-09 10:15:00",
+     "end": "2026-11-09 10:45:00"
+    },
+    {
+     "start": "2026-11-16 10:15:00",
+     "end": "2026-11-16 10:45:00"
+    },
+    {
+     "start": "2026-11-23 10:15:00",
+     "end": "2026-11-23 10:45:00"
+    },
+    {
+     "start": "2026-11-30 10:15:00",
+     "end": "2026-11-30 10:45:00"
+    }
+   ],
+   "lat": 47.6524374,
+   "lng": -122.3561097,
+   "geoApprox": false
+  },
+  {
    "id": 10051433,
    "slug": "woodland-park-zoo-afternoon-tea-garden",
    "title": "Woodland Park Zoo Afternoon Tea in the Garden",
@@ -11481,6 +11607,146 @@
    "geoApprox": false
   },
   {
+   "id": 10055562,
+   "slug": "storytime-with-ms-judi",
+   "title": "Storytime with Ms. Judi",
+   "url": "https://www.parentmap.com/calendar/storytime-with-ms-judi/2026-11-09/",
+   "website": "https://www.eagleharborbooks.com/events/storytime",
+   "description": "Join Ms. Judi and her autoharp on Monday mornings at 10:30am back in the kids section! Come sing along to favorite songs and listen to wonderful stories read aloud. All are welcome! Our story time is primarily geared towards toddlers and pre-schoolers, but can be enjoyed by anyone! It’s fun to hear a story, no matter what your age. See you there!",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/07/Storytime-w-Ms.-Judi-225x300.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Education + Learning",
+    "Arts + Culture"
+   ],
+   "ages": [
+    "Baby",
+    "Toddlers + Preschoolers"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 442731,
+    "name": "Eagle Harbor Book Co.",
+    "address": "157 Winslow Way E, Bainbridge Island, Washington, 98110",
+    "city": "Bainbridge Island"
+   },
+   "region": "Greater Puget Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-09 10:30:00",
+     "end": "2026-11-09 11:30:00"
+    },
+    {
+     "start": "2026-11-16 10:30:00",
+     "end": "2026-11-16 11:30:00"
+    },
+    {
+     "start": "2026-11-23 10:30:00",
+     "end": "2026-11-23 11:30:00"
+    },
+    {
+     "start": "2026-11-30 10:30:00",
+     "end": "2026-11-30 11:30:00"
+    }
+   ],
+   "lat": 47.6245569,
+   "lng": -122.5202851,
+   "geoApprox": false
+  },
+  {
+   "id": 10004908,
+   "slug": "purposeful-play-pre-crawlers-0",
+   "title": "Purposeful Play: Pre-Crawlers",
+   "url": "https://www.parentmap.com/calendar/purposeful-play-pre-crawlers-0/2026-11-09/",
+   "website": "https://www.theheybrook.com/class-descriptions/pre-crawlers",
+   "description": "Purposeful Play: Pre-Crawlers A structured weekly class for early infants, created in partnership with a play therapist, pediatric physical therapist, and parent support specialists. In your baby’s first months, development moves fast — and the right kind of play makes all the difference. Each session is built around what your baby’s body and brain need right now: tummy time, reaching, rolling, an",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/05/1778645769926-hb_purposeful-play_0-c1120c9ef964-300x451.jpg",
+   "cost": "$35",
+   "free": false,
+   "categories": [
+    "Play + Recreation",
+    "Inclusive + Sensory Friendly"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 411173,
+    "name": "The Heybrook Eastside",
+    "address": "10415 NE 37th Circle, Kirkland, WA, 98033",
+    "city": "Kirkland"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-09 11:00:00",
+     "end": "2026-11-09 12:00:00"
+    },
+    {
+     "start": "2026-11-16 11:00:00",
+     "end": "2026-11-16 12:00:00"
+    },
+    {
+     "start": "2026-11-23 11:00:00",
+     "end": "2026-11-23 12:00:00"
+    },
+    {
+     "start": "2026-11-30 11:00:00",
+     "end": "2026-11-30 12:00:00"
+    }
+   ],
+   "lat": 47.6443324,
+   "lng": -122.2011895,
+   "geoApprox": false
+  },
+  {
+   "id": 10067613,
+   "slug": "storytime-and-indoor-play-at-north-bellevue-cc",
+   "title": "Storytime and Indoor Play at North Bellevue CC",
+   "url": "https://www.parentmap.com/calendar/storytime-and-indoor-play-at-north-bellevue-cc/2026-11-09/",
+   "website": "https://register.bellevuewa.gov/WA/bellevue-wa/catalog/index/6817981137ee80ae07798ce1e1f23bdd?filter=c2VhcmNoPXN0b3J5dGltZQ==",
+   "description": "Get lost in an adventure and discover new characters with your child during our fun, free story time.",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/09/Screenshot-2026-09-24-124628-300x165.png",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Education + Learning"
+   ],
+   "ages": [
+    "Baby",
+    "Toddlers + Preschoolers"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 412365,
+    "name": "North Bellevue Community Center",
+    "address": "4063 148th Ave NE, Bellevue, WA, 98007-3118",
+    "city": "Bellevue"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-09 12:30:00",
+     "end": "2026-11-09 13:00:00"
+    },
+    {
+     "start": "2026-11-16 12:30:00",
+     "end": "2026-11-16 13:00:00"
+    },
+    {
+     "start": "2026-11-23 12:30:00",
+     "end": "2026-11-23 13:00:00"
+    },
+    {
+     "start": "2026-11-30 12:30:00",
+     "end": "2026-11-30 13:00:00"
+    }
+   ],
+   "lat": 47.6474719,
+   "lng": -122.1451015,
+   "geoApprox": false
+  },
+  {
    "id": 465520,
    "slug": "living-voices-native-vision-at-kirkland-library",
    "title": "Living Voices: Native Vision at Kirkland Library",
@@ -11511,6 +11777,42 @@
    ],
    "lat": 47.6760937,
    "lng": -122.2029644,
+   "geoApprox": false
+  },
+  {
+   "id": 468737,
+   "slug": "the-right-track-documentary-screening-and-panel-discussion",
+   "title": "‘The Right Track’: Documentary Screening and Panel Discussion",
+   "url": "https://www.parentmap.com/calendar/the-right-track-documentary-screening-and-panel-discussion/",
+   "website": "https://tinyurl.com/5bmufsar",
+   "description": "There is a lot of information and misinformation about trafficking in the media. This event is an opportunity to hear directly from survivors and stand together as a community to prevent the sexual exploitation of children. The Right Track is an award-winning documentary that tells the story of sex trafficking across North America through the voices of survivors. These are the people who lived it ",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/Right-Track-Invitation-1-e1793729225883-300x294.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Education + Learning",
+    "Parent + Caregiver"
+   ],
+   "ages": [
+    "Tweens + Teens",
+    "Adults"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 419845,
+    "name": "Seattle Public Library – Central Library",
+    "address": "1000 4th Ave, Seattle, WA, 98104",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-09 18:30:00",
+     "end": "2026-11-09 20:00:00"
+    }
+   ],
+   "lat": 47.6067142,
+   "lng": -122.3326983,
    "geoApprox": false
   },
   {
@@ -12431,6 +12733,50 @@
    "geoApprox": false
   },
   {
+   "id": 10077115,
+   "slug": "romanian-film-festival-at-siff-cinema-uptown",
+   "title": "Romanian Film Festival at SIFF Cinema Uptown",
+   "url": "https://www.parentmap.com/calendar/romanian-film-festival-at-siff-cinema-uptown/2026-11-13/",
+   "website": "https://arcsproject.org/event/romanian-film-festival-seattle-13th-edition/",
+   "description": "The American Romanian Cultural Society is proud to announce the complete program for the 13th Romanian Film Festival Seattle, themed “Beyond Borders.” The festival will take place at SIFF Cinema Uptown and will feature in-person events and special international guests. This year’s theme looks at the lines that shape our world: those carried in memory, left by hardship, and lightened by the laughte",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/2026RFF_Banner-300x169.jpg",
+   "cost": "$12 – $17",
+   "free": false,
+   "categories": [
+    "Arts + Culture",
+    "Festivals + Community"
+   ],
+   "ages": [
+    "Tweens + Teens",
+    "Adults"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 413509,
+    "name": "SIFF Cinema Uptown",
+    "address": "511 Queen Anne Ave N, Seattle, WA, 98109-4521",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-13 11:00:00",
+     "end": "2026-11-13 23:30:00"
+    },
+    {
+     "start": "2026-11-14 11:00:00",
+     "end": "2026-11-14 23:30:00"
+    },
+    {
+     "start": "2026-11-15 11:00:00",
+     "end": "2026-11-15 23:30:00"
+    }
+   ],
+   "lat": 47.6234806,
+   "lng": -122.3571073,
+   "geoApprox": false
+  },
+  {
    "id": 10006801,
    "slug": "cascade-recycling-center-tour",
    "title": "Cascade Recycling Center Tour",
@@ -12575,10 +12921,44 @@
     {
      "start": "2026-12-02 16:00:00",
      "end": "2026-12-02 21:00:00"
+    },
+    {
+     "start": "2026-12-03 16:00:00",
+     "end": "2026-12-03 21:00:00"
     }
    ],
    "lat": 47.6685211,
    "lng": -122.3528737,
+   "geoApprox": false
+  },
+  {
+   "id": 469728,
+   "slug": "child-grooming-awareness-prevention",
+   "title": "Child Grooming Awareness & Prevention",
+   "url": "https://www.parentmap.com/calendar/child-grooming-awareness-prevention/",
+   "website": "https://www.valiantbridge.com/child-grooming-awareness-prevention",
+   "description": "Grooming rarely looks scary. It usually looks like kindness: an adult who’s charming, attentive, generous and eager to help. In a 2024 study of 1,000+ survivors of childhood sexual abuse, grooming behaviors appeared in 99% of cases, and the most common one was simply seeming nice and likeable (Winters et al., Child Abuse & Neglect). This 1-hour live online class (plus 10 minutes of Q&A) teaches pa",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/grooming-class-240x300.jpg",
+   "cost": "$30",
+   "free": false,
+   "categories": [
+    "Education + Learning",
+    "Parent + Caregiver"
+   ],
+   "ages": [
+    "Adults"
+   ],
+   "virtual": true,
+   "venue": null,
+   "region": "Virtual",
+   "occurrences": [
+    {
+     "start": "2026-11-13 16:00:00",
+     "end": "2026-11-13 17:10:00"
+    }
+   ],
+   "lat": null,
+   "lng": null,
    "geoApprox": false
   },
   {
@@ -12708,6 +13088,44 @@
    ],
    "lat": 47.4958451,
    "lng": -122.1849227,
+   "geoApprox": false
+  },
+  {
+   "id": 468914,
+   "slug": "puzzle-palooza-2",
+   "title": "Puzzle Palooza!",
+   "url": "https://www.parentmap.com/calendar/puzzle-palooza-2/",
+   "website": "https://apps.daysmartrecreation.com/dash/x/siview/programs/level/7416?facility_ids=1",
+   "description": "Have you ever looked at a puzzle and thought&#8230; this would be better if it was competitive? Well, your wait is over! Join us for Si View’s first ever PUZZLE PALOOZA where teams of two to four people will compete to finish a puzzle in the shortest amount of time to win a prize! 500 Piece Puzzles will be provided, snacks available for additional purchase. Pre-registration required. Registration ",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/Puzzle-Palooza-300x300.png",
+   "cost": "$30 – $36",
+   "free": false,
+   "categories": [
+    "Education + Learning",
+    "Play + Recreation",
+    "Festivals + Community"
+   ],
+   "ages": [
+    "Elementary",
+    "Tweens + Teens",
+    "Adults"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 417599,
+    "name": "Si View Community Center",
+    "address": "400 SE Orchard Dr, North Bend, WA, 98045-9470",
+    "city": "North Bend"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-13 18:30:00",
+     "end": "2026-11-13 20:30:00"
+    }
+   ],
+   "lat": 47.4904673,
+   "lng": -121.7846785,
    "geoApprox": false
   },
   {
@@ -13317,6 +13735,90 @@
    "lat": 47.5499285,
    "lng": -122.0494091,
    "geoApprox": false
+  },
+  {
+   "id": 10076422,
+   "slug": "vip-santa-photo-experience-farm-tour",
+   "title": "VIP Santa Photo Experience & Farm Tour",
+   "url": "https://www.parentmap.com/calendar/vip-santa-photo-experience-farm-tour/2026-11-14/",
+   "website": "https://www.luckiefarms.com/holiday-farm-experiences",
+   "description": "VIP Santa Photo Experience & Farm Tour- Approximately 1 hour November 14–25 only • Limited tickets Skip the mall lines and enjoy the holiday farm magic at Luckie Farms! Enjoy a VIP Santa experience, real reindeer, adorable farm animals, photos with Santa, and a festive farm tour all in one visit. Spend time with Santa inside our 2,700-square-foot historic barn, decorated to the nines for Christmas",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/Luckie_Farms_Holiday-3-300x200.jpg",
+   "cost": "$65",
+   "free": false,
+   "categories": [
+    "Play + Recreation",
+    "Festivals + Community",
+    "Seasonal + Holiday"
+   ],
+   "ages": [
+    "Baby",
+    "Toddlers + Preschoolers",
+    "Elementary",
+    "Tweens + Teens",
+    "Adults"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 415741,
+    "name": "Luckie Farms",
+    "address": "930 Sunnyside Blvd, Lake Stevens, WA, 98258",
+    "city": "Lake Stevens"
+   },
+   "region": "North Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-14 10:00:00",
+     "end": "2026-11-14 20:00:00"
+    },
+    {
+     "start": "2026-11-15 10:00:00",
+     "end": "2026-11-15 20:00:00"
+    },
+    {
+     "start": "2026-11-16 10:00:00",
+     "end": "2026-11-16 20:00:00"
+    },
+    {
+     "start": "2026-11-17 10:00:00",
+     "end": "2026-11-17 20:00:00"
+    },
+    {
+     "start": "2026-11-18 10:00:00",
+     "end": "2026-11-18 20:00:00"
+    },
+    {
+     "start": "2026-11-19 10:00:00",
+     "end": "2026-11-19 20:00:00"
+    },
+    {
+     "start": "2026-11-20 10:00:00",
+     "end": "2026-11-20 20:00:00"
+    },
+    {
+     "start": "2026-11-21 10:00:00",
+     "end": "2026-11-21 20:00:00"
+    },
+    {
+     "start": "2026-11-22 10:00:00",
+     "end": "2026-11-22 20:00:00"
+    },
+    {
+     "start": "2026-11-23 10:00:00",
+     "end": "2026-11-23 20:00:00"
+    },
+    {
+     "start": "2026-11-24 10:00:00",
+     "end": "2026-11-24 20:00:00"
+    },
+    {
+     "start": "2026-11-25 10:00:00",
+     "end": "2026-11-25 20:00:00"
+    }
+   ],
+   "lat": 48.0197794,
+   "lng": -122.0660914,
+   "geoApprox": true
   },
   {
    "id": 10072571,
@@ -14257,6 +14759,87 @@
    "geoApprox": false
   },
   {
+   "id": 10062794,
+   "slug": "story-time-snoqualmie-valley-historical-museum",
+   "title": "Story Time at the Snoqualmie Valley Historical Museum",
+   "url": "https://www.parentmap.com/calendar/story-time-snoqualmie-valley-historical-museum/2026-11-16/",
+   "website": "https://www.facebook.com/SnoqualmieValleyMuseum/events/?id=100064789353685&amp;sk=events",
+   "description": "On the 1st, 3rd, and 5th Mondays of the month story time will feature two stories, a themed activity, a look at some historic objects from the past, and a coloring project.",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775190340560-502569440_1137765041726464_7953471893670802160_n-b8a7ad1f2d69-300x111.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Education + Learning"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 416303,
+    "name": "Snoqualmie Valley Historical Museum",
+    "address": "320 Bendigo Blvd S, North Bend, WA, 98045",
+    "city": "North Bend"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-16 11:00:00",
+     "end": "2026-11-16 12:00:00"
+    },
+    {
+     "start": "2026-11-30 11:00:00",
+     "end": "2026-11-30 12:00:00"
+    }
+   ],
+   "lat": 47.4934321,
+   "lng": -121.7885951,
+   "geoApprox": false
+  },
+  {
+   "id": 10073625,
+   "slug": "yoga-with-baby-2",
+   "title": "Yoga With Baby",
+   "url": "https://www.parentmap.com/calendar/yoga-with-baby-2/2026-11-16/",
+   "website": "https://www.willawell.com/classes/series/#yoga-with-baby",
+   "description": "A postnatal yoga class with your baby that teaches you how to keep moving your body after childbirth. This class focuses on rebuilding your postnatal core and pelvic floor function. We practice yoga, sing, dance a little, breathe deep and enjoy a much needed moment of rest and self care together. Come to connect with other parents, yourself and your baby. Make space for yourself this holiday seaso",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/EachOther_0194-1365x2048-1-200x300.jpg",
+   "cost": "$40",
+   "free": false,
+   "categories": [
+    "Education + Learning",
+    "Play + Recreation",
+    "Parent + Caregiver"
+   ],
+   "ages": [
+    "Baby",
+    "Adults"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 467576,
+    "name": "Barre3 Issaquah",
+    "address": "1091 NE High St, Issaquah, WA, 98029",
+    "city": "Issaquah"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-16 13:30:00",
+     "end": "2026-11-16 15:00:00"
+    },
+    {
+     "start": "2026-11-23 13:30:00",
+     "end": "2026-11-23 15:00:00"
+    },
+    {
+     "start": "2026-11-30 13:30:00",
+     "end": "2026-11-30 15:00:00"
+    }
+   ],
+   "lat": 47.5443229,
+   "lng": -122.0149098,
+   "geoApprox": false
+  },
+  {
    "id": 10073713,
    "slug": "bellevue-downtown-ice-rink-0",
    "title": "Bellevue Downtown Ice Rink",
@@ -14576,6 +15159,10 @@
     {
      "start": "2026-12-02 12:00:00",
      "end": "2026-12-02 16:00:00"
+    },
+    {
+     "start": "2026-12-03 12:00:00",
+     "end": "2026-12-03 16:00:00"
     }
    ],
    "lat": 47.2990881,
@@ -14648,6 +15235,74 @@
    "geoApprox": false
   },
   {
+   "id": 10077058,
+   "slug": "raising-up-teens",
+   "title": "Raising Up Teens",
+   "url": "https://www.parentmap.com/calendar/raising-up-teens/2026-11-18/",
+   "website": "https://www.jfsseattle.org/news/raising-teens-with-community-connection-and-jewish-wisdom/",
+   "description": "Parenting tweens and teens can be both rewarding and challenging! Join Jewish Family Service of Seattle for “The Torah of Raising Up Teens,” an engaging two-part workshop series developed by Moving Traditions. Through Jewish wisdom, meaningful conversations, and shared experiences, parents and caregivers will explore practical ways to strengthen communication, navigate the challenges of adolescenc",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/mother-son-1080x1350-1-240x300.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Education + Learning",
+    "Parent + Caregiver"
+   ],
+   "ages": [
+    "Tweens + Teens"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 469522,
+    "name": "Jewish Family Service of Seattle",
+    "address": "1601 16th Ave, Seattle, 98122",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-18 18:00:00",
+     "end": "2026-11-18 19:30:00"
+    },
+    {
+     "start": "2026-12-02 18:00:00",
+     "end": "2026-12-02 19:30:00"
+    }
+   ],
+   "lat": 47.6155954,
+   "lng": -122.3119394,
+   "geoApprox": false
+  },
+  {
+   "id": 469710,
+   "slug": "dr-george-dupaul-learn-how-to-support-transition-from-high-school-to-college-for-youth-with-adhd",
+   "title": "Dr. George DuPaul: ‘Learn How to Support Transition from High School to College for Youth with ADHD’",
+   "url": "https://www.parentmap.com/calendar/dr-george-dupaul-learn-how-to-support-transition-from-high-school-to-college-for-youth-with-adhd/",
+   "website": "http://www.eastside-chadd.org/Meetings.html",
+   "description": "Dr. DuPaul will describe effective interventions for promoting organizational skills, academic performance, and social functioning in youth and emerging adults with ADHD. Two examples of empirically supported programs will be discussed in detail. The Challenging Horizons Program (CHP) is a multicomponent high school-based intervention program that includes individual coaching in organization skill",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/New-Eastside-CHADD-Logo--e1793732146185-300x233.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Parent + Caregiver"
+   ],
+   "ages": [
+    "Adults"
+   ],
+   "virtual": true,
+   "venue": null,
+   "region": "Virtual",
+   "occurrences": [
+    {
+     "start": "2026-11-18 18:30:00",
+     "end": "2026-11-18 20:00:00"
+    }
+   ],
+   "lat": null,
+   "lng": null,
+   "geoApprox": false
+  },
+  {
    "id": 10068354,
    "slug": "gingerbread-village-2",
    "title": "Gingerbread Village",
@@ -14709,6 +15364,10 @@
     {
      "start": "2026-12-02 09:00:00",
      "end": "2026-12-02 21:00:00"
+    },
+    {
+     "start": "2026-12-03 09:00:00",
+     "end": "2026-12-03 21:00:00"
     }
    ],
    "lat": 47.611069,
@@ -15028,6 +15687,10 @@
     {
      "start": "2026-12-02 19:30:00",
      "end": "2026-12-02 22:00:00"
+    },
+    {
+     "start": "2026-12-03 19:30:00",
+     "end": "2026-12-03 22:00:00"
     }
    ],
    "lat": 47.6907982,
@@ -15143,6 +15806,93 @@
    "geoApprox": false
   },
   {
+   "id": 10077079,
+   "slug": "photos-with-santa-at-the-outlet-collection",
+   "title": "Photos with Santa at the Outlet Collection",
+   "url": "https://www.parentmap.com/calendar/photos-with-santa-at-the-outlet-collection/2026-11-20/",
+   "website": "https://outletcollectionseattle.com/events/the-outlet-collection-seattle-santa-photos?from=tiles",
+   "description": "Santa Claus is coming to The Outlet Collection Seattle! Visit Santa daily from Friday, November 20 through Christmas Eve and capture a magical holiday memory. Reservations are encouraged—click the reservation link to view Santa’s daily hours and reserve your visit. Walk-ups are welcome while availability lasts. Special Santa Events Santa Cares: A Sensory-Friendly Event Sunday, December 6 Pet Photo",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/TOC217-_-Santa-Photos-SM_WEB1Social-POST-e1793732570483-300x268.jpg",
+   "cost": "Free for visits, cost for photos varies",
+   "free": true,
+   "categories": [
+    "Play + Recreation",
+    "Seasonal + Holiday"
+   ],
+   "ages": [
+    "Baby",
+    "Toddlers + Preschoolers",
+    "Elementary",
+    "Tweens + Teens",
+    "Adults"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 411817,
+    "name": "The Outlet Collection | Seattle",
+    "address": "1101 Outlet Collection Way, Auburn, WA, 98001",
+    "city": "Auburn"
+   },
+   "region": "South Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-20 14:00:00",
+     "end": "2026-11-20 17:30:00"
+    },
+    {
+     "start": "2026-11-21 14:00:00",
+     "end": "2026-11-21 17:30:00"
+    },
+    {
+     "start": "2026-11-22 14:00:00",
+     "end": "2026-11-22 17:30:00"
+    },
+    {
+     "start": "2026-11-23 14:00:00",
+     "end": "2026-11-23 17:30:00"
+    },
+    {
+     "start": "2026-11-24 14:00:00",
+     "end": "2026-11-24 17:30:00"
+    },
+    {
+     "start": "2026-11-25 14:00:00",
+     "end": "2026-11-25 17:30:00"
+    },
+    {
+     "start": "2026-11-27 14:00:00",
+     "end": "2026-11-27 17:30:00"
+    },
+    {
+     "start": "2026-11-28 14:00:00",
+     "end": "2026-11-28 17:30:00"
+    },
+    {
+     "start": "2026-11-29 14:00:00",
+     "end": "2026-11-29 17:30:00"
+    },
+    {
+     "start": "2026-11-30 14:00:00",
+     "end": "2026-11-30 17:30:00"
+    },
+    {
+     "start": "2026-12-01 14:00:00",
+     "end": "2026-12-01 17:30:00"
+    },
+    {
+     "start": "2026-12-02 14:00:00",
+     "end": "2026-12-02 17:30:00"
+    },
+    {
+     "start": "2026-12-03 14:00:00",
+     "end": "2026-12-03 17:30:00"
+    }
+   ],
+   "lat": 47.2993393,
+   "lng": -122.2477712,
+   "geoApprox": false
+  },
+  {
    "id": 10071746,
    "slug": "2026-seattle-christmas-market",
    "title": "2026 Seattle Christmas Market",
@@ -15218,6 +15968,42 @@
    ],
    "lat": 47.1648137,
    "lng": -122.8096188,
+   "geoApprox": false
+  },
+  {
+   "id": 469537,
+   "slug": "kids-night-out-ultimate-game-night",
+   "title": "Kids Night Out – Ultimate Game Night",
+   "url": "https://www.parentmap.com/calendar/kids-night-out-ultimate-game-night/",
+   "website": "https://www.parkstacoma.gov/activities-and-sports/category/tot-programs/kids-night-out/",
+   "description": "(Age 5-12) Enjoy a night off while your kids enjoy a night out! STAR Center’s 5,000 sq. ft. indoor/ outdoor Treetops playground is a blast, and your child will enjoy theme games, and crafts based on the theme of the month. It brings all of the best aspects of camp into an amazing evening. Parent/Guardian sign in is required at Drop off. Pick up will be at Treetops playground ID is required for pic",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/DSC1805-treetops-web-300x200.jpg",
+   "cost": "$30",
+   "free": false,
+   "categories": [
+    "Play + Recreation",
+    "Parent + Caregiver"
+   ],
+   "ages": [
+    "Elementary",
+    "Tweens + Teens"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 411123,
+    "name": "STAR Center",
+    "address": "3873 S 66th St, Tacoma, WA, 98409-2471",
+    "city": "Tacoma"
+   },
+   "region": "South Sound",
+   "occurrences": [
+    {
+     "start": "2026-11-20 18:00:00",
+     "end": "2026-11-20 21:00:00"
+    }
+   ],
+   "lat": 47.1983048,
+   "lng": -122.4886581,
    "geoApprox": false
   },
   {
@@ -15387,6 +16173,41 @@
    "lat": 47.7853304,
    "lng": -122.180788,
    "geoApprox": false
+  },
+  {
+   "id": 465842,
+   "slug": "preschool-and-pre-k-open-house-2",
+   "title": "Preschool and Pre-K Open House",
+   "url": "https://www.parentmap.com/calendar/preschool-and-pre-k-open-house-2/",
+   "website": "https://www.illuminationlearningstudio.com/open-house/",
+   "description": "Come See What Makes ILS Different! Join us for a Preschool & Pre-K Open House at Illumination Learning Studio in Greenwood. Explore our creative learning environment, meet our team, and discover how we engage curious minds through music, drama, dance, visual arts, and playful discovery. We’d love to meet your family and show you why ILS is such a special place for little learners!",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/1-300x232.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Education + Learning",
+    "Parent + Caregiver"
+   ],
+   "ages": [
+    "Toddlers + Preschoolers"
+   ],
+   "virtual": false,
+   "venue": {
+    "id": 414458,
+    "name": "Illumination Learning Studio – Greenwood",
+    "address": "7720 Greenwood Ave N #101, Seattle, WA, 98103",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-21 09:30:00",
+     "end": "2026-11-21 11:00:00"
+    }
+   ],
+   "lat": 47.6853081,
+   "lng": -122.355115,
+   "geoApprox": true
   },
   {
    "id": 10061935,
@@ -16012,6 +16833,10 @@
     {
      "start": "2026-12-02 12:00:00",
      "end": "2026-12-02 22:30:00"
+    },
+    {
+     "start": "2026-12-03 12:00:00",
+     "end": "2026-12-03 22:30:00"
     }
    ],
    "lat": 48.0656302,
@@ -16743,6 +17568,10 @@
     {
      "start": "2026-12-02 10:00:00",
      "end": "2026-12-02 18:00:00"
+    },
+    {
+     "start": "2026-12-03 10:00:00",
+     "end": "2026-12-03 18:00:00"
     }
    ],
    "lat": 47.621462,
@@ -16835,6 +17664,10 @@
     {
      "start": "2026-12-02 10:30:00",
      "end": "2026-12-02 16:00:00"
+    },
+    {
+     "start": "2026-12-03 10:30:00",
+     "end": "2026-12-03 16:00:00"
     }
    ],
    "lat": 47.5525507,
@@ -16921,6 +17754,10 @@
     {
      "start": "2026-12-02 11:00:00",
      "end": "2026-12-02 18:00:00"
+    },
+    {
+     "start": "2026-12-03 11:00:00",
+     "end": "2026-12-03 18:00:00"
     }
    ],
    "lat": 47.6080625,
@@ -17048,6 +17885,10 @@
     {
      "start": "2026-12-02 11:00:00",
      "end": "2026-12-02 20:00:00"
+    },
+    {
+     "start": "2026-12-03 11:00:00",
+     "end": "2026-12-03 20:00:00"
     }
    ],
    "lat": 47.6109,
@@ -17316,6 +18157,10 @@
     {
      "start": "2026-12-02 16:30:00",
      "end": "2026-12-02 22:00:00"
+    },
+    {
+     "start": "2026-12-03 16:30:00",
+     "end": "2026-12-03 22:00:00"
     }
    ],
    "lat": 47.3050982,
@@ -17445,6 +18290,10 @@
     {
      "start": "2026-12-02 17:00:00",
      "end": "2026-12-02 21:00:00"
+    },
+    {
+     "start": "2026-12-03 17:00:00",
+     "end": "2026-12-03 21:00:00"
     }
    ],
    "lat": 47.621462,
@@ -17497,6 +18346,10 @@
     {
      "start": "2026-12-02 17:30:00",
      "end": "2026-12-02 21:00:00"
+    },
+    {
+     "start": "2026-12-03 17:30:00",
+     "end": "2026-12-03 21:00:00"
     }
    ],
    "lat": 47.122246,
@@ -17625,6 +18478,10 @@
     {
      "start": "2026-12-02 19:00:00",
      "end": "2026-12-02 19:45:00"
+    },
+    {
+     "start": "2026-12-03 19:00:00",
+     "end": "2026-12-03 19:45:00"
     }
    ],
    "lat": 47.6156549,
@@ -17665,10 +18522,54 @@
     {
      "start": "2026-12-02 19:30:00",
      "end": "2026-12-02 22:00:00"
+    },
+    {
+     "start": "2026-12-03 19:30:00",
+     "end": "2026-12-03 22:00:00"
     }
    ],
    "lat": 47.609168,
    "lng": -122.3339845,
+   "geoApprox": false
+  },
+  {
+   "id": 10077170,
+   "slug": "the-outsiders-at-the-paramount-theatre",
+   "title": "‘The Outsiders’ at the Paramount Theatre",
+   "url": "https://www.parentmap.com/calendar/the-outsiders-at-the-paramount-theatre/2026-11-27/",
+   "website": "https://www.stgpresents.org/events/the-outsiders/",
+   "description": "The winner of four 2024 Tony Awards®, including Best Musical, is THE OUTSIDERS. This classic coming-of-age story takes you to Tulsa, Oklahoma in 1967, where Ponyboy Curtis, his best friend Johnny Cade, and their family of Greaser “outsiders” dream about who they want to become in a world that will never accept them. THE OUTSIDERS features Danya Taymor’s Tony Award winning direction that’s “refresh",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/01.-OUT-x-Greasers-March-2026-Photo-Credit_-Matthew-Murphy-Evan-Zimmerman-300x200.jpg",
+   "cost": "$65",
+   "free": false,
+   "categories": [
+    "Arts + Culture"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 412280,
+    "name": "Paramount Theatre",
+    "address": "911 Pine St, Seattle, WA, 98101-1818",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-27 20:00:00",
+     "end": "2026-11-27 22:00:00"
+    },
+    {
+     "start": "2026-11-28 14:00:00",
+     "end": "2026-11-28 16:00:00"
+    },
+    {
+     "start": "2026-11-28 20:00:00",
+     "end": "2026-11-28 22:00:00"
+    }
+   ],
+   "lat": 47.6132449,
+   "lng": -122.331356,
    "geoApprox": false
   },
   {
@@ -17748,6 +18649,10 @@
     {
      "start": "2026-12-02 09:00:00",
      "end": "2026-12-02 17:00:00"
+    },
+    {
+     "start": "2026-12-03 09:00:00",
+     "end": "2026-12-03 17:00:00"
     }
    ],
    "lat": 47.1980001,
@@ -18536,6 +19441,76 @@
    "geoApprox": false
   },
   {
+   "id": 470008,
+   "slug": "historically-hip-author-fair",
+   "title": "Historically Hip Author Fair",
+   "url": "https://www.parentmap.com/calendar/historically-hip-author-fair/",
+   "website": "https://downtownissaquah.com/events/historically-hip-author-fair-2026/",
+   "description": "The Historically Hip Local Author Fair (HHLAF), hosted by the Downtown Issaquah Association (DIA), the Issaquah Library, and the Friends of Issaquah Library, is a one-day event for local book authors to sell their physical books directly to the public. You’ll find books for adults, teens, and kids in a variety of genres, perfect for gift-giving or your own winter reading! On November 29, 12 pm – 3",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/hermann-books-5937716_1280-300x200.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Education + Learning",
+    "Festivals + Community",
+    "Seasonal + Holiday"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 415472,
+    "name": "Issaquah Historic Shell Station",
+    "address": "232 Front St N, Issaquah, WA, 98027-3232",
+    "city": "Issaquah"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-11-29 12:00:00",
+     "end": "2026-11-29 15:00:00"
+    }
+   ],
+   "lat": 47.5322398,
+   "lng": -122.0363513,
+   "geoApprox": false
+  },
+  {
+   "id": 10077197,
+   "slug": "the-outsiders-at-the-paramount-theatre-3",
+   "title": "‘The Outsiders’ at the Paramount Theatre",
+   "url": "https://www.parentmap.com/calendar/the-outsiders-at-the-paramount-theatre-3/2026-11-29/1/",
+   "website": "https://www.stgpresents.org/events/the-outsiders/",
+   "description": "The winner of four 2024 Tony Awards®, including Best Musical, is THE OUTSIDERS. This classic coming-of-age story takes you to Tulsa, Oklahoma in 1967, where Ponyboy Curtis, his best friend Johnny Cade, and their family of Greaser “outsiders” dream about who they want to become in a world that will never accept them. THE OUTSIDERS features Danya Taymor’s Tony Award winning direction that’s “refresh",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/01.-OUT-x-Greasers-March-2026-Photo-Credit_-Matthew-Murphy-Evan-Zimmerman-300x200.jpg",
+   "cost": "$65",
+   "free": false,
+   "categories": [
+    "Arts + Culture"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 412280,
+    "name": "Paramount Theatre",
+    "address": "911 Pine St, Seattle, WA, 98101-1818",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-11-29 13:00:00",
+     "end": "2026-11-29 15:00:00"
+    },
+    {
+     "start": "2026-11-29 18:30:00",
+     "end": "2026-11-29 21:30:00"
+    }
+   ],
+   "lat": 47.6132449,
+   "lng": -122.331356,
+   "geoApprox": false
+  },
+  {
    "id": 10066161,
    "slug": "the-wizard-of-oz-at-the-5th-avenue-theatre-2",
    "title": "‘The Wizard of Oz’ at the 5th Avenue Theatre",
@@ -18731,6 +19706,10 @@
     {
      "start": "2026-12-02 10:30:00",
      "end": "2026-12-02 13:00:00"
+    },
+    {
+     "start": "2026-12-03 10:30:00",
+     "end": "2026-12-03 13:00:00"
     }
    ],
    "lat": 47.122511,
@@ -18772,6 +19751,10 @@
     {
      "start": "2026-12-02 16:00:00",
      "end": "2026-12-02 21:00:00"
+    },
+    {
+     "start": "2026-12-03 16:00:00",
+     "end": "2026-12-03 21:00:00"
     }
    ],
    "lat": 47.621462,
@@ -18813,6 +19796,10 @@
     {
      "start": "2026-12-02 16:30:00",
      "end": "2026-12-02 20:00:00"
+    },
+    {
+     "start": "2026-12-03 16:30:00",
+     "end": "2026-12-03 20:00:00"
     }
    ],
    "lat": 47.6091443,
@@ -18855,6 +19842,10 @@
     {
      "start": "2026-12-02 18:00:00",
      "end": "2026-12-02 21:00:00"
+    },
+    {
+     "start": "2026-12-03 18:00:00",
+     "end": "2026-12-03 21:00:00"
     }
    ],
    "lat": 47.122511,
@@ -18892,6 +19883,10 @@
     {
      "start": "2026-12-02 06:00:00",
      "end": "2026-12-02 18:00:00"
+    },
+    {
+     "start": "2026-12-03 06:00:00",
+     "end": "2026-12-03 18:00:00"
     }
    ],
    "lat": 48.0167413,
@@ -18992,6 +19987,10 @@
     {
      "start": "2026-12-02 18:00:00",
      "end": "2026-12-02 21:00:00"
+    },
+    {
+     "start": "2026-12-03 18:00:00",
+     "end": "2026-12-03 21:00:00"
     }
    ],
    "lat": 47.7808238,
@@ -19028,11 +20027,87 @@
     {
      "start": "2026-12-02 18:00:00",
      "end": "2026-12-02 21:30:00"
+    },
+    {
+     "start": "2026-12-03 18:00:00",
+     "end": "2026-12-03 21:30:00"
     }
    ],
    "lat": 47.8091423,
    "lng": -122.3883575,
    "geoApprox": false
+  },
+  {
+   "id": 10077187,
+   "slug": "the-outsiders-at-the-paramount-theatre-2",
+   "title": "‘The Outsiders’ at the Paramount Theatre",
+   "url": "https://www.parentmap.com/calendar/the-outsiders-at-the-paramount-theatre-2/2026-12-01/",
+   "website": "https://www.stgpresents.org/events/the-outsiders/",
+   "description": "The winner of four 2024 Tony Awards®, including Best Musical, is THE OUTSIDERS. This classic coming-of-age story takes you to Tulsa, Oklahoma in 1967, where Ponyboy Curtis, his best friend Johnny Cade, and their family of Greaser “outsiders” dream about who they want to become in a world that will never accept them. THE OUTSIDERS features Danya Taymor’s Tony Award winning direction that’s “refresh",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/11/01.-OUT-x-Greasers-March-2026-Photo-Credit_-Matthew-Murphy-Evan-Zimmerman-300x200.jpg",
+   "cost": "$65",
+   "free": false,
+   "categories": [
+    "Arts + Culture"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 412280,
+    "name": "Paramount Theatre",
+    "address": "911 Pine St, Seattle, WA, 98101-1818",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-12-01 19:30:00",
+     "end": "2026-12-01 21:30:00"
+    },
+    {
+     "start": "2026-12-02 19:30:00",
+     "end": "2026-12-02 21:30:00"
+    },
+    {
+     "start": "2026-12-03 19:30:00",
+     "end": "2026-12-03 21:30:00"
+    }
+   ],
+   "lat": 47.6132449,
+   "lng": -122.331356,
+   "geoApprox": false
+  },
+  {
+   "id": 10050879,
+   "slug": "tots-trail-walk-sound-olympics-trail",
+   "title": "Tots on the Trail Walk: Sound to Olympics Trail",
+   "url": "https://www.parentmap.com/calendar/tots-trail-walk-sound-olympics-trail/2026-12-02/",
+   "website": "https://www.bainbridgeplaycafe.com/events-1",
+   "description": "Join us for a walk from Bainbridge Play Cafe at 9:00 AM on the first Tuesday of every month. We’ll grab our drinks/snacks and then walk over to the Sound to Olympics Trail, which is located next to Hwy 305. We will walk all the way down to Winslow and then back up to the cafe using the sidewalk on Ericksen. It’s a loop with a little bit of a challenge as we walk slightly uphill on our way back. It",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/05/1779337292834-screenshot_2026-05-12_at_51137_pm_50-84e13b1b06e9-300x216.png",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Play + Recreation"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 420668,
+    "name": "Bainbridge Play Cafe",
+    "address": "360 Tormey Ln NE\nSuite 194, Bainbridge Island, WA, 98110",
+    "city": "Bainbridge Island"
+   },
+   "region": "Greater Puget Sound",
+   "occurrences": [
+    {
+     "start": "2026-12-02 09:00:00",
+     "end": "2026-12-02 11:00:00"
+    }
+   ],
+   "lat": 47.6515096,
+   "lng": -122.5246791,
+   "geoApprox": true
   },
   {
    "id": 459873,
@@ -19064,6 +20139,235 @@
    ],
    "lat": 47.7079059,
    "lng": -122.5484967,
+   "geoApprox": false
+  },
+  {
+   "id": 10036166,
+   "slug": "purposeful-play-pre-crawlers-1-2",
+   "title": "Purposeful Play: Pre-Crawlers",
+   "url": "https://www.parentmap.com/calendar/purposeful-play-pre-crawlers-1-2/2026-12-03/",
+   "website": "https://www.theheybrook.com/class-descriptions/pre-crawlers",
+   "description": "Purposeful Play: Pre-Crawlers A structured weekly class for early infants, created in partnership with a play therapist, pediatric physical therapist, and parent support specialists. In your baby’s first months, development moves fast — and the right kind of play makes all the difference. Each session is built around what your baby’s body and brain need right now: tummy time, reaching, rolling, an",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/05/1778646741328-hb_purposeful-play_1-2f1a6841722f-300x451.jpg",
+   "cost": "$35",
+   "free": false,
+   "categories": [
+    "Play + Recreation",
+    "Inclusive + Sensory Friendly"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 411173,
+    "name": "The Heybrook Eastside",
+    "address": "10415 NE 37th Circle, Kirkland, WA, 98033",
+    "city": "Kirkland"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-12-03 12:00:00",
+     "end": "2026-12-03 13:00:00"
+    }
+   ],
+   "lat": 47.6443324,
+   "lng": -122.2011895,
+   "geoApprox": false
+  },
+  {
+   "id": 10073729,
+   "slug": "bellevue-downtown-ice-rink-0-s8",
+   "title": "Bellevue Downtown Ice Rink",
+   "url": "https://www.parentmap.com/calendar/bellevue-downtown-ice-rink-0-s8/2026-12-03/",
+   "website": "https://www.bellevueicerink.com/",
+   "description": "Seasonal ice skating returns to Bellevue Downtown Park at the Bellevue Downtown Ice Rink presented by Symetra! Enjoy festive themed skate days, holiday fun, and memorable moments on the ice for all ages. 29-year Bellevue holiday tradition The Bellevue Downtown Ice Rink presented by Symetra is the region’s largest seasonal ice skating experience, with more than 9,000 square feet of real ice.",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775190562768-master-banner-rink-image_no_logo-0d7ea56c3dd1-300x169.png",
+   "cost": "$12 – $24",
+   "free": false,
+   "categories": [
+    "Play + Recreation",
+    "Seasonal + Holiday"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 411331,
+    "name": "Bellevue Downtown Park",
+    "address": "10201 NE 4th St, Bellevue, WA, 98004",
+    "city": "Bellevue"
+   },
+   "region": "Eastside",
+   "occurrences": [
+    {
+     "start": "2026-12-03 15:30:00",
+     "end": "2026-12-03 22:00:00"
+    }
+   ],
+   "lat": 47.6119407,
+   "lng": -122.2043878,
+   "geoApprox": false
+  },
+  {
+   "id": 429220,
+   "slug": "55336",
+   "title": "Christmas Ship Viewing at Pritchard Island Beach",
+   "url": "https://www.parentmap.com/calendar/55336/",
+   "website": "https://www.argosycruises.com/christmas-ship-festival-schedule/",
+   "description": "Almost every night, from late November to December 23, the Argosy Christmas Ship sails to different Puget Sound waterfront locations. Other lighted boats join in to make a boat parade. At departure, return and/or planned stops en route, the public is invited to gather on shore, view the ships and listen to the ship’s choir sing (broadcast via a speaker system). Some locations feature a bonfire as ",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775187833670-argosy-marquee-web-1920-x-640-parade-of-boats-png2_2-4127811f2c8d-300x168.png",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Seasonal + Holiday"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 417562,
+    "name": "Pritchard Island Beach",
+    "address": "8400 55th Ave S, Seattle, WA, 98118",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-12-03 17:00:00",
+     "end": "2026-12-03 18:30:00"
+    }
+   ],
+   "lat": 47.5297749,
+   "lng": -122.2636072,
+   "geoApprox": false
+  },
+  {
+   "id": 10033711,
+   "slug": "neighborhood-nights-tacoma-art-museum-s2",
+   "title": "Neighborhood Nights at Tacoma Art Museum",
+   "url": "https://www.parentmap.com/calendar/neighborhood-nights-tacoma-art-museum-s2/2026-12-03/",
+   "website": "https://www.tacomaartmuseum.org/events-info/neighborhood-nights/",
+   "description": "TAM is open late and FREE every Thursday, 5 – 8 pm! Every Thursday evening at TAM, we keep the doors open late, welcoming everyone to experience the Museum free of admission. Neighborhood Nights offers programs with community partners, artists, scholars, and entertainers. Stop by TAM Cafe for a bite or a drink before enjoying exhibitions and enjoy artmaking in TAM Studio. Thursday evenings at TAM ",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775187919239-screenshot-2023-08-12-100416-86550f9a0fda-300x178.png",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Arts + Culture"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 412133,
+    "name": "Tacoma Art Museum",
+    "address": "1701 Pacific Ave, Tacoma, WA, 98402-3214",
+    "city": "Tacoma"
+   },
+   "region": "South Sound",
+   "occurrences": [
+    {
+     "start": "2026-12-03 17:00:00",
+     "end": "2026-12-03 20:00:00"
+    }
+   ],
+   "lat": 47.2476026,
+   "lng": -122.4366494,
+   "geoApprox": false
+  },
+  {
+   "id": 420146,
+   "slug": "holiday-park-2",
+   "title": "Holiday in the Park",
+   "url": "https://www.parentmap.com/calendar/holiday-park-2/",
+   "website": "https://www.volunteerparktrust.org/events",
+   "description": "Cocoa, cookies, lights and Holiday festivities throughout Volunteer Park including free entry into the Conservatory.",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/04/1775189003979-volunteer-park-holiday-in-the-park-source-website_0-1618cb96ce70-300x168.jpg",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Arts + Culture",
+    "Festivals + Community",
+    "Seasonal + Holiday"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 411383,
+    "name": "Volunteer Park",
+    "address": "1247 15th Ave E, Seattle, WA, 98112",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-12-03 18:00:00",
+     "end": "2026-12-03 20:00:00"
+    }
+   ],
+   "lat": 47.6309901,
+   "lng": -122.3126472,
+   "geoApprox": false
+  },
+  {
+   "id": 10075888,
+   "slug": "a-charlie-brown-christmas-presented-by-taproot-theatre",
+   "title": "‘A Charlie Brown Christmas’ Presented by Taproot Theatre",
+   "url": "https://www.parentmap.com/calendar/a-charlie-brown-christmas-presented-by-taproot-theatre/2026-12-03/",
+   "website": "https://taproottheatre.org/2026/charlie-brown-christmas",
+   "description": "The all-ages holiday tradition is back! Charlie Brown is depressed by the never-ending commercialism surrounding the holidays. Thankfully, Linus is there to help him find the true meaning of Christmas in this musical adaptation of the cartoon classic. Image sourced from event website.",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/10/1775192926010-taproot-charlie-brown-29nov23-289-768x559-792ed1cd24f4-300x218.jpg",
+   "cost": "$30 – $51",
+   "free": false,
+   "categories": [
+    "Arts + Culture",
+    "Seasonal + Holiday"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 421183,
+    "name": "Taproot Theatre Company",
+    "address": "204 N 85th St, Seattle, WA, 98103-3604",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-12-03 19:00:00",
+     "end": "2026-12-03 19:45:00"
+    }
+   ],
+   "lat": 47.6907982,
+   "lng": -122.3562809,
+   "geoApprox": false
+  },
+  {
+   "id": 427110,
+   "slug": "christmas-ship-viewing-mount-baker-beach",
+   "title": "Christmas Ship Viewing at Mount Baker Beach",
+   "url": "https://www.parentmap.com/calendar/christmas-ship-viewing-mount-baker-beach/",
+   "website": "http://www.mountbaker.org/events/",
+   "description": "Almost every night, from late November to December 23, the Argosy Christmas Ship sails to different Puget Sound waterfront locations. Other lighted boats join in to make a boat parade. At departure, return and/or planned stops en route, the public is invited to gather on shore, view the ships and listen to the ship’s choir sing (broadcast via a speaker system). Some locations feature a bonfire as ",
+   "image": "https://www.parentmap.com/wp-content/uploads/2026/03/1774039587263-screenshot-2024-10-16-160737-a17388031e2b-300x170.png",
+   "cost": "Free",
+   "free": true,
+   "categories": [
+    "Seasonal + Holiday"
+   ],
+   "ages": [],
+   "virtual": false,
+   "venue": {
+    "id": 416554,
+    "name": "Mount Baker Park",
+    "address": "2521 Lake Park Dr S, Seattle, WA, 98144",
+    "city": "Seattle"
+   },
+   "region": "Seattle",
+   "occurrences": [
+    {
+     "start": "2026-12-03 20:00:00",
+     "end": "2026-12-03 21:40:00"
+    }
+   ],
+   "lat": 47.5808627,
+   "lng": -122.2883618,
    "geoApprox": false
   }
  ]
